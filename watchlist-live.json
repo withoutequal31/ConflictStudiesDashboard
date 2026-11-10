@@ -1,6 +1,6 @@
 {
   "__live": true,
-  "syncedAt": "2026-11-09T01:09:01.896Z",
+  "syncedAt": "2026-11-10T03:52:42.768Z",
   "source": "GDELT DOC 2.0 API (api.gdeltproject.org) with Google News RSS fallback",
   "refreshed": 12,
   "total": 12,
@@ -11,274 +11,283 @@
       "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 9
+          "date": "2026-10-13",
+          "value": 10
         },
         {
-          "date": "2026-10-19",
-          "value": 24
+          "date": "2026-10-20",
+          "value": 19
         },
         {
-          "date": "2026-10-26",
-          "value": 8
+          "date": "2026-10-27",
+          "value": 4
         },
         {
-          "date": "2026-11-02",
-          "value": 59
+          "date": "2026-11-03",
+          "value": 67
         }
       ],
       "articles": [
         {
-          "title": "Kyiv faces power, heat and water outages after Russia launches 36 missiles and 172 drones",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONXBKelRyZ1hLQVlDOFI3RlhLbG4yc2tZWjNjUncwZkxuZTJNSl9BUFg3aEhPRHV5WWNtN3FEbURabWptTTZneVZQVDhLcVk4S0R2LWVHeGJ6cDZaeHdoT3VINmxfMVZTR2VsNHQ2bzRYWE1FQlhMZ2VCamZWOHRmazlSTko1dEl3ckpiZEdBYnBGU3Nl?oc=5",
-          "domain": "Latin Times",
+          "title": "Ukraine war briefing: battlefield gains bolstering Kyiv’s hand in US-led peace talks, Zelenskyy says",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPT3dBNTBJTEJDc3dxblpYWTYzcUFuWXRRN29fU05wdnJYYm1nNndxTzlIWi0wMnBfay1xY1JRWVUtdm9PR2k0dzZUSm1tVzF5cng2RFJnVERiM3hjRmI1N1A2U3BYMUFDanpCdWNWLWoxaHVIMUhxZVM0QVFibk94S0hDMmVaR0ZkZkZ3RjNNaXFvSEdFLVZOc0tJWHZqOWFuQXBDNTQ1cWxRWjVtM2xWaUVOazk2Q1JzcG5NVFZyYVZKaFJNYWljaDg5TC04LVNVWWd5TTNTd3BWSE0?oc=5",
+          "domain": "The Guardian",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T21:27:48.000Z",
-          "rank": 34,
-          "rel": 8.1
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:57:00.000Z",
+          "rank": 4,
+          "rel": 7.8
         },
         {
-          "title": "Ukrainian forces strike four drone ground control stations in Russia and occupied territories",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GMHBBaGktM2dVWlltSF9TNFFfUlN4S1gwR1lWbGVPdjE5Q1BRdnhwdV81X1A0WWs4aWFTVGhLT1BucS1lZ1hSVUxhRDZfaDJxTzN5Vy1TbUl3c1lIcXZZaWkzT2fSAXBBVV95cUxOcWhkUVZOVWlDS0xzLUdfc0JnQTZqN29ubTBTbE5LOUd2c3lZT1lfa3UweXBmZjZUaWw5TUJtRDZFSlhadUMzVk1UZE1jSVZqdUZEcVBtTmNLZkNvamYxMnVSWHFQemhUUmtXcjJnc3ps?oc=5",
+          "title": "Ukrainian drones strike Russian Rubicon base 107 km from front line – video",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VVTNSMjNtRERRMi1pWjZ1cHRDalo4X0VVbmdNMXk1STZpTjR5bG8tZXYxWVdBNzVleng2a29GNktRWWNmVlpxZUh1NXlrQmY4SXl5NzZrbzliSVlJamtTNmFqN2jSAXBBVV95cUxQa1NmWjdKQjhaTjBYTGRPRDJCMUswQlB1cVRWbUIwVWktVzVocjNMR09WRFlzU3BHMEtPeTJkUl9HVUhNd1o4NldKQjFVTVZ0OWxuMFg4bnRSSGE0ZW5aZVczbUlvckoyQm9LWXF0MFNM?oc=5",
           "domain": "Українська правда",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T12:54:00.000Z",
-          "rank": 33,
-          "rel": 7.9
-        },
-        {
-          "title": "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,000 drones at Ukraine in a week",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSE1PazRSUGpiVmVxSWd1M3V2ODBLcV84Y1ZMQWZvazl0NTlmRXU4SVB2c05DVmJYSTJ6MVl5Q2tVWms5YmhURVJWSXJtdnVzLTV2M3V6TmNidFhJWVNid2RZUWtYQ3hiSU5TbEhSWmt1MVR1Ql9JNmI4WVZsTnlUSE42ZTVfMGIxa0FBWW9iOUtINTlLT2prc0k0ZjZjY0Z5VVVjdkN2NEliZkdrVGFIQWZuZmpDSUV1OF93SVZReEFPNnVSZVg1ajVteUtxVVNVVm5PaTlyeEF2dy12UWYxc0FpajDSAeoBQVVfeXFMTk9fX25TN0FqNkVOaDN1S2ZnWjdCRmxrWks5cklaV1F2YkFKdFRIYkpDQ211UEhfNjBiWnpCU3g3aENGYzBBWm5BQUJfdk5nanExVU9uX25FN2NUdWpYazhGX3lITUFFU29tZ3hYUEFOTjdwdDNKRVNTbWN5b3VJbUxndkpqZ0ExTHBJUURrVllYUFNYZHZ2eWtnY3M3U1JjRGgwR3h3bUNRclB1TDFpdTBwbHE3VzFUUWxacmozeXFueGE0U005YWxEZDM2ZmlYZ1o0OHhsdDR2clBfT1FpRjNNSktpY3RZVXRn?oc=5",
-          "domain": "Ukrinform",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T10:45:00.000Z",
-          "rank": 46,
-          "rel": 7.4
-        },
-        {
-          "title": "Ukraine builds combat robots to hunt Russian troops in underground gas pipelines — UGVs adapted following 15-kilometer subterranean assault",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNeml2dDh0ekNTWnFpRnV2dXA1RHRMN05IX2FUVFRwVlYyZjZRa0lxc1BpVUxHbEw0YmNIQkt5b0tsRy1RUFZTblRmUmdMQUN2eENCSjdBeWc3eENlYk9EQkVHYXBxNExIUGFWeXVrSUh1em8zUGRHVElHcXd2T2xvT25ORU1UUjV5TFVVZVlUUHRBLS0tUm9RZV9vUFB1OHV2NndQWVpzZmlyTFFCeC14ZHlXcXNHTlFEc2tpbTJUR3NQRnVmU3hqVy1wdTgxOEp2cWFJUHVjTERIRUlEN1hSY1lyMXlRZXJEVW11UlBBMXZjUXMxQ3dpdTNMYVY2VDdYYkJmZFk4RHotUVdYRDBzVFdaUDFQaDNR?oc=5",
-          "domain": "Tom's Hardware",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T14:36:39.000Z",
-          "rank": 92,
+          "date": "2026-11-09",
+          "ts": "2026-11-09T17:29:00.000Z",
+          "rank": 73,
           "rel": 7.3
         },
         {
-          "title": "Zelenskyy accuses Russia of escalating strikes ahead of peace talks",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV2dldG1kWEpfakpLWGh5STYyWUZzRUd6bk04Nnctay1rbDRDRXE3cmV1ek5fTmpzZjdob0djTWk3T2ZfU1BrbDBEZnVla1VVTnJYblpzWjJsSEZjS0lCVkpqeDZkemtuUm5YZENxZ2hLdjQxWmVZTU9xMkVpTUtmN3NGS2dyVFptdkNxd0l6N0xXWURUTjUyOWRtQW1xSXPSAaQBQVVfeXFMUFJYbXBPWTFBYjgxT1dKcnNZV0JrUnJNSTg3RFBzcW5ySEJObUk3QmI2b2FERjlhWlRxVm92TWUtWkEzd0YzU2RzN0laZXVTNlZGYkN3TlpTV1VjaGo4dlBtbjJuNldFZGVHLXdFaHJRZEVqUG04Tl9XOU51ZVZXUnV1Ny1lcHFEVG1jUmU3NGM3R0xTVGZRZnh5UlU5ekl1MlRkS0c?oc=5",
-          "domain": "Al Jazeera",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T22:32:08.000Z",
-          "rank": 13,
-          "rel": 6.9
-        },
-        {
-          "title": "Ukraine strikes factory in Russia’s Oryol with Neptune missiles – General Staff",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UV0hEN3c4MWZyTXhQZjFVRHhDeEwwdzVSS1R6UDJrcjlLRGRIYzN2QzhJV0ZjZkNqWnFzdkQ3WDJGT2NlcjMxSWhaaWhycWxDNklaVmtRbEh5SWhZenVwdmc2M2HSAXBBVV95cUxPRnRkS1hXaDdVTlJJMVpEVzhiQkZpckR3SldQUGl6MEZGZ0J1QkRNN2JxMWFRZkZhWDBPOVVCdXRZek9hc2NNTFBVM2pXanVBZTFOT0ROQndXWDhiMGcycm5BZ0ljTVF5b0VPNWY3SGNf?oc=5",
-          "domain": "Українська правда",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T08:11:00.000Z",
-          "rank": 86,
-          "rel": 6.7
-        },
-        {
-          "title": "Drone and missile attacks wound 9 in Ukraine as country prepares for talks with Russia and US",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSEJTUU1HSllBRS1hYUxLTGNzSGpQdEwzQVgyUnBnRmdUN1dRdmtUaGxMb2lEVHh2MjBOaUVfQk5Ed0tnaUduaFFxcXhPdnhRa1lCTFNRQjRUWk5URDhJeFVENWNJUUVEUnd4V0J0bDFpY3Z5Y09jc3NpRS0zZk5RVHBHNVlxM0Q0RGFXSExYN1YyRm5CeHdEZ3ZCUFJVV1VT?oc=5",
-          "domain": "AP News",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T00:37:00.000Z",
-          "rank": 22,
-          "rel": 6.6
-        },
-        {
-          "title": "Ukraine strikes 2 Russian ammunition depots, other military targets in occupied territories, General Staff says",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTHlEZGNuNGlzWEpmcEJ4enBQamQyUm5PbVBJSnduZGhQZXhBUjM1eGpzUC1ybkplU1JVS0NRenFLaUctbnRvR2VUTmdBdFNFSVZDVDA1VklucjFkMVlwUlBzZTZZU25SeUZIODhLNV9TMVVOV2JmZEtLdHZwaVd0WGxCckNhZjZoMmRqQzJnNW9OM21yN1Utd0t1UUtaREhFNlBZVnBkWVZFM0lyX21Gajh4aEpwQ2l2aEliWExVUkVIM3l3bi1CVG9zTDhDZ0xLalE4Tw?oc=5",
+          "title": "Ukraine strikes Russian satellite communications jamming station, General Staff says",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZndEMktsSW10Q0RUYTJUR2N4WnlBdjZUa0VxSVR3VjI1RzJsRmlhdkFDRk5palRjZEJFcGdFRUlpRWVBREpKODBuR0MzOGxNRVVpaXF6U3BGU3NPSFJWQW5UWDEwbmxEbEYxSXdJZ21va3NHUHJVQmhuTFBYQklaVmxFa3N5NmhEUFUtOVZyRnZuYXpmNk5nd2N1NWh1RHNmZkRBeXRGUWpJVHd5S1JvZFB3?oc=5",
           "domain": "The Kyiv Independent",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T11:17:57.000Z",
-          "rank": 73,
-          "rel": 6.2
-        },
-        {
-          "title": "Hacked records show 400,000 Russians killed in war on Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSlVjU0w4RGtCeFZDZWM5MlVfcTZmUjdtYnplTlgwdDRkcGg2Sm1ybUY4b2FPOERqNGhfM0pNeEE3bm1yMWJpTDZGUlpxWkhQT2xkN09UZHZjNm80WEo2aVB3eVBxSHFWT2F1Ymh1RzQtWVB4TmFUbkJ5VlhwTGR1VWRmYVBTaHgyblE?oc=5",
-          "domain": "The Japan Times",
           "country": "",
           "date": "2026-11-09",
-          "ts": "2026-11-09T00:40:00.000Z",
-          "rank": 8,
+          "ts": "2026-11-09T15:42:00.000Z",
+          "rank": 60,
+          "rel": 7.3
+        },
+        {
+          "title": "More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTUJJYkRoTG1WamFjYTNoY2wtc0xHZVNhM0doUWZzaTh0ZkRaQkVKZ2xZMVNMbF9lVThtUnYzOWF2LUF4QmlOaFZjSS0wbEQtR1BObi1UWjlVZXBiY2lfb3I1NHVXdUlGemQxd2l5RkM3Z25wdTV6YWVBV1ZhZjZFaGM3WFNlSnZzQTNQM0dn?oc=5",
+          "domain": "The Guardian",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T14:58:00.000Z",
+          "rank": 16,
+          "rel": 7.1
+        },
+        {
+          "title": "Ukraine strikes Russia's second-largest oil refinery in overnight drone attack, Russian governor says",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNmM0aWNYYUR4eFdtT0V5R2YyWEI4QXV1REh4dGRyaWJLV0FWaEt5akZmb18ybGxORHlVR0FxSjJCcVc0aVBTMzhZTGtPNWJkdUNSaDFONFhyZVRyYVdxaW1TVFpXUUF2aS1ZbmdFaU9pUi1TaVJaRHFkb0EwdDA0bXNyXzduNUtkMHpWUmRJa3l0d0RvczlPUDdKOWRyRTc5d2E4ZWNydG0xR1lPWHBjZE10SVZiaXkxUVhaWi1HYmlITE0?oc=5",
+          "domain": "The Kyiv Independent",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T04:05:17.000Z",
+          "rank": 66,
+          "rel": 7
+        },
+        {
+          "title": "Ukrainian forces strike elite Russian 'Rubicon' drone unit in occupied territory",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQnVGcDA0c0lpVHotUWNqUHVDeDd5aDFSZjRjRk80cnZzT0RkT3FsWVVCQXFpLWl2ZzYtd1JFS3RIM1NacHlzZ2ZlTk5PdURoeGJsVTY0ZmlSSEJzYk9oWklXdnJPV2ZVZzI1RkQyRmU5R0t3T2xZNFRXNFkwR25WQ04tOWNFM0lfdHN2d2NOcTZ5dm5oOW9fRWtQU0FYZGpiX001RjlwYms3d3c?oc=5",
+          "domain": "The Kyiv Independent",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T20:24:20.000Z",
+          "rank": 22,
+          "rel": 7
+        },
+        {
+          "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGhONWNmUnBCZjBHMWNrSU5JYjRDbVZ2UVZkcjFaNWVfZEJJS2dSQVd4NTdITjhZaHdUbHFQbDQ1VmhHVXVVLTd4UENvTXNxZUhBZTVsUTExYmJTaktacjUwQ0lpcUY3UU0yMGVSanVodTJYLVJjeERfVUxfTjlhSy12YkRnQ2Qwclp5RnJrRU5BY25wV1NZYlpKaHdZWHF4VnJfajc2ZV9qOXBmMmFCMEtmQdIBuAFBVV95cUxOZWZVY2FpTk0xWS1GSEkwUThabWJYMmQyeVBqWWlLUzh2ZFJOTzhoWEFXRHh1WmxQbE5BaHQyeTEycnlUUFJselphQ2dWVFJMcUdxblYzZ1JOd1VZdmQ2NFRESzRJUVRUWmlLeFZBalVhcHMweXNncnFQcFRLUDhOd2pkLVVMMWdwUDQyZDRiSUtaUWxCQW93TkdJZUdZX1Q1RUlaZzRHRW82OGNNS0EzejVvcTMxeGpL?oc=5",
+          "domain": "Al Jazeera",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:54:25.000Z",
+          "rank": 0,
+          "rel": 6.5
+        },
+        {
+          "title": "Russia ‘uses dummy soldiers’ to fool Ukrainian drones",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR29zVFhHS1MxbDZWbHBVY054WjBnZGJEczRaUGYtWW5rWlFZVWp6NnhHQ1Z5MWRfNU10YWNNR1FmU0pQTVZscm5xYUZXZHAwaDBJNFFrM3R1aWtqaktFQnBLd2RwSHN4QmU3dzNJelBSODdOdHltMWJaMVNGNnhQamhJamE3R3dYYnNnNUdYdEVXZDMyel9PMFo0X0otNEJjdUpvcC1vSQ?oc=5",
+          "domain": "TVP World",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T12:56:00.000Z",
+          "rank": 36,
+          "rel": 6.3
+        },
+        {
+          "title": "Russian strikes aim to cut Ukraine in half, Zelenskyy warns",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHBnamJTa0pVQ0g3dVFFNlVIOXRvLTE0QVRmbVVNcnY5c3d5MHVHUEdCQXhlZEpUZU1XaUFHZWMyUkFoRHVva2Mwc3FhdEtKRy1Vdl9kbERTYndCalNWMXpFQXUzZTI2ZnBRSWkyTUs3bFlRRUNDMF9zY2liSHJIajBsSjE?oc=5",
+          "domain": "Financial Times",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T18:13:11.000Z",
+          "rank": 3,
           "rel": 6.2
         },
         {
-          "title": "Russian strikes cut power to hundreds of thousands in Ukraine",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3N4NE5oUUdyMUota2dlYjMwUEhDX2xoakJjZklaWG53ZDdkUVZlaUpVTUFudEN0MnNaa2JPNnhSZDVMSVBWT1plcGFtY0RtT1RESkh0RldrYkVKNGJ5YzBEZ0pjOUQxR0xIUG5HN25UMG91Zk9IRXBNN1RKYzg1WlZCQXBHam5tZ2taaHBjVXA5MVJRZExGOGxrbzd6QUdVRE1EYVBR?oc=5",
-          "domain": "The Straits Times",
+          "title": "Russia used North Korean KN-23 missiles in Ukraine energy site strike: Zelensky",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBDSE8yNExGbGVUbWtDZmVhdXRQS2NvYVJJSzByTEFzU0VMYkpHa0FHS1hPQW9Bd3ZpbjFNR0RmMEJqZHd2dzQ4?oc=5",
+          "domain": "NK News",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:55:00.000Z",
-          "rank": 1,
-          "rel": 6.1
+          "date": "2026-11-09",
+          "ts": "2026-11-09T05:07:38.000Z",
+          "rank": 42,
+          "rel": 5.9
         },
         {
-          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX3k2UlNRSWl0LVdfSFFVR2NNOFlpSGVsWWRiS05JelN6M09NYy1GRFp1V2R6RjZaaWRfV2g0R0xkS2JrSlJCMF9LNHJ3aW5XdGdYWm9kVno5NUFKQS15VnJVRUVKdzU3MEtlQ3NZOHd0T01NR0tXalNUd0ZUVDVZRmJBNmpSWDllSWJsVk1TMUdZc3VtS2RtVkNBTERyeDVZUjk4ODhGM0hlWnlMQzRXbzBZS2dQQdIBuwFBVV95cUxQQkNrd3QxaE9kSV9USXh5bkNjNDdHUTZHZmhUYnU0NXVlY3gwTWxwVEppU2tFSWpidURIQ1MtVFdPYlhhd2lub1FSUUR6bVNJWVB4VmQxNUJQODRzU2dURk5XejU1N2FRaXlJSVRGOENKMHdpZFE0SWo4T2RjTU9IVzNvZUJ6OXRkSzJtVmJOczhRNk1NUElLcHJKR3hBZ1JobWl2OFNXcC1PbE5tU3VlQmxZSFcwZ0h2b0s0?oc=5",
-          "domain": "Al Jazeera",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T12:27:29.000Z",
-          "rank": 3,
-          "rel": 6.1
-        },
-        {
-          "title": "Ukraine war latest: Ukraine hits key bridge on 'highway of death' linking mainland Russia to occupied regions",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcGJ6MnZzZWRHOEVfNGtiVVVtd2p2dzhDRHJrLXBEVUNCTUlINXhndmJRcFJnblNheGZmWVdKbTdJbWhGaWN6S0txM2NwbDNrUEF6anZVQTJVVnZlcnNXMXNTemdlRlhtUnd0NXpvZDRLeWZNdmFPVzdyOG1jak1zNkdnS1p4dlgzS2JHQzEtbzkyUXNtYVR5NGV4d21ZNnBSbURMWXNDd1V6TWxFSXpxQlZLY0p2VFpoeDJHay12RlYtYzA5eG1RaS0yQXNScDZI?oc=5",
+          "title": "Ukraine strikes St. Petersburg plant producing missile fuel, General Staff says",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVm1aQVBPMUN6b1hfQnNFckxYck5GQS13Z1dZclB4LUpNMndSbGZ0U3c0RFl4ZTVuZ3JUT3ZGYlA2ZXRNMi10WURvYXpnbE52aklJSDY1cXhhcHRSb2JHMzBlbFZTQmEwZWhFNHJ2em5JZ1hnUzA5cEduMW9MV1ZNWnVyajloSE00MVBKckg5dU43UVd6bm4yTW9XQVBLYzdDQ19PdzBKRG5lQQ?oc=5",
           "domain": "The Kyiv Independent",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T18:44:31.000Z",
-          "rank": 10,
-          "rel": 6
+          "date": "2026-11-09",
+          "ts": "2026-11-09T13:21:02.000Z",
+          "rank": 53,
+          "rel": 5.7
+        },
+        {
+          "title": "Ukraine Strikes Russia’s Second-Largest Oil Refinery and Iskander Missile Fuel Plant",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9IODhFYXl0QmE4QmVtV1pDQzkwX3lFb1BRLV9TNEp0TEZLVWpfbGR6WGFfTzZpbW1SYklnNjlBb1prSWVXQkJhQW9JZw?oc=5",
+          "domain": "Kyiv Post",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T12:42:21.000Z",
+          "rank": 80,
+          "rel": 5.7
         }
       ],
       "screen": {},
       "screened": false,
       "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T00:49:00.854Z",
-      "count7d": 59,
-      "prev7d": 8,
+      "fetchedAt": "2026-11-10T03:29:34.941Z",
+      "count7d": 67,
+      "prev7d": 4,
       "capped": true,
       "surge": false,
       "watches": {
         "shadow-war": {
           "since": "2026-09-23",
-          "candidates": 19,
+          "candidates": 26,
           "articles": [
             {
-              "title": "UK to lead Norway, Sweden and seven NATO allies against Russian submarines after US-backed operation foils suspected cable sabotage plot",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZUgyWEFzSVY3c1UtbTBDNE9nTGxHTk9KdTNfeWcwcjc5NnhoMGM1LWNoUnNuS3hQWl9PbEtPSWJNQWpHeG5nM3BESmlFSDkwWDVYUmpsazd5LWVCVVZ5cnJBN0EyWGI1YnpadHB3QlRHRVE4QTBNcVVMRVJpQlljekxRUmFlYkdTTXQ2ck40M3VQX0pKYW91Q1NYX3ZKWGVZUnZZbk40dEdacWR2SzIzTzFqRG5CY0FjZk94b2JuZkFuajA2TFZ3ZFd0cG52TTJMT2I1S3lB?oc=5",
-              "domain": "Business Insider Africa",
+              "title": "Sanctioned tankers carried more than a quarter of Russia’s LNG exports",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONG9FVjJWeEZLSm1sWGlSSlM3R09SQllTYnNuYkVPMGMxSEF5S3ptN2ZmaXhjZk50Y3N2ZUZSQWY3RmlRX3JibVFrYVVXWGcwOGRUdTRNRUNIQktzOXNNVEdlOGRRZVNFX2RRdUdTLXdDLWNlU3RibXN4ZnBINFpRLUVMTE5BczVrOHpzdHhKWF9PekRQNElnNXQ0czdGRFZkZFY3ZmhUNmUwRHplSHE4VkFkM2E4eG5Z?oc=5",
+              "domain": "Shipping Telegraph",
               "country": "",
-              "date": "2026-11-08",
-              "ts": "2026-11-08T22:00:02.000Z",
-              "rank": 9
-            },
-            {
-              "title": "Sabotage Attacks Inside Russia Surge 88% as Moscow Expands Covert Operations Across Europe",
-              "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc3hTZjUxRTAxem5KekNhYWZhZ05NbTFsZXpLcEpGNmNYeEh0UDFiQ2huTUNRUTluNGo5TnBCNGdfaWlTTUNVUC1JNmptUG04Ymo1anBCSUF2STdFVzdRYkZncUpnS0NXV2gwa2V6a3NVR2wyRlpEb0xDZTFyWlFvNzBKOHpoazlyaENrb1NmcjQ4RkVEdEo2d2dNb2dzWVU1TlNoQmlVM19lOEstZ2JmUXBIVzlvZWtvNnpZZTcwWkJBeXUwUnlXNkR2SnRZUkc4a1E?oc=5",
-              "domain": "UNITED24 Media",
-              "country": "",
-              "date": "2026-11-08",
-              "ts": "2026-11-08T11:46:44.000Z",
+              "date": "2026-11-10",
+              "ts": "2026-11-10T02:04:07.000Z",
               "rank": 0
             },
             {
-              "title": "Russia criticizes Germany for avoiding finding the real culprit to sabotage Nord Stream",
-              "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMUxVbkg4YzRjd2ZmYUtCcjBfMWU0dThTUE03cWhaWUpkMjBla3c0WFNIMHlvVmJBQXJSek1ReEo2a21jbjhUcVBmZldrcjZQbG9CVmstMU1GZzRuNUZyVVNSV0pRVlFKaVhabENIR1NYd1lRdWJoLVgzUmRfU2lMUzZoRWd1NHhNbmtCLWxxU29XeHdzZDFNZFMxMGxITUt0ZjZhT1RDUm9SMU9NaGUyS212OA?oc=5",
-              "domain": "Laodong.vn",
+              "title": "Are Ireland's waters safe from Russia's shadow fleet?",
+              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMjBieXJiZU9HQjdFel9ZVWxzUjZVNDg3QTQ4NkpadVBTcm5CUlhUYUN4b081X1VXUWhxcTh4Qi1mN2VDT214RUk5eHpqeG5GQ3BTSzd2WG16UmxsWlljREJsNng3cjY1anNHdFNRRjJiWUJPbXQtQ1RRLS1FcTlHalZxWWFUX3NSMDJQM2RrVGZDTGpTQ0tjMGljdE8xWTM3WFdR?oc=5",
+              "domain": "The Irish Times",
               "country": "",
-              "date": "2026-11-08",
-              "ts": "2026-11-08T08:23:27.000Z",
-              "rank": 54
+              "date": "2026-11-09",
+              "ts": "2026-11-09T22:55:48.000Z",
+              "rank": 25
             },
             {
-              "title": "Russia Records More Sabotage Incidents in 2026 Than in Previous Two Years Combined",
-              "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX3NGMFJyZkctVUtJYWFFZkl5M09oejNTRWFBbExrR1lIS1phOS00OC1EOU1mcDhZQWNrRzhqYXk2bVZtdWkzcUNObl9WOEpVS1ZlT01adTZPaWQ5c2VWaWFFSVlXLXpzSk01WkVqYzF0dGVRUEZyaXVpb0tPaEw0Um1zbjV6Zk9VVDk3S1EtYmNteVp1cExPSy10cTBqN2FXTHREMWlsUkQwbGNxNzNaRFVtbzU?oc=5",
+              "title": "Russia’s Hybrid War Reaches the Bulgarian Coast: The Black Sea Becomes Europe’s New Front",
+              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPa3pjdDVXeXEwZnN6UGlhbkhHamlvT0VhQmRJODNITUFsRjZxeVRuTDJGaVk1QkRMUW9JbjZkb0VkaWl1RWNVTGxDUkoxanp1aXJHa2RJYnpNSjRVMFBuanFIMWlGRGdmNDUyWm9XWlE1M0xFZDNSYjB2YWRyQ1hHdFIyZ1JmZFVncWlwR2pZc2lxZHN4Z1kxOVZMVHpZTEVWalZlamFmRU9sZWpGck1VQVNJb0lfYnVvVG9vWUdiY1dTZnZERmJUZlNjVk9WbTY3U1ktRm1NRmlXWXEyNUU5bWVR?oc=5",
+              "domain": "Novinite.com",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T15:37:04.000Z",
+              "rank": 26
+            },
+            {
+              "title": "Russian Corvette Stoykiy Began Escorting Shadow Fleet Convoys from the Baltic Sea",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNjk2WnRaUC02ODd6N0VRbUVVV1RlTjRWNHJYTVo4cUloQjdRaTNOOWlrLWFkLUJpNTdKWjdpOEM0RjI0Um5ZMVFrZzYyTFhXSlp0N1NkWHN4eDlHc1FFQlZLLXFUNGx1dWJTNHgtd3FHOE12N3pRMm9WYl9SbVFqcG9UV1U4SDk2MGlZOTYtRWZwYnhQ?oc=5",
               "domain": "Мілітарний",
               "country": "",
-              "date": "2026-11-08",
-              "ts": "2026-11-08T08:07:57.000Z",
-              "rank": 2
+              "date": "2026-11-09",
+              "ts": "2026-11-09T14:55:02.000Z",
+              "rank": 19
             },
             {
-              "title": "Krakow Shooting: Poland's Russia Sabotage Fears Intensify",
-              "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdTQxZFdZOWtzbU9Ld3g2MEV6MHFzQWZ2UUN6SG1EQ0VjaG5qblNxRGk0VGI1STJTdVY5UnhJbTJUemVZTFVwcW51WElaLURud0xhWF9WdW5RUEVZUm5YdlNRVXNqZGp1R3oxY0JkQmhCVzBmY0k0M1YtMEFXTWlPbXItLVdORDFIUmhJdTBheHp5eV9JTTA2d3dCR3l5NUNaZms0b3QzaTNoODJPVGtnNGJvZkF4c1c3Y09OeXhoa3BvZXUxM0RXSGgteXJSaDM5cFd4V3FnM2dwX3BQX3Zfc2JB?oc=5",
-              "domain": "finchannel",
+              "title": "Tajani condemns the hybrid war; Salvini plays down Russia’s responsibility",
+              "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcU8tU3MwZ2tPMldQVkVfMkJDUzAxQWJwdGFqX0lva0RrRHJqUXJUZFZfX0dxc1B0UTBpQjEtYnp1NkthQU43YU1BczAtN2UxSXVkMXNDcU9UZlh3UHB3N0pyenRyU09TYTY4dHZBMFFEWGJCc2pHNDRkNXlpWVZHNUQ4ZkFzRmpraElkZDNqQ1hOcXFhV0J3MDF2cHNzMHVDdDAyU2kwanZFUE1NdXJlMEtWaFRvRzg1MU1BNXpqblRFN1laSU5aUGlobW0?oc=5",
+              "domain": "Il Foglio",
               "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T19:41:03.000Z",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T13:42:00.000Z",
+              "rank": 41
+            },
+            {
+              "title": "Canada sanctions Russian ballistic missile manufacturers and cyber-sabotage organisers",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VdUdIbG1LQUtMek40MkVFcjlkcmkyWmpOckV2OGtsOC1jYUNrd2xvNkdXRkpmNWhWWDN5bXliQ2NXdDU2bXp3SkZ6SUs2NmdlaGdic2Nld1Y4ZlNRX2k4ai04TULSAXBBVV95cUxPeVg2WEYtaWJKN1ZmcURzeTR1MXptaGRLRDdKalRXNFRDdW9PMlZqazNpMUpaSFFtSlRzTzdvMXBFa0M2YkRxT013ZUlMZEdEVzl4ZEpwZXkyWUwwRUctTGdDNkk1SzZETDlsZ1ptV0Ns?oc=5",
+              "domain": "Українська правда",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T13:18:00.000Z",
+              "rank": 11
+            },
+            {
+              "title": "Russia Faces a Domestic Sabotage Epidemic",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mWkpIWW1URVhEVkU3Yk9hR2NvcWtoVW1SZFdYVW14VnF0TUdHeDgwZDZLZjdhby1vbjVRek55QkdNdmRfYWpmNl9Xcw?oc=5",
+              "domain": "Kyiv Post",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T13:02:22.000Z",
+              "rank": 6
+            },
+            {
+              "title": "How Russian Sabotage And Social Media Fueled An American Panic",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWTFiNzVJUU5iRi1rd29VVXJIZEZhdFNtYjJmSDlFYmtJTVZoYUF6UmQ5VXZkMjd4UE1jWVAtMkx3ZEFiYjB5RFJod0pZbGtMRWVwX3UtY1lJZENJeVpRNzBla1NYWENjd2V0SXZ0MlhCU3gtYUhTcWtVUXBTR1hhLXZrVVhCNXR2YzhJS2ZLLVlZbWxHbllKUQ?oc=5",
+              "domain": "The Daily Wire",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T12:49:16.000Z",
+              "rank": 99
+            },
+            {
+              "title": "Telecommunications cable sabotage in Finland: Russian captain sentenced to prison - IceNews",
+              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUWx6ejhLa2puYnJMUHVlaWJJajNmVFFIVmkwY3VQdEVPaExORkszXzd0WkZhcFFOT2p1S0JURWt3eDV0S2JrMlJhSVhERnVTT3JMeUt1cS1tWnFIZi0xNkphRkRCeUE5eXBoY3FjQlJDYVpuV1lzM0FZUEMzcXh6Q1l2QVIyYnM5Rk54TlFqNTEyem5TVnZzWDV3U0ZvZ1RtaUV0RG95SDVSd3BPOUZ6Mg?oc=5",
+              "domain": "IceNews - Daily News",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T09:31:02.000Z",
+              "rank": 15
+            },
+            {
+              "title": "Nearly 100 European Supermarkets Hit by Cyberattacks as Estonia Warns of Russian Terrorism",
+              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1qVTdGbkJTZXRLVHkzcmI2THRDVE9fSFR6Mi1GN09XS3phdU1xY1JWYmg3eWJJYVlDM2l6bkpWZWFhQVNQZ2h0TlgxVQ?oc=5",
+              "domain": "Kyiv Post",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T09:26:56.000Z",
+              "rank": 18
+            },
+            {
+              "title": "Russian Scouts Find Three Women in Ukrainian Sabotage Group",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWkpkUno4MGExa05Tek80aVRpVlNRZVVqazNPZ1ZFZW1EbFV6cjBIX3duYnpuZ29KQlN5Y0FjNE1JMW0xY2FfMWgzRGlacHN1RTJsLUhwNG90WDloTTY2LU9SQXNhQmZEeXZkMWtBSEFPNDZSVEo4aklrVzhYaEZienY0bFROd1p0Qk9DVHlGRnpGZmwwTUZvZ2UySlUwSHYwcVE?oc=5",
+              "domain": "Военное дело",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T09:00:01.000Z",
+              "rank": 38
+            },
+            {
+              "title": "Russia Uses 'Disposable Agents' Recruited Locally for Sabotage Operations",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55d0ZuTEY1ZTF6eTUyOWduNjBmVmxQMUwwRVNRQ3l3S1hDLTdJTG1zQnd4dDlIVGk4NVgzRDRRMTd4SF95aDVQUk50WnF3UmV4SFZ0UFhTdjg2VEFncWhiUkhLdDYzRENFSjNaUF9n?oc=5",
+              "domain": "news.sbs.co.kr",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T08:10:49.000Z",
               "rank": 40
-            },
-            {
-              "title": "How Russia tried to sabotage Ireland’s hosting of crucial EU summit",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY1N3UkhQcHpQeHozMjB6ZnUwRHJTVTVCaEZReWJ6ZXJPaHpkbndWdTNWbFBFLVN4TGZNZUl6SHh3ZEZuY0VSRjBqNjAwM0VnVm1TQ09HYXp4cXV3a183UjR4UHJYQ0h6M2pxTk1FUmZsLTNxanhaUlN6RGhaSUhpRXNSWTc1SkhveUpua3RYY2xvX3hEX3VaeUl3eHh2QUZnNTlxY3RpZ3g5UUtOMXJQMW45MzNUOEg2cVZj?oc=5",
-              "domain": "The Times",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T19:00:00.000Z",
-              "rank": 16
-            },
-            {
-              "title": "'Black Russian' sabotage group is probably a front, experts suggest / Article",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMDZTYVV6Q1BCM0VZX1VVSmRaQzBhUnJIV05LYXZ2aERjbmpXTm10dWVRSVdaNkRla19wby0yWXJYNnBiY2Y5Qm1GRHFzOTY3eFY1N1NVV1hESTRVTnpsR1pvdVdudU93dmwwRm5fdWI1OEQzV0s0ODJIeENGVC1VbUd0SE5FRVJpd0YxSGZiWGt1WlFHQkJzUUNzWmFpb1JhNEw4YzJLYjRVdTVzemdRbHVqVzNWTnFrdzRxaTctNEZLWnh3MVE?oc=5",
-              "domain": "LSM",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T16:08:30.000Z",
-              "rank": 37
-            },
-            {
-              "title": "The Italian Foreign Minister reported an attack by pro-Russian hackers",
-              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcmxCdXNmSUJpQlFYOXJxS3BkZ1U5clVmTnM4cGxjUXlQTTVYNHgxbi1NOWQwRC1GbGJ0NFZ3VnpPZHJSWHdzTUE1NDN6eFJsOUI2QnRTTGl0SW1aaUxvTnZUWEk0WlBsWjcwSDB0dGZtMVRBU3duYmMtbTNVd3FnX0ZVRy1Yc2VWN2Iydmp4dGtoN0dkMXNR?oc=5",
-              "domain": "24 Канал",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T16:06:34.000Z",
-              "rank": 56
-            },
-            {
-              "title": "Russian sabotage in Europe and rising attacks inside Russia",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBacWU0anFiMHhoWVNtVUFWaUF4SzFKYUdnSEVEN21xdWpfOWxLVUkycTVDRFhKQUdiUzJidi1EVmphajFIYlNIRGpiTmtoVE1MSWtldm9fR3hqenQ2Z1BCV3hBbzVyb0s5dWY3aEVGWmlyZw?oc=5",
-              "domain": "InformNapalm",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T13:20:58.000Z",
-              "rank": 22
-            },
-            {
-              "title": "Irish waters exposed to grave environmental dangers by shadow fleet carrying Russian oil",
-              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT1FITFpkSmxxVHRNN09OV3JLMlBCZnJxdm1tNXZQd3ZoX1JGcVFWTFlqNjJrdVozQ19sZFM3VkE3ejBYeEJfUGxIWVpTWEJ5dkM2UmRJaXZEdlBqbTJTcmI3TUZRaGNZMUpISEgzQ2lKZktvc0p6cWFtRHFraGJ1bThmUkRqeWQtSXFtenEwbUJpQmQ4ZU9yYWFYZm1TWW5aT28zT2JBbHhBaUwtN0t3dHJyb25oeEVaN0p4TGtfS0tpUjIyMDNDcjBOUGtoTnVX?oc=5",
-              "domain": "The Irish Times",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T07:00:43.000Z",
-              "rank": 45
-            },
-            {
-              "title": "Is Ireland's waters safe from Russia's shadow fleet?",
-              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUWdZeDZ5ak1BR3JhcEJiOWs1QjFxVzJxd09UNXBxUjNoMWlHUm45RkdEeXNoQldDQ2hMU3dRSVRXT2RWZlpOREtUWTVRQzdVRjZjTlpHV1NjUjhvemtqMGRpcEt5S25BTWMzQng4c2Z0NEgxTFhTcTRMT0Y0QjJlOXpRTHc3dzNDTDY3eGJXVTV1VlV6Z3EwQkExQWw0UGo5SFE?oc=5",
-              "domain": "The Irish Times",
-              "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T06:01:29.000Z",
-              "rank": 53
-            },
-            {
-              "title": "\"Fast-food style agents\": How Russian and Belarusian intelligence recruit ordinary citizens for sabotage in Europe",
-              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTDhPT1g1cWNKX2loRzJzVFlfUHo5TDBubFlGanIxc0U2b0huSS1ZTkFKLXdRdTlIOExqeXZzUUhmUzBKNm9CM2R2UWgwNmdkNDJ6ajh4ajJLdUJtd2hBOU85aktfTEpDZFhSQ19oZU9aLVk5UE9Sa0ZtanlSZFFuZVRPVW5Fekl6ODVBNmVrUWVWNVpENVBrVjVaMGFOdFhKVFhDN2p0aFJvYUNNTW5QUlNVUWIwS0NYd1VxVW5IckxiWV9xZWNxQmZjY2psVTRrMFJvRGRUblc?oc=5",
-              "domain": "Belsat",
-              "country": "",
-              "date": "2026-11-06",
-              "ts": "2026-11-06T15:09:00.000Z",
-              "rank": 44
             }
           ],
           "screen": {},
           "screened": false,
-          "fetchedAt": "2026-11-09T00:49:01.388Z"
+          "fetchedAt": "2026-11-10T03:29:35.512Z"
         },
         "vivaldi": {
           "since": "2026-09-15",
-          "candidates": 8,
+          "candidates": 17,
           "articles": [
+            {
+              "title": "From the \"Vivaldi\" operation to iron platoons: what is happening on the Lyman section of the front",
+              "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMEtpcXU3cVk4ZnljcmctM0tKa2p2MG52VnhEbWFka29qanl3Snh0M2J3dWpFZDV3dGpRdy1DNFhwVFNXZks1Z0JzQ0ZKQllOaG9uV0hQNDhRMDNTWXlCQXRqYWZFc2c5WDdFVGNQSG5Za3VCTE8tZjloU0JSYzdHcE03Y3NaLTcwUk1xMEV0ckJKb0VWeDZick8tVlRKMk1zX1NKQ2doRllWcDNXUkdjNWFKZWVMY1lWaURjUlFiODV1eFVWVnlVTUN3WjZ5cDV3?oc=5",
+              "domain": "ІА Король Данило",
+              "country": "",
+              "date": "2026-11-09",
+              "ts": "2026-11-09T15:04:00.000Z",
+              "rank": 12
+            },
             {
               "title": "ADAPTIVE INDOMITABLE UKRAINE’s New Counteroffensive is On … at Borova, North of Lyman",
               "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSm5HSzYxeUhLeXhGeXkyY0pEUTRfSmh5SVN5aXFpVW1YaXFPNTZPOHJEaFBrQ3huZzR3RV9SYWo5R0w1RDZkenU3RVprTmtuZndZcnBNYW1nR3piaXBtMElublVwbzhwX0VqbGJGb0pSbmg1b1JzMzJVckZCdnBzclhuak1SU2ZXVHpBU20zQUk4cFdpLU5z?oc=5",
@@ -286,16 +295,16 @@
               "country": "",
               "date": "2026-11-08",
               "ts": "2026-11-08T07:50:14.000Z",
-              "rank": 12
+              "rank": 23
             },
             {
-              "title": "Gagin Blames Intelligence Leaks for Ukraine's Vivaldi Failure",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fM0QweFcxU0ZFNHY5MkdfSW9SS1dEamFKbno3M1Y2YUxoQnVUOXJZNzljUEptbHNNU3MzV2N0T3A1UE9qb0dHbjlsMmplZ0wxdjJoMkJMRW5ERmZOb0tiRXlxa05ObDhRU1FEYTB4cw?oc=5",
-              "domain": "Demokratis.co.id",
+              "title": "Biletsky: There has never been a Russian soldier in Sviatohirsk",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOczVaRGVYSHozd09od2hMc29zc1QxTGZqbDh1N19HLWQ0bE5uYnp1MHd6aWswclRUTWVZNlV1Q1NHcndZSkpDQUs5SHdhRjgtdWNkWlpsX3NraXJ6LUY0YXhZNHM5Nmx5Vzh2S3pwMlk1TFRIcExzNm5OZW5NV3pKbWszbnhSQmtjSkhoTWtydFhJOEUwWk9r?oc=5",
+              "domain": "СПЖ",
               "country": "",
-              "date": "2026-11-07",
-              "ts": "2026-11-07T11:40:36.000Z",
-              "rank": 20
+              "date": "2026-11-08",
+              "ts": "2026-11-08T00:43:13.000Z",
+              "rank": 16
             },
             {
               "title": "Ukrainian brigade commander describes fighting in forests near Lyman",
@@ -304,7 +313,7 @@
               "country": "",
               "date": "2026-11-07",
               "ts": "2026-11-07T08:51:00.000Z",
-              "rank": 7
+              "rank": 14
             },
             {
               "title": "Ukrainian MRLS strike Russian positions near Lyman — deputy commander’s comment",
@@ -313,7 +322,7 @@
               "country": "",
               "date": "2026-11-06",
               "ts": "2026-11-06T20:12:49.000Z",
-              "rank": 24
+              "rank": 29
             },
             {
               "title": "​russian Sources Report Large-Scale Ukrainian Ground Robotic Assault Near Lyman",
@@ -322,7 +331,7 @@
               "country": "",
               "date": "2026-11-06",
               "ts": "2026-11-06T16:46:24.000Z",
-              "rank": 9
+              "rank": 16
             },
             {
               "title": "Ukrainian national from Netherlands delivers 10 vehicles to 3rd Army Corps",
@@ -331,7 +340,7 @@
               "country": "",
               "date": "2026-11-06",
               "ts": "2026-11-06T16:29:00.000Z",
-              "rank": 4
+              "rank": 5
             },
             {
               "title": "Operation “Vivaldi”: Results of the Ukrainian Counteroffensive in Donbas",
@@ -344,254 +353,309 @@
             },
             {
               "title": "The Armed Forces of Ukraine deployed 28 combat ground robots to storm Russian positions near Lyman",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEZyalQ1OThpREpRQ21WS0V0SFZOcUlqMFU2M2JEc1lZV29wRFp3WDVENFBSTDhOd1dDU0tJRGw3M2g3MjZRTUF1X3NXRzJiOEo2RF9JSVk5emc5WlF1Q3BYNS1KTzY2RjZ0ajJ3Uzl6bmdNTW1lcWdyT1hNdzJzMkRaSzhJaURKOVpvUmdMS1ZjTENkaVd0bzhfMlp2VnhiTFJjWG82ZkdzVFJQdWlTdzk2VHF5MWVpX2EyQ1lvZ3c?oc=5",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVHVLYm1WT0NZYjVrZlVXcWJOc3g0SnRFeGxsdGkycERhR3o4eW5NYzNfY3ZBaEdhV09SNjF3bV9jR1ZGeEZqT1ZyNThXa0ZfRzh6dUMyVHMyNWN1TTlMQ2hqRDRnc3lmZ0hnWjNqS3B3amk1RjUzaHlXSFgzVHhOcjlPOElYb2wyNm1PUDMyZC0tbkh6MkZGVVhxOU02MEhKMDJXZ1FNOGtsUmZkWXFJaTg3LS0xVWUw?oc=5",
               "domain": "АНТИКОР",
               "country": "",
               "date": "2026-11-06",
-              "ts": "2026-11-06T11:23:41.000Z",
-              "rank": 19
+              "ts": "2026-11-06T08:01:00.000Z",
+              "rank": 26
+            },
+            {
+              "title": "Ukraine's Quiet Counteroffensive: Inside Operation Vivaldi",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOU2l5Z3picHpIMlFMa2ZER2RCemU5UmNmdEFGRy1CN2VwbHdSRExwX2xDcmxSbEZHd3ZwdG1FMktkSEIzcm9LYVZYVVpxZVdqU1B2N1J4VC0zeTJiZmV4OEJtb2hmRWdHdWljVmE5UzJYd1B6bFV4NHJ0aU50NzJqV3FVc19uV2ZjNUVIM2hqYklXeExTVmllbGx2QdIBngFBVV95cUxPLUFTME1MYWZKU19RcE0wSURZdnExVndhdURKQUhHVmxVcndQMFJBUDVwd3VVUGExZXFVNjdSRzdKcDcxWU5PZ0VoX0xjcVJZVW9veW9ZZ1pxRVhEaHhwSThFNHJXTldrR2ptMTdXREh5T05kMGU1OWFnbU5kekJySjJ0UV9NRV80bExacWdVVEZZcTNEaDB0YW1GUjh5Zw?oc=5",
+              "domain": "Radio Free Europe/Radio Liberty",
+              "country": "",
+              "date": "2026-11-05",
+              "ts": "2026-11-05T16:44:03.000Z",
+              "rank": 0
+            },
+            {
+              "title": "Russia’s Buk-M3 Air Defense System Gets a Taste of “Vivaldi” as Ukrainian Drones Strike, Video",
+              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNEEyeC1rdmMtUGZVNk8tYmxralJmZC1wak9yeVhVRmRxVGJCY3VZX2RkbHAyZ21aMTU2WHNMYkpMcHR5TUFOTFhCS2tDS3hlSmFPU2EyWjNnbDJWYWF6YTNIeDJoOWhhRnhXSXF6cDNzaGUzNXRLUlY5M2w4WU10YmpfelRaYVg5ejVDdnExV291QXdadU1DM0xUekFLNXRzaWlIRWR5S1ZGVjNxSjEyOWhodTBvNl95VEtTdkYxYjZhYjBBeF9KVGk4VHRER00zeVhz?oc=5",
+              "domain": "UNITED24 Media",
+              "country": "",
+              "date": "2026-11-05",
+              "ts": "2026-11-05T09:23:40.000Z",
+              "rank": 18
+            },
+            {
+              "title": "Gagin Links Ukraine's Operation Vivaldi Failure to Spies",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdV9qblppaDlDbW5IR1NQbWZ6Z29WQXZVTWVQTUI0QVVPeFd4bjBiTkRFSklyQWxPd2NNYnExcE0zQS1lTDZxUmd2WllwQV9mNkpva29nNXZ1WjB3cFhjN25NN09VeDFQR3dZanNvN2lRbnY2dXlWYVQxX21nS0phYlpuLWg1THpDbTE0WjBGSnNqWExjNWpGRVlBTXllQQ?oc=5",
+              "domain": "Военное дело",
+              "country": "",
+              "date": "2026-11-05",
+              "ts": "2026-11-05T09:00:02.000Z",
+              "rank": 10
             }
           ],
           "screen": {},
           "screened": false,
-          "fetchedAt": "2026-11-09T00:49:01.977Z"
+          "fetchedAt": "2026-11-10T03:29:36.309Z"
         }
       }
     },
     "IL_GZ": {
       "query": "(Gaza OR Hamas OR Rafah OR \"Khan Younis\") sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-15",
-          "value": 267
-        },
-        {
-          "date": "2026-10-16",
-          "value": 435
-        },
-        {
-          "date": "2026-10-17",
-          "value": 326
-        },
-        {
-          "date": "2026-10-18",
-          "value": 285
-        },
-        {
-          "date": "2026-10-19",
-          "value": 520
-        },
-        {
-          "date": "2026-10-20",
-          "value": 425
-        },
-        {
-          "date": "2026-10-21",
-          "value": 450
-        },
-        {
-          "date": "2026-10-22",
-          "value": 358
-        },
-        {
-          "date": "2026-10-23",
-          "value": 272
-        },
-        {
-          "date": "2026-10-24",
-          "value": 222
-        },
-        {
-          "date": "2026-10-25",
-          "value": 241
-        },
-        {
-          "date": "2026-10-26",
+          "date": "2026-10-13",
           "value": 17
         },
         {
+          "date": "2026-10-20",
+          "value": 4
+        },
+        {
           "date": "2026-10-27",
-          "value": 20
+          "value": 8
         },
         {
           "date": "2026-11-03",
-          "value": 14
-        },
-        {
-          "date": "2026-11-04",
-          "value": 9
-        },
-        {
-          "date": "2026-11-05",
-          "value": 13
-        },
-        {
-          "date": "2026-11-06",
-          "value": 82
-        },
-        {
-          "date": "2026-11-07",
-          "value": 110
-        },
-        {
-          "date": "2026-11-08",
-          "value": 191
+          "value": 71
         }
       ],
       "articles": [
         {
-          "title": "Today’s Headlines: Gaza Floods Displace Families | Tanker Mine Strikes | Strength in Gaza",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdUtIVGI1LXJWcWNYaU5rR3NSYXc5bUl2ZGVhWE9GM2VyZ0ZkSmM1S3F0TDhlcTI2NGhISE5oOXdMX2tYcXJsTU5BRGtzUjNWeklJcTg3dC1Hc2YtenU5Y0RITGpBSkFyN1Z0VFZ5Q2FPanpJMFk5TktkV3RkMGpiNEFNbjJXQk84cnc2X3ZaRHMtT0hZVGN5ZVdzR1RCbkpGWEJ5S3EwNVdvU3NFVllGdkwzbnRaZ1kwSndz?oc=5",
-          "domain": "Palestine Chronicle",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:35:24.000Z",
-          "rank": 9,
-          "rel": 9
-        },
-        {
-          "title": "Israel strikes Gaza and blocks shelter aid as floods hit displacement camps",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4OEtkakNQanZza1VWRTZkdnp0eXlRdDVVQVdRa0xRcW41ODFVZngxSXo4RnViMm9CRmU4Qnh4MW1jU2ZsUnBvNGM5WFREUzZja3VIYWRlbFk?oc=5",
-          "domain": "TRT World",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T15:03:53.000Z",
-          "rank": 34,
-          "rel": 6.4
-        },
-        {
-          "title": "Four children among five killed in Gaza floods",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVm8wZmVIRmx2ZW93ZzExbTdpa1lKME9kYi1WUk5aS0hGVC1oUlhhUFRyUTBYdXhocHVjMHVmWmFnVmFsNFIwZjFPb2JqNUZTdDJHaDBxdmY2SVpBTm94UkpPeU1ITlJQVERKQzRNakFiNldfNHUyT2J5bVdUYkNQM1pOajBtSDRCMnRrN3dyMkxLdnlFR3pqN1hZQdIBoAFBVV95cUxOc0VrRXZIbDNnSUxLQV9rR2F0b2p6LVp5U2plMVFRb1lHdi16d3dRX01rX0h5Zm9EMHppR1htbEdXZzA5Q05sak9VeUxROWVUbHVuanNvWUJtcDdVOGhwSDgzRklGWXRlNVNmeGhZT3M1RXlJdUZVWkRLdkp5MS1SYjA2aTVnakFwY2lkQXdoa1ltdVE5cjJEemhHYmhzcG02?oc=5",
-          "domain": "Al Jazeera",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T21:25:58.000Z",
-          "rank": 0,
-          "rel": 4.9
-        },
-        {
-          "title": "Israel ‘fully responsible’ for Gaza landslide deaths: Hamas",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV1YyVGpVNVluam5KdzBXNGxfWnpZZnhCSVZ1d3pFa25abU5NbjVNVUw1em9TWkg5VG9RWlM5VWFuekdpR1ZwZU9UaVdMQ1NXck80UUZLVHg1R2JEaGZ0YmJodTdYV3R5S0wwWTBzSV9xRFZUUFcxX0NMaC1Sa3lDdWtXMkQ4ejJuRzVXRTZUVnRnTFRSWUV0SVM1SmRFaF9kTGJj?oc=5",
+          "title": "Israeli drone strikes, gunfire kill 1 Palestinian, injure 19 others in Gaza",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQU9UTDhXLXZ4cDJpalVyOEZEQnRkUFl1bXlRbXJMbGsyc3E0eXBydTVtNnRUNlp5T0pzcTlISHVra1lkbFJYTkhPRFpYMkUyMjVPb1JTRFNuV1ZrOFV2djVzckZ4YmZIdzd4bnltZUNVckpKZzNsRjJxNmJ3U2dyZjhPel9IY3Z0ZGxYM1VwWVFONGx4dTZDaWFCQWR2NXh1UnVxbWR6WnJEUzExcE82YTRWMnIybFZ2UkE?oc=5",
           "domain": "Anadolu Ajansı",
           "country": "",
           "date": "2026-11-09",
-          "ts": "2026-11-09T00:46:12.000Z",
-          "rank": 2,
-          "rel": 4.9
+          "ts": "2026-11-09T15:44:34.000Z",
+          "rank": 20,
+          "rel": 8.5
         },
         {
-          "title": "EU Commissioner Urges More Aid Access To Gaza As Floods Sweep Through Displacement Camps",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJUFp4RlhxcVFEWl9ZeHJXZmJYQ3NkWG1JdUtkcTg0UGQ5c0otSGJFMThGODU2cEd2TGFxUnNnbDdvV2gtem4xRmViWGpiYmltdmhsaHJDeERuSE0?oc=5",
-          "domain": "Bernama",
+          "title": "Four killed in Gaza after sand embankment collapses on to tents",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOalpKTFBkTFpFT3BsZlR2VXBhSmdDcVpsbEJ1U2I1eHIzZTFkREEyUzUwbzVfZmJzakdkTTE4cFpHYThMOG5NbDNXcjZUY2ZYZ25mbXUydHFFNm1HckJIazVaZFhCSmUtX0N3djVPVGlVTFV2d2JtV0FBZU5vT1kzei1oM1NFNEFIWnBwRUNTaEl5eVYwdFA3WThzN2xoQTAxRzZRdkljT3lqaWZuVGtTdw?oc=5",
+          "domain": "Reuters",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:58:29.000Z",
-          "rank": 8,
-          "rel": 4.5
+          "date": "2026-11-09",
+          "ts": "2026-11-09T13:59:51.000Z",
+          "rank": 1,
+          "rel": 6.2
         },
         {
-          "title": "Gaza: Rains add misery to humanitarian catastrophe",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeFJLSEJGWUpuUE9MWVRjSWwtRDBlakZ4dWNFTnE5QkFNOUV3clVFRVktZk5sREZJTGhaakxpSlpkN1BCekhrM002V19DSl9CV2Z3TTR1cUJqQ3FWWDUzTjVKelNoZlhEUXNaRlI5b3Frc2Z0Y0R2b084c1pCN2s4eWRlTnZ2aEpmWlHSAYoBQVVfeXFMTXhSS0hCRllKblBPTFlUY0lsLUQwZWpGeHVjRU5xOUJBTTlFd3JVRUVZLWZObERGSUxoWmpMaUpaZDdQQnpIazNNNldfQ0pfQldmd000dXFCakNxVlg1M041SnpTaGZYRFFzWkZSOW9xa3NmdGNEdm9POHNaQjdrOHlkZU52dmhKZlpR?oc=5",
-          "domain": "DW.com",
+          "title": "Israeli Strikes Kill One, Wound 14 in Gaza -",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBETTI3ZVBmTWRkOUxyN1Z6a1BPTlRVOGR5MHZacURWSElHM3k3bkNqOTZxUFNZdEYwVEpNRHJzWlZIRS14allIakVlNThITWd0Q0V1NS16QWIwckVKMDV5WllXMDA0N2JpQlFSZnRtRGlPY21rVVNR?oc=5",
+          "domain": "- IMEMC News",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T11:00:14.000Z",
-          "rank": 7,
-          "rel": 4.4
+          "date": "2026-11-09",
+          "ts": "2026-11-09T23:15:30.000Z",
+          "rank": 49,
+          "rel": 6
         },
         {
-          "title": "Two Killed in Israeli Attacks as Gaza Flooding Shuts Al-Shifa Hospital for Hours",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNamszcVpZcjhHU2NDTjJxclZ6S3JrSnpGZFp5RHZPWDV6di1wMkhCRzFuaFlXM0hSX0U4WUxkWDNOSFY2UHhEOWRuRVo0T1M4TlVOaHY4MExCa3hia1MxV01fdGVleGtvQ2RZZ1RtUEVfa3pkdGRNRG42bjBaRDBVTGJXYThJSWhNTlZTMHJfc2J0ZVRMaHRPWm5VMlVWNlYwZXhfeGoxSVViSVEwYnVhbDZBTUZWaE0?oc=5",
-          "domain": "Palestine Chronicle",
+          "title": "Israel approves deployment of first 250 foreign troops in Gaza as peace plan efforts accelerate",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV0dhY1A2UmpUeWpyOWh5dTktMjBwU2hSUUNsVjUtdW9zVTRMLWItUVEzeEdZWlhkWlU4RDEwSTVqZlFQb3hDN3JQNTYxMkdDRTVxZVU2T1hyUGJVUFhGZWJjUkFRWDYtN21JTEhWSFhGSTNqVkk3Um82VDk2dmxRNmt5eXphMUVPWHRhS0FVTTY1Q2M?oc=5",
+          "domain": "The Jewish Chronicle",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T20:51:38.000Z",
-          "rank": 50,
-          "rel": 4.4
-        },
-        {
-          "title": "Trump presses Netanyahu to advance Gaza plan as Israel obstructs next phase - War on Gaza - War on Gaza",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRk1BWEFvYUhIWC1lQkcxdndPTFYwVVcxbldMTnJCaXJycnZ5d3lMNWJOSWYtSVFIUDY0T21oQTkyNWxodElUZ2J2T3d3UDQ0NzZUZV9MaEVZYUJrR2Jjd0llLTloSFZSaDBFYVgtUGYxVDVxd2RCb3c1aGFSaVhMQUhFdjlfcTFYVEh5d2pVZFJ4RFZfQzZoVUdhcXVoazd2UlV3d0VxdWV5NzhkcG43ZDdLaTllVEJTc3N6R0xhOGtDR0VZU0JkNjgyTUlUZ1Vo?oc=5",
-          "domain": "Ahram Online",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T20:50:00.000Z",
-          "rank": 97,
-          "rel": 4.4
-        },
-        {
-          "title": "Eisenkot says any party involved in next government must commit to action on Hamas",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNHpLNm1ZakJRWmRtV2hyR0pGR2NPdWtPNk9ONm9WejM5NVh0ZDFVNFZCazJCVnpCMXJhb2RFMFV0bHZXQmFvRjBsYXk0cjI1OVdOSENERWpGNVZuT1VtM1B1WWVoUVNITGpCR2w2UF8xMm9HdFlEYlFsWkxuOHk2NWlEODRqZ3MzMjdBaURKZTBiVkRHSFFlZ3haUkhWR2VxQmlvR3BYT3Jfem1ZZmZMajkxZGpmdU5pNldrc0IyNnJwZw?oc=5",
-          "domain": "Middle East Eye",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:35:00.000Z",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T22:53:50.000Z",
           "rank": 77,
+          "rel": 5.9
+        },
+        {
+          "title": "EU urges Israel to ensure full humanitarian access to Gaza amid worsening conditions",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSGg0NUZES1liWEVwSFdzcm1wSndxV2Jidkh3SDhSak9DS3JrSzZuY1BCNER4QXBvemk0Nnd2T2p2ZkFmeHRwYm1HLTV4MlFlV1VIbGxqeG5iLUs1Wk5VRElEVU1TMkRYdXBwTXJ0bjc2LVdGaWJJSkFpSDZkVkd4WEdxRjdGdzFCRDdicWxvWjA4VUdYQlBuZlphTjBaZnNtWGZqeEExT0NvOWxQNDZjSVNrU1hnT2g0b19OUHo3UVZMUQ?oc=5",
+          "domain": "Anadolu Ajansı",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T13:43:41.000Z",
+          "rank": 30,
+          "rel": 5
+        },
+        {
+          "title": "Trump’s Board of Peace blames both Israel and Hamas for Gaza emergency",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSjZFaHlpcHpRNVQtY3YwWW9rWlg0clBCSTc3RlhpMTJ0cGNRaktiRGRXYUt0Z0dHZ25EeGhUOWJpejZ4OXNSTzk0SEQ3N2ZKUW9DVnlOZ3VnRTVLOG15S2gxTEZfdkJXd3BvNjlvOU5DMmt0cDEtTW9yTkN1bzRvS1N6SUZOWE1GV0t4U2czOEVXSGR2dFI4VTVXa2FfNkxUWEdDZElJX1pVNnBLbVBfR3VqZ3E2Nkk?oc=5",
+          "domain": "The Straits Times",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T03:17:00.000Z",
+          "rank": 0,
+          "rel": 5
+        },
+        {
+          "title": "Four killed in sand embankment collapse in Gaza - video",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2l6Q1lJOFZzOUZ4bmlCUTdlVFg2djhSSF9BT0l2VWhrZW1RcFplcWpDeWR1Y0NiNW1EOWdWdUUxbENneVJmaTJLTnNxeDFJU3RCUWg0azlzU1lUTnh1UnUtek9pQ29YVE1BTm1lYXhxWjB6UHBMVFJvb2ZiWTJxcHZVRm5oXy1Jd1RNNUNMbUdhdzhlUVJQSENWUlR0Smh0RG9id3ptbGU?oc=5",
+          "domain": "The Guardian",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T19:45:00.000Z",
+          "rank": 39,
+          "rel": 4.8
+        },
+        {
+          "title": "Hamas says Board of Peace distorts Gaza flood crisis, overlooks Israel’s role",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM1JBZHVYdG9fcEVTbjBYS0FCMjVFa2d2dkc5QTcwaWRlNlV0cTk2YmdrREdXWE1DazBCT01JNDlSQ3gtNHVULXA2TUVVblp1VUJlcHU4RWZwaEQ4MnVSWXlGNnp5bmVxd3AwVE9XV2ZzR3Y1eFdwX21xa19PM1hsNHJ0d1FNT081UmF4VkZpZXA4MXBGekpOQlBXM0E0ZTVmMVkwZ3RTc2tWWUVlQWZhcEIwUGFiWlVn?oc=5",
+          "domain": "Anadolu Ajansı",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T03:12:56.000Z",
+          "rank": 6,
+          "rel": 4.8
+        },
+        {
+          "title": "Trump’s Board of Peace warns of ‘immediate humanitarian emergency’ in Gaza",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQzBFU21yZnV4cG0td1p3Mi1Eckt0a3lCbG5wdnhUM2NOZ0dFSGNhdG9MM09sNVhCcFpRTEtpd1ZLdG9oeGE0WlV5UVppcTdZejZqSHpTSE1yZ284UGlUd1plLUlFWjhVOERZajc0TEliZ2JwdkMzMXJvSWdMakxjMTdMWnQ?oc=5",
+          "domain": "Financial Times",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T23:51:16.000Z",
+          "rank": 5,
+          "rel": 4.7
+        },
+        {
+          "title": "Three children killed as heavy rains batter displaced families in Gaza",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNm9CMTd4TVA1UnBMTjRwNlFBc2c5SDRpM3dCdHdHeVh2aDhFWXlNR0M2ZXNfdmdxVnhrMlJaTkhubHBObHpDajFSbDVKY1dCWHNVRmVXQUtydkNpRVM3VTJnTGdEbk9aaUxzcjZTWFUza3RSWWpHM3lyTnNZMV9jSURnRjlVczViTEJOSTV3U1ZmU0ZVN2d2dTNIQzY0b3phU3dNMkFtV3BnWURXOXY5UEpPeVhkMUNDbWlZaWtJaTc3UQ?oc=5",
+          "domain": "ReliefWeb",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T21:33:07.000Z",
+          "rank": 4,
+          "rel": 4.7
+        },
+        {
+          "title": "Opinion | Why can't Israel's Arab leaders just call Hamas terrorists?",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQQVN3aHU0OUVwOFd2Y1BTUVljUGZNWktFZFFSTFFMZ25XZnVXVUpsZEViaVptaGJ5eW11NVZvR0VQTzhDYzBOc2FEYzFEREhDcC1aWm5mMG53c1lkN1oteXZwdUQ2eFdxekZvYTBtbkhGTElMY2FMOXY3dGRHZXFlaFFBRUoyb0F1VzkyZWt5TjBJNHZkM0lCcWtCZVc2a1RsbW5kTVpuSkE0aGxnMkNfZEg0bXd0WTVteUR1elpKbnNBRFFRNVY4c2MxV18wbTEyMmdNSlRUNXg4ZlU2QmZKYlE0dmUzbmlyWmlnYlZJZm5vOU1Qd2ZR?oc=5",
+          "domain": "Haaretz",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T21:26:00.000Z",
+          "rank": 55,
           "rel": 4.4
         },
         {
-          "title": "Reports: Woman killed, several injured in collapse of sand embankment in Gaza",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUXVfM2daVFlnX1daRlphVlFTYTNFS1RvVFlhSDJOZUxQdHVmZVR1eWROQVNWaFVnUEZnVzhyZG1lNms1V2FUbllMSlpXckw1VXFjT3JJcEFHTzYteThrZXpKWEtaS2dlSW5PV2NDTzJHRXZndzBhQUJ6ZVNjdmRqOWxXTFV1by1kUkFnaHVzYUhRVlprTHItNllNcGtzOFlEbVlOaGFxcU1iYlNpTTU0Ykh0eVdKVnpsZXhYQU53?oc=5",
-          "domain": "The Times of Israel",
+          "title": "Wall collapses onto tent in central Gaza, injuring several Palestinians",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaXZqekhFVHllNEhqTm9EV2dpdWJ4d0k5clp6UXZ3UTY5Q2RsVmpJbkJNNndxQy0xUEFkN2tCUHhjcmlQVDBxSHVPY3laaFQ2THgzcjAwY2pKWUNkZzVBZ19yTkltVzdGZGlRS3E4Yl9GenIxekxwaGI0RUFNa1lfUVRjdU5EVlh0ODg1d2Ixa084VlBUQWZ6VEVOcDBZaWlqclEyLXFCcW9lRnJFb0YybA?oc=5",
+          "domain": "Anadolu Ajansı",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:32:52.000Z",
-          "rank": 93,
-          "rel": 4.4
-        },
-        {
-          "title": "Two Palestinians killed in latest Israeli attacks on Gaza",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbEFMTzlVRFV5RUw5Q1BOMF8xcEVpNzlOWl80MFRELW5IelluZG5FV24wRldBR2tuX3M5TkRXaHdYT0JQMTY1RnpQcHNMZWRCMld2RUJ5dXU4UmwtZzlQQTd4NC1yMF9EZmRfQVVjWHYzamVyV2x1aldET1czdkZiUC1GZEs?oc=5",
-          "domain": "Latest news from Azerbaijan",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:21:35.000Z",
-          "rank": 60,
-          "rel": 4.4
-        },
-        {
-          "title": "As Rain Batters Gaza, Hamas Propaganda Floods the Headlines",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa0loc2F0SllBaFVQTTdraW1LU3dnZ2lTejktanU3eWxEQzRhcF9SOGs4SFZ2S1c5YWxRQWZ0Vm1VYzFRVDNxSUp1UnNzbDRfSWVoOU1rNjNPUFBPdC1HWkRYcU80VWIwR00yYXlySjlXWVp0eDViVUU5YVNwUDNTODJHMXFIek9Kbkd2X1JfbzU?oc=5",
-          "domain": "Honest Reporting",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:11:23.000Z",
-          "rank": 91,
-          "rel": 4.4
+          "date": "2026-11-10",
+          "ts": "2026-11-10T00:57:49.000Z",
+          "rank": 16,
+          "rel": 4.3
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T00:51:07.908Z",
-      "count7d": 439,
-      "prev7d": 1985,
-      "capped": false,
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-10T03:32:16.408Z",
+      "count7d": 71,
+      "prev7d": 8,
+      "capped": true,
       "surge": false
     },
     "IL_US_IR": {
       "query": "(Iran OR Hormuz OR IRGC OR Tehran) (Israel OR \"United States\" OR Navy OR Strait OR tanker OR missile) sourcelang:english",
-      "granularity": "week",
+      "granularity": "day",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 12
+          "date": "2026-10-15",
+          "value": 668
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1060
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1124
+        },
+        {
+          "date": "2026-10-18",
+          "value": 610
         },
         {
           "date": "2026-10-19",
-          "value": 16
+          "value": 1183
+        },
+        {
+          "date": "2026-10-20",
+          "value": 1429
+        },
+        {
+          "date": "2026-10-21",
+          "value": 1239
+        },
+        {
+          "date": "2026-10-22",
+          "value": 1155
+        },
+        {
+          "date": "2026-10-23",
+          "value": 482
+        },
+        {
+          "date": "2026-10-24",
+          "value": 685
+        },
+        {
+          "date": "2026-10-25",
+          "value": 212
         },
         {
           "date": "2026-10-26",
-          "value": 6
+          "value": 22
         },
         {
-          "date": "2026-11-02",
-          "value": 66
+          "date": "2026-10-27",
+          "value": 17
+        },
+        {
+          "date": "2026-11-03",
+          "value": 71
+        },
+        {
+          "date": "2026-11-04",
+          "value": 25
+        },
+        {
+          "date": "2026-11-05",
+          "value": 59
+        },
+        {
+          "date": "2026-11-06",
+          "value": 320
+        },
+        {
+          "date": "2026-11-07",
+          "value": 236
+        },
+        {
+          "date": "2026-11-08",
+          "value": 293
+        },
+        {
+          "date": "2026-11-09",
+          "value": 115
+        },
+        {
+          "date": "2026-11-10",
+          "value": 279
         }
       ],
       "articles": [
+        {
+          "title": "Trump holds off fresh Iran strikes but keeps Strait of Hormuz blockade",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EajRJTG9LM3BUUGFOZHpaOVppUEMySWNKMGFBb24wb2lWSDFud0M4bS1PZDlHeVBuQVhGY0k1aGVPd3lGamJNUk5tTlhQNDV1UDg2QnpKUWFEUE1saWxJ?oc=5",
+          "domain": "Nation Thailand",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:43:00.000Z",
+          "rank": 7,
+          "rel": 12.2
+        },
+        {
+          "title": "IRGC strikes three tankers near Hormuz over ‘US links’",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNem9kRXY3QksycTNtTXVCb2ZRTGtMSUwwYnBpU3M1bG5wUHFQZmNsZUtQT0c2alFWNWI2ZzVqdVh3eERYQW90cnZhRjhpdzllbDlpanVKVHR5VC14dTlKV1R4NlpyeGpLdzM4MnVvam9kS3lDMU5tZ2U0VnNXTy0yR1ZCdUgtWWZQaUMtY0NfM1RSMWJ6U2lfd2VyYTNOQdIBowFBVV95cUxNVGVYMHhUanFDYXNJWHVBQjhhOXFFYVNrOUsyV0oyY3hPMXhpQWkyUnF3ZGFWRDJCVlNsTC1mS1BCcDVzU3BaNm82TTFvR2FWYVcxRnBPdXNNZlJndDRrekJQZVZBREZwTGh4VV9mZEpWS3RCaHBBYVhOVmRhWHcyRTVsdTRDWTcwNU4zbW9NdTFaRl9VMmlNQU1XeUo1cV9Da21v?oc=5",
+          "domain": "Al Jazeera",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T15:23:41.000Z",
+          "rank": 15,
+          "rel": 10.1
+        },
         {
           "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVTM4SFFhRkExRkJWbHZaNTB0Y1ZjZzk4UEJtODhXUUF5cG95OVNEbEpyTUlpZWJGSzFabTVkTkhPc19GSjBCb0lVTERBYmpLdEVmOTRocjdUNEdNbzNicnlCNFlCeVZMay02YU5RaW5pa2JCWFFZM0JseHp3WjlXbnVBN0FiazAwOFhTXzFmWERoRXZQeEpxMnVBUzU4ZFdaY3psYnRwS19MQQ?oc=5",
@@ -599,224 +663,240 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T16:14:35.000Z",
+          "rank": 5,
+          "rel": 10.1
+        },
+        {
+          "title": "Trump says US will hold off on new Iran strikes after appeals from Middle East neighbours",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNBV3hVLTdlalJKcEVGbXdzMEo0U1JMeWthQ1d2OWJJcUthMFo5TlVsOWVBS2pBcGFtUXB3akhKaF9mbnVNelV4dzYtYlJxVHREa0ZFZnpWek5iQXdQbnVaeXYwTHk1VnJlWkZXRGctM180ZWstYWxVZUFoX2M3TmxTdFJ6dXY1YVlETklWVjRmLUNyaDRSNmJhNzJOb0Zp?oc=5",
+          "domain": "The Straits Times",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T00:50:00.000Z",
           "rank": 0,
-          "rel": 10.8
-        },
-        {
-          "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5",
-          "domain": "ABC7 Bay Area",
-          "country": "",
-          "date": "2026-11-09",
-          "ts": "2026-11-09T00:08:12.000Z",
-          "rank": 9,
-          "rel": 10.6
-        },
-        {
-          "title": "Iran vows ‘astonishing’ strikes and lifts missile-range limit as US targets land routes",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVmFjY1UwcWdiOGlGSXgyQlZZakp5clRWaDZZeTUtay1ndlRWMTFUU3hSbGtVWFFUWERkN1VRVlByaXlRUGhlSWJQa09VSnNrUlRIYWpqWjhGZ0xEUXJKU3V0MXRHbGE5SVk1dHNWcTI1a0NlWlhHTEo0dHJHMXlrUDN5YVltc19XWVRBWDJLYVI5ZWVRZVl4RndYd2ZpdFA3bzVROURqS1ZFeXlv0gGyAUFVX3lxTE1OQmZMZjJrSEsxcXQ4WDlPUUlmZkVRcVBmaTRMdGQwTWRLM09EQ0dqSk5aWWhuZnRvVXFNNjVFZ1M4OFdHT3k4UkJpMS1Tc2dNQnVoc1RMbVdydWRzZHRsVmRfNVZjZDIwNmNoTDZkOHpSN3c4UV9KY3FFWU9panRjZm05WTEtb3RxdVFuRi1XVVBNTDVkLUlMdGlwc2o1QzBDQjFaNjVHaktKSE1GUk5VUEE?oc=5",
-          "domain": "Fox News",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T23:08:57.000Z",
-          "rank": 48,
-          "rel": 10.5
-        },
-        {
-          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPODljcjZxWENhUEM5Rk1mZFdubkR1ajJlZ3Z6dy15OFpQZnhBdVAyMGxOZTUxOUhDd0RySXV6RXd0UXR0ZEdSb21BX0pnaE40VjJDWjdoRnJkSGp1d1RTTGNhR19XTEhBUHQ3MVZ2ZFE0U2U1QTZLdXZ0STI3N0RkTHJTR1FMRlNRaXFFbk1BdlhYbmZSRE1UdnVtMUlGdWktbktucGdtemNwQnlfZFRHU3dR?oc=5",
-          "domain": "CNA",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T23:49:20.000Z",
-          "rank": 1,
           "rel": 9.4
         },
         {
-          "title": "Three Oil Tankers Strike Mines, Catch Fire In Strait Of Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zUWdGWmRLSUdmTnEyU3loUk1ZTHJyUXl1Vmd3ay1tcDdFTWJwbVo1OEJzUmx6RG40eXRJQmFjNlFNQnNoWlVZaHhQemYzY3ZpTE1OX2p3VFhib2c?oc=5",
-          "domain": "Bernama",
+          "title": "Report: Netanyahu pressing Trump for renewed Iran strikes",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04M01CaUZoZ1M3MGFBNGRhMUVsLURzeTVibFlzc3U1bWZab2pkOTRsWmF3T0FhWkZQYXZ6Z3oyVXJxckdfMVZBTTNEUS1ZVmpSeGlCc19lalpoQQ?oc=5",
+          "domain": "Israel National News",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:58:36.000Z",
-          "rank": 5,
-          "rel": 9.2
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:47:10.000Z",
+          "rank": 83,
+          "rel": 9
         },
         {
-          "title": "Rubio sees no Iran breakthrough as Trump downplays new strikes",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdzlHeERGRlI4dGttLUxndmdEbWJFUmNpTmFZSDlQTTFpbUM5VzJRSUhWc0Q0ZkhrVnZONWViNXpnaTBBNVp4dDNUekRoSUhsYjBKRDdlb2tWenJiaTRicmZVWnBrUHpreUNYTUlVVF9QUkdKRDU4VHJfOW5nRlJ6MUxIYm44UlRYS0JXLWlWSV95MzlVNnN0cnJINzdfYmx6aFUxa2h6eGRsYXZ3eC04Rg?oc=5",
-          "domain": "The Straits Times",
+          "title": "Oil prices today: Brent crude, WTI fall as Trump rules out fresh Iran strikes amid Strait of Hormuz concerns | Hindustan Times",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPNG95cjJXTy1lNF9yUHJTMm1QdTg5Uk83Ym5oa05DbTEtMkZjYmlxdXJsdE1hbXFBZWV6S3ZoV0VudGdfdkxuWUZRWTUwWWdLalVjc0J2Vjh5MFFUNTV2VkN6c1pBVGJLNHUtdUpIVEhCZHREenVsSkJHeWZBMFRfUHVzaW9QS2pXbnQzTXE4ZkREamFmdzJhYzFaOXl2VzgxYVVvVERqbWdJQVQ2RTFGYUx1NWdTcnVpRG1Kc09GeEhFR3JJQWpQcmg1SDNEM21KbS1YX01STXFrU1cwN3M5VTU0RnJNWkhpYnZNaVVaSUtSYXpGbTk1WkFKSEpQaWJlSC1TT3NMTnbSAY4CQVVfeXFMTXlCZVI3OW9XT0tpOW9WUnFFTkFYVVdRT0FHUnhCbmd4bEdJS0tBWDROcV9La3BmSlpoTTh1cTRyUV9IYWtjN1dqUXBfTEdEcWpvR3pFWFJUTVlXQV9EM3AzeENpdDEtdW1fWmRxb2RYQjdCd25wdDFKTzVUc2VNa2ZZcnRHQ0ZRMFVXR2JuQmZwNGwyV3J5eFFOSThzZ3VDN3JPM09XMTRuYWFPU25DNFE4bUxrUnV1YWpCMmlMM1lxVmlrZms2UEttRmtNNDA1am83TnpwYUc1SVhOcGV2SXJuTkFjbThEWHRwWmdDY3hXeGxfMzB1dy1wU1J4SktwdVpKRmRPbV9GT19IcHl3?oc=5",
+          "domain": "Hindustan Times",
           "country": "",
           "date": "2026-11-09",
-          "ts": "2026-11-09T00:28:00.000Z",
-          "rank": 11,
-          "rel": 9.1
+          "ts": "2026-11-09T12:21:21.000Z",
+          "rank": 95,
+          "rel": 8.7
         },
         {
-          "title": "Trump: Renewed strikes on Iran 'highly unlikely'",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3hKSDlmc0VwNVgzRkpKaHlLMF8zb1M1SmpVWTdtZmVFTjlMVC1GQVpwSjJlVVdZNmVVaFpVY3d2T3pfSmNabm11WVpRVy1jb0d4V0FUTnpNSDVxdUI4TGtfYzdMRG5ySmN4T2phbjlycVBRMkVUY2VicnlmS0JGbEZnZ1phaWNBVmFxQzdXU0FoNGRjVTFmeXBub1dSM2xIZWFF?oc=5",
-          "domain": "www.israelhayom.com",
+          "title": "Trump Says 'Very Unlikely' To Launch Fresh Iran Strikes If Talks Progress",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+          "domain": "Radio Free Europe/Radio Liberty",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T21:00:23.000Z",
-          "rank": 70,
-          "rel": 8.9
+          "date": "2026-11-09",
+          "ts": "2026-11-09T04:58:42.000Z",
+          "rank": 10,
+          "rel": 8.6
         },
         {
-          "title": "Iran reports oil tanker fire after mine strike near Strait of Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYjRhYUdLakFqNjY2MjB4TWt6MzBrcDVnWFlWVnVuNmdNdEszeVlFUUx0OV96Ym9INHVuRGp2WEQxYlh0WDBkOWozcUlhc1VJODhXLWlxVVQ0VjFkTWRzZEg1VG84RUIyczVYbHNNb2ZKN3E4VjEzN2E3ZWFrbkFPTjFlUEx6ZEE0RDY1b0d1RlRWS1E?oc=5",
-          "domain": "Latest news from Azerbaijan",
+          "title": "UAE Says Iranian Missiles Struck Oil Tankers in Strait of Hormuz, One Sailor Killed",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWHI2dnA4RFFBdm9PemRsSGZPVE91QWpZRUprX084RjNiZmh4LUxUZ3RKRFZxRS1nTTkyemlUbmxJUjZocVl0Um5pWFZvN1R2Q2NIcThHQ2ZOalFRc21LQ3AyWVV4amMtal9pbmdySTdjcUxNRVlDQWlyc1RyVjA3RlpEN1F6VEEwU3VkTEhMR2ZqQmlwVHVOeFMwSkkyZmdINFp4bm9SX3ZSd1dMY0lmRi0tQQ?oc=5",
+          "domain": "EnergyNow.com",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:09:40.000Z",
-          "rank": 56,
-          "rel": 8.8
+          "date": "2026-11-07",
+          "ts": "2026-11-07T13:52:03.000Z",
+          "rank": 94,
+          "rel": 7.7
         },
         {
-          "title": "Spokesperson for the IRGC issues a warning: Mines are ready. The Strait of Hormuz is entirely under the control of the IRGC Navy, and any vessel that violates the rules will face a fate no different than encountering drifting mines within the dangerous zone of t",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83UnB4NXJOVzViMVVSdnhybHZQUnM3N3ZGdmtTT05peVU3Z3FFN2FtWXlGNE84eDF6M01mbzgxaTVKVzlkNVhTd0x0dERRUmtLOTdQV2NjX1pzWThBRFhCTGYxZDBtRldYVmFmWXRB?oc=5",
-          "domain": "CGTN",
+          "title": "‘We’re locked and loaded’: Trump warns Iran of strikes as talks drag on",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdXpsNm5zZ0FxUmQxRjg2RVJ4VS0tb2dLNy1SMEtSYnNndHB5QmF4QWQyeEMwVEtia3FaLS1KUExpRTZKRU5sSUl3emhfRXZJcWF6cmNkN2QxV3R3NnEzNW5sSG1HQnhwNldod2ZEODNfRUoybWwyeE41TDhsbE9Ed3RFeERQVWlSaDhqaHRqZ1JVcTZWT2czazdJNXFJSnVGajRydUZ5Q2FDU3hGZXdzWkgxUTIwRGZtUGV5TVZWZkt5QWlFbjk5ZW10bzZjeTM4OGcwVE1sSkJJbU4zcGY5ZjhLeFJqZ9IB6wFBVV95cUxOTWpRLWZDNXBNZEhIUjVLM0pjTjV3UU83UHZMVjdNdE1UMXo4VE5XV00xakNxNWxMZGtneTg2Vjdya3BZZHlJZTVEYkNReUxELVhyeTBjNXRSN1VmaG5PTWxjUUVhV2g3bGdFZTludDlUODg5Nm1ELVZLSFhzbzZBZHlTaWNrQVljNlpUMFdKMzZTdkprMWhNaWFRY05ndEVaUU5zS0VlSDlVQUk5S2pxZDI4eXhGaUZpbjFCdzAwVFRHeFlEWFp1enNaV1M1LTNBWXZqUk1Tc0tSRWdnalRDVURnRkd1bVRpUzhV?oc=5",
+          "domain": "Firstpost",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T10:58:10.000Z",
-          "rank": 17,
-          "rel": 8.5
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:50:17.000Z",
+          "rank": 44,
+          "rel": 7.7
         },
         {
-          "title": "Bat Yam, Shurat HaDin Sue Iran for NIS 208 Million Over Deadly Missile Strike",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeDl5YnM0b2tuSGJ4bThIdHRJdFNHVlRfZUNpSDBMbW1iVTdNOVkxRXBGdHVWcUhPd2RFQlV6d0Y5Q3hUWHk3akd4ZjBVc1BkZ3lkT1lqeUFMenpwWm50UnItX2g1NENONkpIN2JJcTkyOU0zM1hTTm5jV2tNR2VKMFNLTjhPYmpWeHl1TWp1alU4R3BDNjVUcU14anlmRzd3OWlWNXRCS0VOaVFaREtxSHZ3?oc=5",
-          "domain": "The Media Line",
+          "title": "Iran stands by demands to end the war as US ramps up military pressure",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTkgtZG1NRldabldXcTZyQ2ZCMjRVVERlVW1ralBFRUdDSUJSTm43X0lWRzVTUGZ3akZqVkl2c2ttR3VnQVNlc0lhU24yY01DM25jTWdwY3NBMzl1NkhOTlNZSnBKcFk5X212QjJXc1RSemQ4NVUtSGhxc0JvQWpGU0xhdVJxcGxFaFFkbzZGalpabDNsMzhpOU1jdVhHazh3MmhVOTdSRVlWZW5kYXBuddIBtgFBVV95cUxOWjNoNFZsbXJob0phMTUzYWt1Q1FONkdmeGRDZV8xcUJfNXZxQm9PaExVMFY3U2M4QWFJdEV0dHd3OXpSY0Z6WXcySFp0ZldFaWRDTmxXSTJNRFE3LU13c3VBTk02djRxZUM2Z2pvTUFRbmxmTEpXM1VUUTJPenlqLWFRZ09MTTI1ZUlGS3pPS3Flajhua1poeXMtN01ENmdNQ2FsMDJzVWNfSzBXalJmenpDRzZBQQ?oc=5",
+          "domain": "Al Jazeera",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T16:03:50.000Z",
-          "rank": 30,
-          "rel": 8.1
+          "date": "2026-11-09",
+          "ts": "2026-11-09T14:45:01.000Z",
+          "rank": 1,
+          "rel": 7.7
         },
         {
-          "title": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSVljNk9VX0xKSElKQjgwMVhnLVpzdmZMTE9YMW5Eb0FpdFpkb0tkczBNZkh1eWFyLU5VanpKU3VGd21EUk52bGc3ZDN4UVd2UFhHM3VReWVUa2kxTVQ3TlJ5UkRFbmdYQzAxTVF0bldhS1BIYjhIOWx4RVU3UnZiMkRORW5nUHJERUQzeTdoSE1kRzlmYVduLVhUbzkzMVFNX1pqb0I2YXZpT1FJRW00alBCWXQydmc?oc=5",
-          "domain": "Reuters",
+          "title": "Iran’s authorities harden domestic security controls amid US strike threats",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejM4M1haR2lZMnBiOEpTSTJOazlhRHNRQ0N1Wk1GZGJlYzJpZGd5b1JBLXV6ZXVRMEhtZXJzdHVtSlBfNVMzdzNVTlF5cEVUNGwxbnB3VVBGMG9kMlpIM3g3ZDFvWVJKU084NnBndnpYdVFFMDY5eTBad3RrR1BoOHlwc0lyNnNMODJPbDR0SDhoVXRxUWdaRU9TUkd6T2hfRldBQTJPV3dJVEJCME9YVWtsM0Z6d9IBuwFBVV95cUxOcDI0VFBIaVBFVnVCa1UtV0IyZmVnWkhPNkM5T1p5dy1UMU9rMkRzMk96ZE1NLWlkS0pmNkJnVnNGQUFUNTBaQjJtSWZlYzhEamMxbzk2a29OSHdNWTREUDh3S3RJR3JvWHh1V1ktVFRxUWswSXBZUkV2UGtMbmtXeDR5UDBiM2hkai1kbzVvT056YjB2OUM4NmVzOVBURFJrUFNJT1NfT09ZZUpBSzVjMFh3NUFNWHNyQ3hV?oc=5",
+          "domain": "Al Jazeera",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T23:04:12.000Z",
-          "rank": 57,
-          "rel": 8
+          "date": "2026-11-09",
+          "ts": "2026-11-09T10:00:44.000Z",
+          "rank": 28,
+          "rel": 6.5
         },
         {
-          "title": "US-Iran talks show signs of progress even as Trump weighs renewed strikes",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTjA3Q1BhbURndWpNWDRLRFB4Y3BsMVpOQjRTRDdDeWhicmVDa2o4MGVZREszSGNCa2pvRC1rM09QWTJ2TEV3aUxITy1OMTlDNHVNWmw4SjlYTHBsMFAtc3d1clkwX01qUjlqV1ZLQmxoMG1OUng1TzAxTE01dHlMelhlVlBKdVpQNnF5STJWTTBZQ0xLU0pHZmYxVURPVW5EQjhwTTE0d9IBrAFBVV95cUxQSUpvQVRXbDJvaVY0MDdFd0U3SkgxQVF1enNvM3hBeEdtMzdld2pCNU05anE1VUdUS2FEdERPMzlBR0V0RzZqR2RhbGp0RndQazBld1ZrTF8zSUpERzVQSTNwWFZoQVVYWUg2WHpzVGEtZ1RxUGlGSjY3b3NxUGxVZGhaZ2RiNzYteUZxQkM2U3FQRllodFpwVUgzSXZkaGFzcDJWLUppWmZ5TG5U?oc=5",
-          "domain": "The Times of Israel",
+          "title": "Attacks in Gulf and Strait of Hormuz increase in ferocity while rest of region calms, reports INTERTANKO — SMI DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPTE8zWDAwcDU3VlUxVlltTjR6NHA3LS1KWksyYXhsNlBZX3NZZzNEYXRpTm4xRW1MTWVpblB1RlhBdTA5c1h3NW1QVUFFM0ZCVHZXTm15V09wY25GUURfNzgwc2lxVV9saDJKcS1DTjItWTJPMHNlWVVlWVQ5WHpVR0ZlU19HdnZsT3Z4U1dZV1lDa0tyTVNpMmxkOVlRZklfaVlXTWppdDRXVnctVWVkMGI2VDM1SDR2MFd3bVBGUlRvV3JITGYwZlRwZi14aDI5MWVQNGVLbnJHZnN5M0JTNnB0U0prOFAyczh6VGJ5OWhTNDlTZVZiYWVB?oc=5",
+          "domain": "https://www.shipmanagementinternational.com/",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T18:41:00.000Z",
-          "rank": 90,
-          "rel": 7.9
+          "date": "2026-11-09",
+          "ts": "2026-11-09T10:13:34.000Z",
+          "rank": 34,
+          "rel": 6.3
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T00:52:36.111Z",
-      "count7d": 66,
-      "prev7d": 6,
-      "capped": true,
+      "source": "gdelt-timeline+rss-articles+unscreened",
+      "fetchedAt": "2026-11-10T03:35:10.183Z",
+      "count7d": 1327,
+      "prev7d": 2644,
+      "capped": false,
       "surge": false
     },
     "IL_LB": {
       "query": "(Hezbollah OR Lebanon OR Lebanese OR Litani OR Nabatieh) sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-15",
-          "value": 122
-        },
-        {
-          "date": "2026-10-16",
-          "value": 159
-        },
-        {
-          "date": "2026-10-17",
-          "value": 157
-        },
-        {
-          "date": "2026-10-18",
-          "value": 201
-        },
-        {
-          "date": "2026-10-19",
-          "value": 274
+          "date": "2026-10-13",
+          "value": 19
         },
         {
           "date": "2026-10-20",
-          "value": 164
-        },
-        {
-          "date": "2026-10-21",
-          "value": 160
-        },
-        {
-          "date": "2026-10-22",
-          "value": 132
-        },
-        {
-          "date": "2026-10-23",
-          "value": 99
-        },
-        {
-          "date": "2026-10-24",
-          "value": 257
-        },
-        {
-          "date": "2026-10-25",
-          "value": 71
-        },
-        {
-          "date": "2026-10-26",
           "value": 7
         },
         {
           "date": "2026-10-27",
-          "value": 5
-        },
-        {
-          "date": "2026-11-03",
-          "value": 8
-        },
-        {
-          "date": "2026-11-04",
           "value": 4
         },
         {
-          "date": "2026-11-05",
-          "value": 16
-        },
-        {
-          "date": "2026-11-06",
-          "value": 44
-        },
-        {
-          "date": "2026-11-07",
-          "value": 52
-        },
-        {
-          "date": "2026-11-08",
-          "value": 94
-        },
-        {
-          "date": "2026-11-09",
-          "value": 2
+          "date": "2026-11-03",
+          "value": 70
         }
       ],
       "articles": [
         {
-          "title": "Israeli army continues strikes in southern Lebanon despite framework deal",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSkxXMS11VFNEVVQyYmljVlBhNEZGXzVyWjBJNFNUOU1CLVBqTGIyOGhFZUtrYWMxWXloNWFnbndObTNTTThrU19PdDFjLUVSRkYtbkdkaGZBakEwMWlxSlNnY2NUeVctN0tWTU9QbG1LN180Z3lRTHUwd19JTU9ibWI1b2tlUmRGUDVHd25WeFRIaWdTWHJhX25jM05vZUxIRDN0Y3pHRGI0VUVYUW5MQ0RBYXh5M1lkOUE?oc=5",
-          "domain": "Anadolu Ajansı",
+          "title": "IDF finds weapons stockpiles, Hezbollah military site near UN posts in south Lebanon",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRXNrTzcyY2pVZ2NnU2duYXcwTHBYYUJEaFVTZGk0cFJkMl9FU09ZbnA4dnhxYjRjVVJBSjNFaTVxbnlzRTFmNEJJRUpwa1ZMZnZta0dCU0ROTnlQSHBvMFkycTNLSEgwTVp0Rk1QVFJUcEc1WGlhWWxaY3A5SjVTZVVmbXA5Y3ZyUjF5VG5zbmZOQUFGNzY3bFFXZEtNVXRGcWhYQ21CMkZRRmxMcHh1dFp5VlpEWUljZWp5Yk12RkJ4aHZEdnA2cXVtbTMyOWNO?oc=5",
+          "domain": "FDD's Long War Journal",
           "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T10:59:04.000Z",
-          "rank": 5,
-          "rel": 8.5
+          "date": "2026-11-09",
+          "ts": "2026-11-09T20:06:37.000Z",
+          "rank": 3,
+          "rel": 9.2
+        },
+        {
+          "title": "Israeli Air Strikes Hit Two Southern Lebanon Towns, Shelling Reported",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMGtoV0YwMkZuY05McGowV21oV3A4UWtiU2ozWnZBNWgySWJBdHFXNjJfYm5FV0MxcjFNcVFmWnFHaDl4NjFyUlZ0c0MxX1RJZDc5WlRiWjhzZjliR2J5WC1vdUNhaUx4SFo3NkVKSzJWU3B1WnFiY0Rkekw5QWVaNXNsZG5OVnZaVkk3dEpuZ21JOTlER3BJN0ZmOW5VZw?oc=5",
+          "domain": "وكالة الانباء الاردنية",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T13:46:42.000Z",
+          "rank": 69,
+          "rel": 8.7
+        },
+        {
+          "title": "Hezbollah weapons uncovered close to UN posts in Lebanon, IDF says",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XaWlpMTJhUnpZcjVyRVgyRDRwWE14YWlUMXlOcUlGNFFJVXJUYzlPRmVLYWxVc29RSGpSWkFoMHhPSzdQaDJCSW1zTWFpbmtVVndTWTNwemM5YXk4aTZHVmM0bkpIeDRRUmZYZFVpN2JWY3hUTFVseDhxMzJuMkU?oc=5",
+          "domain": "The Jewish Chronicle",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T11:03:23.000Z",
+          "rank": 31,
+          "rel": 7.9
+        },
+        {
+          "title": "Lebanese army says 6 suspects detained, many weapons seized during raid in country's east",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZUNCS0pocGU4cTNmdTY3V0pfa080Z1hrRlEtWmh2TS1haTJ3SUhxdXZTTC1fdnlJRzdVRWJ4VDN2WVJjMzJXRDBhMmZtbjJLU0FaWi1RNDRPZlpoajBCSlNyMGN6VGhzWXVzN2FLbFEzRUlFbnVMNEk4bjBmWUxYaWV1V25HcmlnZll2Tms3TW5POGVqZDRFSHQxTktzZUdhTER1clJoTUhManhCREdFOWp5WFZZN2FhSE9ENTBYbmlrS3FRVU1VaU8tRGZpZw?oc=5",
+          "domain": "The Times of Israel",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T08:40:06.000Z",
+          "rank": 32,
+          "rel": 7.8
+        },
+        {
+          "title": "Israel strikes Hezbollah positions in southern Lebanon, injuries reported",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObjFZMFhORkRNTFU5RU4xTGJQN3RIOEx4TjUtdmF1TGc5eUE4ZHE0d3pjWWNYbFlUZ0NGYlZuamhHb3AtVnBfdXJvUERES3RqWFV4aWRoVUdpeHhDcWRlQl8xQWxienhhMmpXVldBUFhwY19aS2huNVlnRGpSMTRaLTlvdkdPYkZwSkV5QlBLdUNVZFRtNWZCQnFnT3czdHhia1VNaQ?oc=5",
+          "domain": "Apa.az",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T18:55:00.000Z",
+          "rank": 40,
+          "rel": 7.7
+        },
+        {
+          "title": "Shafaq News..Israel strikes towns across southern Lebanon",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSkl0ay0wb0wtRzdDODRnY1JiTFVILWRSYzVTT096N1pnUGluTWtlRi1oVDVJTDZNSWhyRWxaUVdmSXZCdnpsYXFRV3F4QUJySF8tbkNmRGZzSXIyR1pDTTg3emM3dFJzaGpqT1JqaUFEUl9DNUpRSXBzUExEVXZ6anpOOWY?oc=5",
+          "domain": "شفق نيوز",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T21:30:59.000Z",
+          "rank": 6,
+          "rel": 7.6
+        },
+        {
+          "title": "Israeli occupation army continues aggression against southern Lebanese towns with artillery shelling, explosions",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtUVA5NU5xWXYyc3BNUExDUmQ1MGlpRmxSSngxdUk5SnpJV1hnT3hWRnRtaUgtOWtRRWJKR0pJSC1qOXF6Yjg5UXpoMUZjTDg?oc=5",
+          "domain": "وكالة سبأ",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T17:24:21.000Z",
+          "rank": 43,
+          "rel": 7.6
+        },
+        {
+          "title": "Kataib Hezbollah’s shadow looms over Iraq’s Khor Mor strike",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbzAycHUwTHRCLVlKOENMaWNnNlVpdkdHRlh5ZEJ1dXFDVlZPQy1zYnZZV0RhMHE3aktjLVc0NUhubTFNVnlwbTUwdlk1bHoxWlJYMkpZeW9PS1drZ2IzR1VmendoclA5V2JmaFRNRzFYbGROcGZWZURJREV6TFB3b1p3Wnp1MkhvR25UWGFNVQ?oc=5",
+          "domain": "The Arab Weekly",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T09:58:31.000Z",
+          "rank": 10,
+          "rel": 7.2
+        },
+        {
+          "title": "Lebanon replaces Detroit consul expelled over 1983 Marines attack posts - Al-Monitor",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDQ5STF5dnAyb1daZjJhNGx3ZUYtNm5fR2xBeHJKMTU2NlhmY1lqSWtZQTV6OHhzZXozYzltQ2owTFk0Ykd3bTZaN0RpSVYwUDQtUlFiYU5KS0tNaDZsVWc3ZXFUbVFfSDVvZ2Z1cDRqLU5ldktNRlY2Wk1xbjA5S0JoTm9QYW5VaTVkdXRnSzNONmRiRTAybXJCdFlJLWFmRGlLMjJNeHpWNUZpUVBhWklfZUp6Xzg?oc=5",
+          "domain": "Al-Monitor",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T17:28:52.000Z",
+          "rank": 9,
+          "rel": 5.9
+        },
+        {
+          "title": "Israeli strikes target Kfartebnit, al-Qantara in south Lebanon",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcS0wX25wQ3VNTmx3aEZJN1d6YURqbnBRemp1SGR4dXNaOUZYTW5uYU9rRWNMMUpmcEhjaS0ySTdpVTllbHd2X2prSnAzVmlUY1ZwY3g4bzdXd1FjRW5NMWRxcnJIcGZiVXAxMWRjdDBvanh3Rk0tNWt0SXBiZVF4MS1RSDNxWnlmRFg5Ulp1ZWVLNTVZNENiblpaRXVYVDJ0LWRTNW9mWQ?oc=5",
+          "domain": "Naharnet",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T10:31:00.000Z",
+          "rank": 94,
+          "rel": 5.6
+        },
+        {
+          "title": "Lebanese media says Israel strikes towns in country’s south",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmg3VDBCSlFTVWVPZlVrdW1KZFFYRVItdW45dUZJR1RxQVpBSm52LUdSR1ZHSHo5QmhnSi1lSlVoYU4yYXRCT3BMcEFzRldQejU1aHVuVlB5b3dPVmZYVmtZdEJUTXg1ckZHYnpOWFI1WHRYdi1yQWNyeElTV0ZFVHFQMDRSSjJQZU5oNUNyWmM0VW9ac3I4d0k0R1hDYVdTVkJCNWdITQ?oc=5",
+          "domain": "The Times of Israel",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T08:25:06.000Z",
+          "rank": 76,
+          "rel": 5.6
         },
         {
           "title": "Press Release: Hezbollah Weapons Found Within 200m of UN Post in Southern Lebanon",
@@ -825,117 +905,17 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T19:07:28.000Z",
-          "rank": 8,
-          "rel": 7.6
-        },
-        {
-          "title": "IDF reports finding weapons near UN posts in Lebanon — Jerusalem Post",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX2w4OTBaVE9KaUl5bUN3RE5IX1h3Z0FuQS1oaVlNWTR1LUlPS1lXNHVhU2tfaklFTWZ5eEdEbmlsTzVhS1UwcVFyWUNmVk1hc2pVY1FTUlVnc1NsRElxNWFVdEpLYnJQdV9XWWFCRmF5VFFpNk5OVmFqUFA3QTlTelpDVkhEeEZSWUhiME5MZ0lxZUMwNU50MkJwbm5VUy1LWWlOR0ZiZWw2bmh6T3dtZ0J3?oc=5",
-          "domain": "UA.NEWS",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T18:18:00.000Z",
-          "rank": 11,
-          "rel": 7.4
-        },
-        {
-          "title": "IDF uncovers weapons caches next to humanitarian aid boxes, near UN posts in southern Lebanon",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aQXhENU53OWhIV3JiVGhpYUVBSy1JNnVSQUFPN3pwbG9DUlRGeGthWlVzbi1Yek5Rek5lR3BoOWkzN3lEU0plbDJmaG5aSmF6WXhFbE5FOTZlMHNmME5sWGh0dDFxN0gxVmxreUVn?oc=5",
-          "domain": "The Jerusalem Post",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:25:11.000Z",
-          "rank": 21,
-          "rel": 7
-        },
-        {
-          "title": "Israeli forces fire near Lebanese olive harvesters, detain resident amid southern Lebanon incursions",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOalRIaVhDTnZJdExRb01CaTRnU3FlVFl0cFhmQW1VUUVPazQ5VVh4dmkwR21CQjZqaGZUcS1FOTI2aE5hRlVJSTUtMnlRMHdfaWdmcktWakxWNTlzRU54UzJxYWFUWU0xRHJYcl85ZEJaeTl4VmVCVHpOakhZMktzLUxhNkkyWk5nVmwxdUY3R1hZSmVmcWZyQk53aDVMNjIzSUxsc2pYdWp0NWZvR0xHVEFneFJsMzBacklQMlNOdHMwZllBUFQ4a3QxWXdOVkNuZGdLa213Z2hBMXAz?oc=5",
-          "domain": "Anadolu Ajansı",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T16:36:18.000Z",
-          "rank": 43,
-          "rel": 6.6
-        },
-        {
-          "title": "Israeli army: Weapons and operations room found near UN site in Lebanon",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ3JjSDJJTVB0RFU3MnVlZXJxcXJwWTE1ZmVlb0lheHEtYk9Kakl3cHp3S1pQUkpXcDV6UHB5am42RGk4WXFIZUN4enVaYkdPa3JwUHR3WFBOSVNzTm1XYUxSMTJDVHNOTEx5ZDYxbVdEOHRZMFlFVWpwc2RkZkxYa0Y4Nkx0VnVXanktUUV1aG51NXJPM1Zqbl94Y3ZKbElON2ZXUGdsLV83VlBqRDhKc3BNNWZLQnlDN25jeFVsNjRHMzRkdlNueUJuWTBEbXpLQTZzTnF2U2hDOFVlQzUtd1p2N21tSEVhNk9UeFRNeDBUNTA1b1U5UUlxZTAtcVBM?oc=5",
-          "domain": "صوت الإمارات",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:32:13.000Z",
-          "rank": 38,
-          "rel": 6.4
-        },
-        {
-          "title": "Intensified Israeli escalation in southern Lebanon and arrests in border villages",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcjU0NEhQM2N4MmJPdmctQnJDenVpSHFCY2E4V2xQczA4Y0ZjNkJ4bUVyRTlPRVVSWTdGTmhwbV9HeWNFWkFkb2lqTm9YSjZteUFGdTJwWEljdUs2bW52aWpVME9uV2FVc3VNSzIzd18wZmsyVmstMkZnVjhvTXkwYWo4Qnd1MDVyTDFtZ2ctZlBWTTNYR2NiMTJ6U2NtbW9LaFRIT1VDM3d6eUhzdV9CRVV0WERRd3FHNFRndzVvTjF0a3pNZzg2dEVKNUMwTEd4Z2Rz?oc=5",
-          "domain": "صوت الإمارات",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T08:57:37.000Z",
-          "rank": 37,
-          "rel": 6.2
-        },
-        {
-          "title": "Lebanon Fears New War as Hezbollah Retains Say Over Conflict - ASHARQ AL-AWSAT English",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQjZTQVZsXzB1UUlQVWJHLUpmNnBpZHNxX1FQb3liM25vdko1djhsTXZFV3g1ZUpndlk4Vmxlbmp0bkJEX2E0aVBobDFNZWZtdW5aRWFsQmN2YzZUdzYwdDVySlNTU1FKeVpDRkVUb0RJMjJUUV9xbkI0N2JuQm04R2ZmYU54SGtJVUJFSldhMlA5NlNUZllnVmhiUzFhMWV6d0h3b3JR?oc=5",
-          "domain": "ASHARQ AL-AWSAT English",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T19:16:26.000Z",
-          "rank": 6,
-          "rel": 6.1
-        },
-        {
-          "title": "IDF says Hezbollah sites found near UN posts in southern Lebanon",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQX3NWc1ZHUnlVclVhN21TRlFqbzhlcTNSc3Q5M0t3b3l2VE5MTnNIT3JjdGF2bE5BRnRnUHNySElmT21CMDlQcTlyTnRldEZsUWhpajg5SEd3VnhaWnM2M1ZPRXRyQlNTMTN0a2l5THlfaFBDTEppbXF6cUJOZkNSSUtWZzNPVzBhaU5vSV83QWFJelFNOTR5Yk1yWUxDRlM4dl9PN3JnZkR2b0NJazR3?oc=5",
-          "domain": "The Times of Israel",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:37:52.000Z",
-          "rank": 7,
-          "rel": 6.1
-        },
-        {
-          "title": "Israel continues southern Lebanon strikes despite framework deal",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQczY5WGhNRDI5NWJMQlhGSFZMMVdWN1hNNHFac0dSRFAta2NMMThONWh3dXNVVnVSejEtMEprbVhnY0VlTXJYUlFFbHpsSk1idWNQZjlRTTBkMnN6OWhCRm0zdHprLTVDY01vVV9tN3pBT3JOd0dFU2RiRG1henlGTVdmaWJqcnVNNGNSa3B5QkJhYmFGVGdBdEZnbWgwcHdJanE2ajln?oc=5",
-          "domain": "Yeni Şafak English",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T12:08:10.000Z",
-          "rank": 45,
-          "rel": 5.4
-        },
-        {
-          "title": "From Tehran to Beirut: Who Controls Hezbollah's Decision to Go to War? - ASHARQ AL-AWSAT English",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXowM1dybUxfX0MzUzc1RUJfTjFvZHU5b2IzS2JUZm8xM1FxbW5kampGVDM0LVNDR2FPcEtHX3A5aGlxZ2NyX3pBQ2xKa0k4a2lVam9SZnVieGE4ekNVUzVXd3dmaVpXdVNIMkpBa2wydWdEZUpfaGhaMXVzeFY2WVpzNXdWOWphXzVxNHRadmVaQVYyTFB1UzQySUxWN0FK?oc=5",
-          "domain": "ASHARQ AL-AWSAT English",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T18:01:37.000Z",
-          "rank": 60,
-          "rel": 5.4
-        },
-        {
-          "title": "Lebanese army: continued Israeli occupation threatens Lebanon’s security and stability",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZTThBWTRGWXd6cUNTRVYxb2tsRzR4TlV1aXlXVzNJRWhYaFNCVWN6Z0cxdXZkQ0syOVlDV3ZTekR0ekZiYXZQOEplSlc2WXlf?oc=5",
-          "domain": "سانا",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T07:29:46.000Z",
-          "rank": 89,
-          "rel": 5.1
+          "rank": 56,
+          "rel": 5.3
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T01:05:58.621Z",
-      "count7d": 220,
-      "prev7d": 731,
-      "capped": false,
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-10T03:48:28.969Z",
+      "count7d": 70,
+      "prev7d": 4,
+      "capped": true,
       "surge": false
     },
     "TH_KH": {
@@ -943,23 +923,33 @@
       "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 10
+          "date": "2026-10-13",
+          "value": 14
         },
         {
-          "date": "2026-10-19",
-          "value": 24
+          "date": "2026-10-20",
+          "value": 22
         },
         {
-          "date": "2026-10-26",
-          "value": 12
+          "date": "2026-10-27",
+          "value": 8
         },
         {
-          "date": "2026-11-02",
-          "value": 16
+          "date": "2026-11-03",
+          "value": 17
         }
       ],
       "articles": [
+        {
+          "title": "Thailand Receives KB-5E Drones After Reported Cambodia Border Debut",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRUJnMTljcXV5Q1ZiQW5fblkxb1R4T3VIbnRKNHVfUmZXa25aV29aSFpVSTJxZThKY1Q3TkppQmRVZm80VkNqLTczX2tpdUxpUXNLa1NLdVozWlBlUmcxanFWdE5LWWJrUEZTSXNNb2l0NW90RWRudGNNUkJBODcydUl4NDA?oc=5",
+          "domain": "Defence Security Asia",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T07:21:27.000Z",
+          "rank": 2,
+          "rel": 9
+        },
         {
           "title": "Nearly 8,000 Cambodians remain displaced along Thai border despite ceasefire, Cambodia says",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVHFKUUlBLXVGOXQxVFc0c01DZEVjNk5ESGdmWG5Xc1FDZUpHUXpFcURpaFF4OHZTYW5FdjJCaDlvVXFRTVpXMGpUTE91UktFV0dVbk4tYXVLZjJEelpJYmRtRk9kaHcyLW5NUDk0MlZfVFZ6czFheGdmZjVrek5adkNpSDAxU2poWEd2R2s3aW9oNzVBUk5wUzdrN19XQUxjTlc3VDlSR3ljMG9jQUZiRUJzbWVNd2h3Ym9FZnZJTXpqRWR3b0poWVFuYjc5eVN1dlE?oc=5",
@@ -967,18 +957,28 @@
           "country": "",
           "date": "2026-11-03",
           "ts": "2026-11-03T09:08:34.000Z",
-          "rank": 3,
+          "rank": 2,
           "rel": 7.9
         },
         {
-          "title": "ASEAN Observer Team visits Stung Metuk Bridge to monitor Cambodia-Thailand border situation",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMHllYXRqa3o2MFIyZFVUajZHdnJ0czhnX3VZUzhBaVRUUDdkSXVTeVFjS2wwR0VfMHpOVjlfYnZRUzZVTG9UbmhDQXpXTENJVXFQeXpaRWw0N1BtSXR3ZTRWT0FuU2ZDcFpOYWxUMTFhTDh4ME9pczRGWDd4SkJjY1dpUEZfRGtpOUM4TmJTVnBNUnVGSUdwZlVzSTBDaW5iRUxHWGJRRUpKSGVkdXZLOXBXWlNjMFJDdGEyTUxjcTRwa3k4YTBnTjRzOA?oc=5",
-          "domain": "Khmer Times",
+          "title": "Thai army outlines security measures on Myanmar and Cambodia borders",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EUzNPd1BoV2dfNkh1Y1VmNHpvckt5TTAzYldoTU1GVU12b0VMX2o5UGVUOVk0b1NlcFhDZVlMTnVsdG1qc3VUeFN2djh5UFVXRXZYbE56OFlkWXI0UkI0?oc=5",
+          "domain": "Nation Thailand",
           "country": "",
-          "date": "2026-11-04",
-          "ts": "2026-11-04T17:03:31.000Z",
-          "rank": 19,
-          "rel": 5.7
+          "date": "2026-11-09",
+          "ts": "2026-11-09T05:42:00.000Z",
+          "rank": 0,
+          "rel": 7.5
+        },
+        {
+          "title": "Thai Military Fired up to 7 million “Cluster Munitions” on Cambodia, CMAC Says",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdVBvcWRFOGI2WHdTSUZoMFA3RWs0Z2U2UXdjdXNGNUVHWkxYMEVuaFU5bDM2V1VZSzY1VVR5bUxJRmNkWUd1ZEd0OGtDc0xyZ3NVeENfWjlsd1VZVEVuRkN0a0pSY2RONWlKeVJDemJQMldiVlNlVGRnVS12OWNZMDQyUUktTzNxSm9YNmkxa3BkYW1iakhuaUZIaFcySEszR19ZQjNnS3EyRkdK?oc=5",
+          "domain": "Cambodianess",
+          "country": "",
+          "date": "2026-11-06",
+          "ts": "2026-11-06T08:00:00.000Z",
+          "rank": 18,
+          "rel": 5.8
         },
         {
           "title": "Cambodia reports Thai troops moved post, digging trenches at border",
@@ -987,18 +987,8 @@
           "country": "",
           "date": "2026-11-05",
           "ts": "2026-11-05T17:37:54.000Z",
-          "rank": 23,
-          "rel": 5.6
-        },
-        {
-          "title": "Can China support Cambodia-Thailand border talks through Mekong-Lancang cooperation?",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQVdYaGhYaEg2VllsMlFaNHpEMVlQLVpDXzRrNXlLMFNKMUJ2X2xTM09RVUUzeEZYYW9FRzN1dUIwX0RIYkpaRmZwZTN5MkZYWkU3MjdjY1k4QzVpUEFCT2ZlcTE3UnY5WThfTE5SNVlwMjgyVGpJc1RDMTItVUxDWWZqQkNiMHVMNnJzSXNqdktfaUcxZGstTkx5RmNBclc2dXNpUU1XbGhaV2l5WXVyd0pfa3QtYVFUV1Vn?oc=5",
-          "domain": "Phnom Penh Post",
-          "country": "",
-          "date": "2026-11-04",
-          "ts": "2026-11-04T10:39:29.000Z",
-          "rank": 15,
-          "rel": 4.4
+          "rank": 25,
+          "rel": 5.5
         },
         {
           "title": "Cambodia urges fast border demarcation with Thailand to return displaced civilians",
@@ -1009,16 +999,6 @@
           "ts": "2026-11-05T17:04:56.000Z",
           "rank": 20,
           "rel": 4.2
-        },
-        {
-          "title": "Cambodia Facilitates AOT-KH Observation Mission Along Cambodia-Thailand Border",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sMmlYOFdUVkVzSmVVaGh2WERCMzhrM05BakZTV1lvbmR0akM0WDJTcDg4dHlYQ3Fmam5BX3Fpb3FOS2FLaW9TVGtoMWVvWnlRclE?oc=5",
-          "domain": "គណបក្សប្រជាជនកម្ពុជា",
-          "country": "",
-          "date": "2026-11-05",
-          "ts": "2026-11-05T07:50:16.000Z",
-          "rank": 24,
-          "rel": 4
         },
         {
           "title": "Chinese, Cambodian, Thai foreign ministers discuss cooperation, regional stability over tea in Beijing",
@@ -1049,103 +1029,69 @@
           "ts": "2026-11-05T14:14:50.000Z",
           "rank": 13,
           "rel": 3
+        },
+        {
+          "title": "Chinese FM discusses regional issues with Cambodian, Thai counterparts",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObkJhM1BfVi0zeVAzaXVjLTdXdElqLXFiYVJoM0dJY3JyZzlTYldMdXVVTHRpNVMweHl3NjNnZTFFeHhsNFlkSkgtczdIcjdpS1ZsYy1YRE9DNnJUbHpyYTR3WDdsYnlaZTNZVVNTanBhWWFyMXA3MkYtU1hMM2pOd2pRRXpvTmpsZ21pWVIwZU9YeXhvbGRja3duMXdCZUR2ZklqZEZtS0prbWExaUtsX2RQRmJiZw?oc=5",
+          "domain": "Big News Network.com",
+          "country": "",
+          "date": "2026-11-04",
+          "ts": "2026-11-04T06:59:00.000Z",
+          "rank": 26,
+          "rel": 2.5
         }
       ],
       "screen": {},
       "screened": false,
       "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T01:07:27.968Z",
-      "count7d": 16,
-      "prev7d": 12,
+      "fetchedAt": "2026-11-10T03:49:56.714Z",
+      "count7d": 17,
+      "prev7d": 8,
       "capped": false,
       "surge": false
     },
     "US_VE": {
       "query": "(Venezuela OR Venezuelan OR Caracas OR Maduro OR \"Delcy Rodriguez\" OR Machado) sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-15",
-          "value": 212
-        },
-        {
-          "date": "2026-10-16",
-          "value": 234
-        },
-        {
-          "date": "2026-10-17",
-          "value": 48
-        },
-        {
-          "date": "2026-10-18",
-          "value": 65
-        },
-        {
-          "date": "2026-10-19",
-          "value": 145
+          "date": "2026-10-13",
+          "value": 7
         },
         {
           "date": "2026-10-20",
-          "value": 173
-        },
-        {
-          "date": "2026-10-21",
-          "value": 193
-        },
-        {
-          "date": "2026-10-22",
-          "value": 129
-        },
-        {
-          "date": "2026-10-23",
-          "value": 74
-        },
-        {
-          "date": "2026-10-24",
-          "value": 126
-        },
-        {
-          "date": "2026-10-25",
-          "value": 58
-        },
-        {
-          "date": "2026-10-26",
-          "value": 2
+          "value": 33
         },
         {
           "date": "2026-10-27",
-          "value": 2
+          "value": 9
         },
         {
           "date": "2026-11-03",
-          "value": 13
-        },
-        {
-          "date": "2026-11-04",
-          "value": 6
-        },
-        {
-          "date": "2026-11-05",
-          "value": 22
-        },
-        {
-          "date": "2026-11-06",
-          "value": 87
-        },
-        {
-          "date": "2026-11-07",
-          "value": 67
-        },
-        {
-          "date": "2026-11-08",
-          "value": 39
-        },
-        {
-          "date": "2026-11-09",
-          "value": 0
+          "value": 51
         }
       ],
       "articles": [
+        {
+          "title": "Hegseth faces possible impeachment over Iran war, boat strikes and Maduro Raid",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUpBcHNCQjlLSEZEVXFiUVFIRTNqOFIxRjYyQUo4QjJrUURBVEJmTUtNZlJCRVA0azhkXzBQZVNqN3VwbHNhTktGOUNVQ3lfMmVxcEV0TzN2a1gxMkUxYnFkVXdXaVdfeFBOb1B6WUdTTUpJV0E0b29HRnBIM2NZSm5oTVdEbnViSDVNNm5ZVDk2TEY3ckpLRnBqSkt3ZEg0bmhkTUVZaEpVcmd5RFhN?oc=5",
+          "domain": "Task & Purpose",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T20:35:47.000Z",
+          "rank": 20,
+          "rel": 8.6
+        },
+        {
+          "title": "Exxon Strikes Preliminary Deal to Return to Venezuela",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMnFaeURESFFwUWRYeXZsQVM0WEZHZE12Q005b2k1ZVJzdjN3R2hxcm84eHFOZDZzWm9BMFp0aHZscmY3V04zd2VNN3VlYnlJVzRKbUhHY2Naa2JXTnp4a0xIT1ZDRjFTc0NKeEd1TGRxUUVqSWpMN1EzT2gxX0hjRjllSE43TVBieUVVNTNnUEluTDJ4QXZrWm5udE9rNTg?oc=5",
+          "domain": "The New York Times",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T00:51:53.000Z",
+          "rank": 6,
+          "rel": 6.2
+        },
         {
           "title": "The Venezuelan opposition negotiator advances upcoming releases of political prisoners",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMm8tb3F5MGJMT1oyZUR4Y0ExajE0b3pSV21oa2RGM19HZ1V0NnVaSXh0cFM3RmdJR1dXZi0wcXFKblBDdEh0cFVGVWt0UVl1N1Y4cDMzbm00bWFSb19HS0VxUzdzTTA2d0dSMTAzWUp6WnFSVlowc2k1ODREbHRkaEtqWkRTejdSOEMxUm1yZ1hxVlByYk0zWjdqNzNwUkxTbDR4aWRTai03cDIydGFpXzFEZElXV1BCbTBHRjM3VzRlUlpuWUVLbdIBzgFBVV95cUxQNWVLQmhhQ2haNmVDNjdkYkRVTkY3X2wxaEZja3ROLVdBbl92QVc5aVFLZEliSjZONVRGb21UbVRLbXNuYUxfOXNIQmNJU29MSS1aTEwxbnFGenpmdTNmZ2hfSHZ2Q0V0aUNIclo0NUU5SjQ1aldLZzllYjFSb1EwWmRvNFhVd19NZmRmS3dVVnFfVVptaXZUam90RDJ6Nk9HUGItX2thcFdnSmJTejQ4OEo2eWZ0R3V2ZlMxdTVxYTMzV3hfV2wya1ZacUpGZw?oc=5",
@@ -1153,28 +1099,8 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T22:22:26.000Z",
-          "rank": 47,
-          "rel": 6.1
-        },
-        {
-          "title": "Trump defends Hegseth amid impeachment threat, says US military operations in Iran, Venezuela successful",
-          "url": "https://aninews.in/news/world/us/trump-defends-hegseth-amid-impeachment-threat-says-us-military-operations-in-iran-venezuela-successful20261106042820/",
-          "domain": "aninews.in",
-          "country": "India",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T03:30:00Z",
-          "rank": 13,
-          "rel": 6
-        },
-        {
-          "title": "María Corina Machado renews call for the release of political prisoners outside a Venezuelan prison",
-          "url": "http://www.leadertelegram.com/news/world/mar-a-corina-machado-renews-call-for-the-release-of-political-prisoners-outside-a-venezuelan/article_a4667fab-2d6d-5340-8a9d-b8b150582ad5.html",
-          "domain": "leadertelegram.com",
-          "country": "United States",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T00:00:00Z",
-          "rank": 0,
-          "rel": 5.5
+          "rank": 98,
+          "rel": 5.4
         },
         {
           "title": "Kill Trump: Venezuelan Man Arrested Near White House With Weapons Over Alleged Assassination Threat",
@@ -1183,78 +1109,78 @@
           "country": "India",
           "date": "2026-11-07",
           "ts": "2026-11-07T10:00:00Z",
-          "rank": 6,
-          "rel": 5.4
+          "rank": 4,
+          "rel": 5
         },
         {
-          "title": "GeoPark Assesses Logistics, Liabilities at Venezuelan Oil Field Ahead of Takeover",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNejZvTXlpVTU4YTZsWlhMQW9OVmdRazBibXg3NUdKV3hIdHVlNlplYTJINFl0cGViOFVuZVVNS0pPOWVsZUkwTjZaMjRLdHJ0NDZuSTJXWWFCSWxFVEplVnVvYk4yTjl5TnEwcGNIMGFfX0hLNHg2X2Rtb0RIVHBFdkpyT2NTeU4tcVlQTEJLc29aeWNQREJvM1hvbElLdzhqRXNmdXNYU3RFMzU3TXMydW9Ucw?oc=5",
-          "domain": "Bloomberg",
+          "title": "Venezuela on the verge of freeing more political prisoners ahead of key November talks",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON3IzaHh3bzRIcHVSRG1CRFN1YTQ1cUl2YVZTamVXSGwxaXBzU190MFd1UW9nSmh2WTVEeEI4ZGMtOU8zOFRsOFctSGRmcUxsQmlCdDdCMk1kWjh1azhqdUk1dnU0OWk2eWpxa0txT3VGX3JkUzViajNGVXhOaVJ4a3BRMVU2TzdQLVZjMmlvUXFsYmtJVWN4T3pYTmhVdFVyeVlBZTJLOWhKSURpZC1ZR19BeGMtOER6TFAw?oc=5",
+          "domain": "Latin Times",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T16:44:38.000Z",
-          "rank": 11,
-          "rel": 4.9
+          "date": "2026-11-09",
+          "ts": "2026-11-09T17:39:45.000Z",
+          "rank": 50,
+          "rel": 4.3
         },
         {
-          "title": "Special forces soldier who won $400,000 betting on Maduro's capture pleads not guilty - ABC News",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMmoweHJESmpHcks1YXV1Q2d3TWtqSGxGU09wVFR4SVhfRFc1SnhSVHVVd2lkMzB1ZkNzYWNkX2VvMGJfcVdGbzBBNWpYVGR2TXltblQ3a0tHSzdfNWdWeE9pMHA2Q0ttN015czljVl94c3NJWkVrNVk4QTN3RTY3YXJqTWF3ZEp6S2J6ZUlUTU1MRkZGdWtOd1d5RDR1emJ20gGmAUFVX3lxTE9ob01Cb0U4R3ljV3J0Y0hSNnpOdmJVY24tMHNfWEZxa2VjSkd1RjRNVmlYQ1UxMXdDVGExYVlpRDhETEtxaDVVMi1odVlTby1sc0dJMlVWb0VkQjdScEtaYUVVbkQtMzh2UU14Z1hWWFUxaHUxdllCdml0U1psRmxwZnltYy1pMF92WGlLeHRBbmdJVl82YjM3b1R3b21NaEJKbDJ2WGc?oc=5",
-          "domain": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Colombian Guerrilla Group ELN Expands Cocaine Trafficking Network Through Venezuela, With Routes Reaching Curaçao and ABC Island",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNT1hzTS1FTWZOYWd5WFEtNEI1T3Jhc2VkeFA1M2JVUXU0NEFERW9FMGpXaWFtNnV5eHJoWlhtVzM2WloydHlxc0dmVzY2dGRYeGJ6cGRPWlJ5bk1FRy0wdHdVakoyNU9RWW9adnFTUktNdVZkRlhzcmRPQnBDMzNuaTlkSTBJSVN0MTQ5ZVNOTC1pSmVxOGZTQTRHQlJzcFFqX2J1WUwzUnZBanVlNzBuYTB0M01PNVN1OG90Vm03M0FXS2lLSVBKdnVBUU9wWWFUVTZKMHVvNE44THI3VVJlcFBHUlcyenh4MEtQUDVQcjF6d3BTTHFKamR5SENIcVpN?oc=5",
+          "domain": "Curaçao Chronicle",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:20:49.000Z",
-          "rank": 2,
-          "rel": 4.6
+          "date": "2026-11-09",
+          "ts": "2026-11-09T12:50:11.000Z",
+          "rank": 90,
+          "rel": 4.2
         },
         {
-          "title": "US negotiates legal framework for troops in Caracas: What the plan covers and what it leaves out",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNS0tILVB5VXpUbnFXcTFWa1IzQ1l6bXg5a29jaTMxcU1wc3hPNEJEbVJMLWhhNFVCcmJMVjhMRTZrTlA1a0hRZUt1ajR2NEFsVzcxU0VnaWYxY2tqa0twekhreUNXN0V1QTh6emJwSERBaXBjeXJESUtBcFp2aUI0WUo2LWdXOXQzMF9wcV9lelJtZ2VrM0xYM0xmc2Q5SG9LWWJGTDNXdi1keUxRUm5Ha2hYUlVLc2I4X0Q5NVNCTTJjaHNSZ2NIV1A2aTFQQnRyV2VncjBmNFhQM3pET0g2VVhaVW5iZGtHU3ZJ?oc=5",
-          "domain": "Escudo Digital",
+          "title": "Marco Rubio Meets Venezuela’s Foreign Minister Oliver Blanco, Urges Political Prisoner Releases: 6 outlets compared",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbkx6QkRXZHprTHotblpzSnF1QXlESTB4dkJTdlFsWk9Ub2c1UThfRHI2blpxWmtsenFZM2VBajluWXF4MFR4TUZPTVB2el9Ib1dmOW9icGgwWmFNWGRxSG9FTlpWQ3lLczNSQy01R1B3TzhDSTVnbjZGQkJtWVJrTzhESnFyRXBoUE9VWVNfLVg0ZnJqVzk3R2FkTVBhdzA1MHNPOEV5bW1Qamg0dk1uM292V0NnS1ZYZHdwY1VMMWs3T1YwS2tfQ2FjbXNBZHZ0SkJFVXpQMnVwYURlcFV3M2Q0cmFZaDA4Q2c?oc=5",
+          "domain": "NewsCord",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T11:19:46.000Z",
+          "rank": 71,
+          "rel": 4.2
+        },
+        {
+          "title": "ExxonMobil Explores Oil Field Operations in Venezuela",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXM4bVc1RXVxa1N4dmZfczNBT2JHd2JIQkZZWDRnWUI1bnprbzBxaW42UmRGQ3Vfc2o5THFVRFl4d0tDY0JXdUxMejNqQlJ4ai1lUEROS2tsd195LWVjNEt3Tlk0SjNFdURpRlRIUDFoZGlVN3VVT1lfcGhHSlI0R0ZfZGJ1VnV5VU92TWlySmQ3eW81dkRR?oc=5",
+          "domain": "GuruFocus",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:17:23.000Z",
+          "rank": 36,
+          "rel": 3.5
+        },
+        {
+          "title": "Maria Corina Machado renews call for the release of political prisoners outside a Venezuelan prison",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRGZqQ0FYNXRLaUtfbWtIV01NckxTU0RaZFY4eHhXbXhfYkpqYUdGSWhOZTA1VzdOclBOMUZWVzFrY0xjQkVyY3R3MWVPRTRnQUpOa2Jod2tIOEY0Rk9qNjBsazhWNFJqUWxQMUE1Vlhuenhjb2RNQjl0b05ZcXdDQWtqcDIzcVB3YzJfdWR0Z1hhT1NvUlZEblFYOG5WMUJtSkNYV01TeDd1TEpCU1k0QmZWQlV5U3JaR1pKLU9ZRjVsbTZZMHZKeGNPUmZ5S0ZKNlFGSGt5b0xxbHBLYlRpdDRqelgtV3d3TkJFLQ?oc=5",
+          "domain": "The Washington Post",
           "country": "",
           "date": "2026-11-07",
-          "ts": "2026-11-07T05:00:01.000Z",
-          "rank": 28,
-          "rel": 4.5
+          "ts": "2026-11-07T05:34:52.000Z",
+          "rank": 66,
+          "rel": 3
         },
         {
-          "title": "Secret Service arrests armed Venezuelan migrant near White House over alleged Trump assassination threat",
-          "url": "https://www.foxla.com/news/secret-service-armed-venezuelan-migrant-white-house-over-trump-assassination-threat",
-          "domain": "foxla.com",
-          "country": "United States",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T18:00:00Z",
-          "rank": 15,
-          "rel": 3.8
-        },
-        {
-          "title": "Venezuela Political Prisoners",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWJfUTVTS09LRk0tNzNFVjhXZlpLYVVoUU01R1R0VVdYSnB6UE1zVzJwZHVGVkdrSUFicUJvM1BJVmVpOFJ2SmZFWGtNV0RPMVgzalRSQTlHR2pQejNVVW1aeWh6TUgySnMxVVFGbmwzNksyMjNNZkNBZ3pnNVdIcmFIY2VRa1RCdG42eE0zWnh4RDN0MnMzUHdfOEtqU1NCb25fcHJMSjR6cG5iVGdFd0psZw?oc=5",
-          "domain": "goSkagit",
+          "title": "\"Biggest oil deal in world history\": JD Vance claims US control of Venezuelan reserves, energy dominance",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcy1fQmFSS0ZGU1l3akt4YXF3ZDV2bkhwQ0F5Si1NZDZpSzBoQTJfX2VUOHhZMzlJUjhsRG5Ta1kyNDVhVm80V2NFQS1rOGZyb2RGZWtBZEo5ZGtyX2ktNlNnRGl3TTdTWUFoN3dycnBEZUwxNUk0ZWlCSzQtMG9MZkluaGxUUkpUMUtpWkh3SE1sODM2Qms4S3RCb09DUUZ4dVI1SmtqODBXa24tSF9lMVdFZV9rSGE2SXl2VHpMcl9nNlhUN3hOX1MyVmVqRjViV3VyMkxZNnVOQzBhREJ6LTZIZEMtQQ?oc=5",
+          "domain": "ANI News",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T22:13:56.000Z",
-          "rank": 69,
-          "rel": 3.4
+          "date": "2026-11-09",
+          "ts": "2026-11-09T22:04:00.000Z",
+          "rank": 52,
+          "rel": 2.9
         },
         {
-          "title": "APTOPIX Venezuela Political Prisoners - Springfield News-Sun",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPalNwajhmOHNseWZqYi1Hd3d1elVJMDdqTVlIeVk0VnYxXzF6Y2Fndzk0QlhWTlM4UXJyZVEyVzJGbTZSSTFLRktPclk1VExFdWs0cjBmQjY5V3k4aVJjVFV3LW5Fd0pWdklpaWtqYUgtV054ZVoyNmctOHJ1TmZLNVotaGQ2X2JGLUY5UllwaDRJZ3dEWFNUM0ZmdnZNck1IME9Pd2xvTWdlcVFZTXJUM185UVBLTHVuUVNlV3VGbzNHaDA1NUd4bVY3ZVpoZw?oc=5",
-          "domain": "Springfield News-Sun",
+          "title": "India’s ONGC set to take control of two key Venezuelan oil projects",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjlkRkFZemNtclRCb3hUZWI5SzJ0cWlZemVvakRUVjJXdUstVVlyQk5BSmNsRU5xQmstWDhMQzFKVkdVNV9PcXI4NEhLcnVlTVBTZ3ppRm9jWjVZQTdPUUg2MjlLRkxCa01WYjc1eE44Q25uTFNwTXNXS1FGbUZMT2hzRUk3UjA1ZjIzblN2OEI0NmZoLUZfQU9RVlBEcnN2ZEMxanFkQUNMdw?oc=5",
+          "domain": "Daily Sun",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T20:42:44.000Z",
-          "rank": 72,
-          "rel": 3.4
-        },
-        {
-          "title": "Ian Machado Garry Takes On Division’s Dark Horse at UFC Saudi Arabia",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb3BPVzFIS29BVXRKTzU1M0cwVGVfczVZRzliMGtESFJIT0hsN2phUzZualZqWU50VnpIZl9FZXREcmZQclFJbGIweHNWbEFqOWlpY2R5b0RxUlgyZm14NGtRVW9XeXU1WXJqVUw0LU9CQ1hpTjlWVVR5S3YtQk1aNXdOZWEwY25rVnc0UEptYVRsbmlGSjFobjR3a3hSdw?oc=5",
-          "domain": "Heavy.com",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T03:32:00.000Z",
-          "rank": 89,
-          "rel": 2.6
+          "date": "2026-11-09",
+          "ts": "2026-11-09T06:03:36.000Z",
+          "rank": 46,
+          "rel": 2.7
         },
         {
           "title": "‘They tried to kill me’: Armed Venezuelan man arrested over alleged Trump death threats made disturbing claims, court docs reveal | Hindustan Times",
@@ -1263,17 +1189,17 @@
           "country": "",
           "date": "2026-11-07",
           "ts": "2026-11-07T17:53:25.000Z",
-          "rank": 80,
-          "rel": 2.4
+          "rank": 96,
+          "rel": 1.8
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+gdelt-articles+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T00:58:16.840Z",
-      "count7d": 234,
-      "prev7d": 584,
-      "capped": false,
+      "source": "gdelt-articles+rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-10T03:42:49.435Z",
+      "count7d": 51,
+      "prev7d": 9,
+      "capped": true,
       "surge": false
     },
     "SCS": {
@@ -1281,20 +1207,20 @@
       "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 6
+          "date": "2026-10-13",
+          "value": 5
         },
         {
-          "date": "2026-10-19",
-          "value": 12
+          "date": "2026-10-20",
+          "value": 11
         },
         {
-          "date": "2026-10-26",
-          "value": 6
+          "date": "2026-10-27",
+          "value": 5
         },
         {
-          "date": "2026-11-02",
-          "value": 76
+          "date": "2026-11-03",
+          "value": 79
         }
       ],
       "articles": [
@@ -1305,8 +1231,8 @@
           "country": "",
           "date": "2026-11-04",
           "ts": "2026-11-04T05:39:27.000Z",
-          "rank": 4,
-          "rel": 6.3
+          "rank": 7,
+          "rel": 6.2
         },
         {
           "title": "U.S. Carrier Strike Group Leaves South China Sea as Washington Prioritises Buildup Against Iran",
@@ -1315,38 +1241,28 @@
           "country": "",
           "date": "2026-11-07",
           "ts": "2026-11-07T06:18:00.000Z",
-          "rank": 5,
-          "rel": 5.4
-        },
-        {
-          "title": "China’s military build-up, South China Sea tensions loom over ASEAN Defence meet",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY3VYbXZWcmgyVjR2RFdlN1JKcENWbkEyX1cwV2x6UVZlZzBBT3QxYmRjbUVRNTdEc1hBX1dtMlNGVXc3U3BYVHhVMTR1ZnNrTUdYREVmS2xqU1hNeHNzYmNSWGF0cWxXZXFia0tKM2ptSnNaVzdmNUJxdzVpQlN3SHhSM0JPNFlpdWxsY0NZMFZ4aVU3S3o1RUxKWDdtNVBsQ2NHczg4eV9VakEzNFR5TU9hZ3ZYeVhf0gG4AUFVX3lxTE5jdVhtdlZyaDJWNHZEV2U3UkpwQ1ZuQTJfVzBXbHpRVmVnMEFPdDFiZGNtRVE1N0RzWEFfV20yU0ZVdzdTcFhUeFUxNHVmc2tNR1hERWZLbGpTWE14c3NiY1JYYXRxbFdlcWJrS0ozam1Kc1pXN2Y1QnF3NWlCU3dIeFIzQk80WWl1bGxjQ1kwVnhpVTdLejVFTEpYN201UGxDY0dzODh5X1VqQTM0VHlNT2Fndlh5WF8?oc=5",
-          "domain": "Social News XYZ",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T03:07:49.000Z",
-          "rank": 84,
+          "rank": 15,
           "rel": 4.5
         },
         {
-          "title": "Report highlights China's role in sustaining peace, stability in South China Sea",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQUFmZGo5ZTQwVkVqUEs3bThQT05xVXRBd1pQM0ROVEJKa1VHNElHUi16bVhodUNhY2J3TzZZUFBkSThzalBNaklCT0d4c0ZZY1dmSVJSaE9yQlRiQmtJcHFHX0VHYkU1Z0FuYU9Cc3hkZjdpclJXYWNWSWpsMHZXVlFISEJPOU1tcnUxX19yRjd2aV9rN2RROE1HenVQR1hjTDRvSDJvTmtxam9BdUJVYmd4bEI2azNjdkg0?oc=5",
-          "domain": "Malaysia Sun",
+          "title": "Report highlights China's role in sustaining peace in South China Sea",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZzZRQnhvVEg3b1JnTVNmRm13TEhHaFdYVnFrVjhrRzBBUFp0YkJzUUNDa2ltOVUzRDdBanZlRGxGZXRDTFgyUHF6bVlEazVnNkZXUUo4MTFGUlFHOG9kM1ZrWDJteTZrbl8tWnZQUnRtZVh6VXVnbFZ3Z1hMbnJZbFZsT0RTc0tiQ3d0cG5RWGl2Ry1CLU1ZeDhNdGh1aEI4YjA0akpRMnE0MHIzV2JDaFpyQUE0UDVwY2txZkt5MVRqb3Vi?oc=5",
+          "domain": "CGTN",
           "country": "",
           "date": "2026-11-08",
-          "ts": "2026-11-08T00:01:00.000Z",
-          "rank": 10,
-          "rel": 4.1
+          "ts": "2026-11-08T03:29:53.000Z",
+          "rank": 3,
+          "rel": 3.9
         },
         {
-          "title": "India-Philippines BrahMos Deal: Manila eyes $800 Mn missile purchase amid South China Sea tensions; Report",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOa2p0WkVTTF9GVkRPYVUzR3JneGNNX3psTmZ6YS1zYnRqM0R5d2NHbWZVVmhWaGlUQjJ2ZEg0Nk9nc01FLTBjbnpZTEQxSXA2ODBFYUpWNW1fTVBDUmplWFJkUEFxZU55Y2pjQlg5RVlsLUt3aHdOVUVGZ2MwMnpmMHVFb1pKdHpydW1nREV2UFlNcU1JUThwYndjZUlZd2ZmbWVPeG9vN1d3OXZXbXExdEZybUNkNVo0RktzeHNMLWtJeWxZdFU4ZzhiUUozWW8zdWVYYlFZejIyUVBXeGQ2dXF0TE3SAeoBQVVfeXFMTlYzS2o5QlYxRU1jQjk4aVZESU02VHM4TVgtVmVaQzM5OWRUaGRES2xjNmhyd1VJWDE0N0o3a3MwLU8tb3ZrZFRLMEdRTFRJN2dqb2FJcTF0eXU5RzNrTzcwRXRPVXg0cEtvYlB1N2x3a09UNUh3c1AxbTlKbWVSOTFOSjRyOS1fSUUxQ2RQWndnUjZiUXhaYUt3enFPcDJvamp2Rm1Qckk3NGtQdVY4RFFuS2ZOdXpKclUxOENUa3J6WHQyeXY1TDJWcEMxV2pLRHJkMG5rTFFUTjVXUVZQSEdSaWhxVlZGS2ZB?oc=5",
-          "domain": "Organiser",
+          "title": "Report highlights China's role in sustaining peace, stability in South China Sea",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPa292Q204V0lYaUJ6SkNsSUphd2xwNXZCZzh4bEo0TVhMNzF1WHRnSHhFa0UybWpxRjlBUXM3bFhjVU1nR2p5aHBTc1lYcVN4SGJpejcxc1hHeExQX1lvbkV0XzhIQjVTcklyMkZaVDhsd1R4dVB4d2Q2VmcxYlBONmZrdGxSRXFKcTBrNVFseS1ucHRKYkJTaTY5N2dxWU9WRUNpdXNiTU5mNGR4SmgzbldkblgyUWgxQzMwODdpRS0tZThoUllvdUNn?oc=5",
+          "domain": "巴士的報",
           "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T11:33:11.000Z",
-          "rank": 6,
-          "rel": 4
+          "date": "2026-11-08",
+          "ts": "2026-11-08T09:18:00.000Z",
+          "rank": 8,
+          "rel": 3.8
         },
         {
           "title": "Are renewed maritime tensions in the South China Sea straining diplomatic relations?",
@@ -1355,8 +1271,8 @@
           "country": "",
           "date": "2026-11-05",
           "ts": "2026-11-05T00:30:03.000Z",
-          "rank": 3,
-          "rel": 3.4
+          "rank": 4,
+          "rel": 3.3
         },
         {
           "title": "On the frontlines of the South China Sea",
@@ -1365,134 +1281,90 @@
           "country": "",
           "date": "2026-11-05",
           "ts": "2026-11-05T04:13:00.000Z",
-          "rank": 7,
-          "rel": 3.2
+          "rank": 12,
+          "rel": 3
         },
         {
-          "title": "India, Philippines near $800 million BrahMos missile deal amid South China Sea tensions: Report",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcFdsMVRQczJMWHlJRnJHbHZ3NG9DdEFNUDZPZDYtZFdYeUEzQjBJM1FNdUxZb25aa1hiUy1IYTUyQ3dlTzFldExqUEplVGFwWnk3Sks5cXN4OVlfb0ZGaUtrWGpRa3hCZGlpbnl3SHYxLXFHSWpjYkVGZmplX1VuSlVqb20zODM4bUFybFN4Vnh6TVpSdVM5TkhYa1d2N1lDYVNEQUZZRHdhbXdOc244MW0xNDVsRlNpbGN5OGswYlB3TG4tNVV5OUVFSkRCV0d1TWpwSNIB2gFBVV95cUxNbjdIbnJRWlNpVWdGSkZDcHJDdTlUY3VnWkRvZk9nREJubnJIYy1xbjlxeGRESlk2QkJIME9VQ2kybEFDSXVIUWJWUjdIQzBQb24tdW5jbTBLalVxVDhQN0s0em1Nc1dZX0NWT2xSRzRERDRYb1dULWlFRkZtSGx2dlliWGFGT1lRVXlac1dTWVNoVzVRUkZWUk5ObVhueGZhZ1ZXMUxwRVFhQjk1NVk2ZGdtVndaUVAxbUZmUGhfcVdnOTNvQ0J3WF9NY1RPb3VVR3ZNZXFOQkw5Zw?oc=5",
-          "domain": "Firstpost",
+          "title": "India-Philippines BrahMos Deal: Manila eyes $800 Mn missile purchase amid South China Sea tensions; Report",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOa2p0WkVTTF9GVkRPYVUzR3JneGNNX3psTmZ6YS1zYnRqM0R5d2NHbWZVVmhWaGlUQjJ2ZEg0Nk9nc01FLTBjbnpZTEQxSXA2ODBFYUpWNW1fTVBDUmplWFJkUEFxZU55Y2pjQlg5RVlsLUt3aHdOVUVGZ2MwMnpmMHVFb1pKdHpydW1nREV2UFlNcU1JUThwYndjZUlZd2ZmbWVPeG9vN1d3OXZXbXExdEZybUNkNVo0RktzeHNMLWtJeWxZdFU4ZzhiUUozWW8zdWVYYlFZejIyUVBXeGQ2dXF0TE3SAeoBQVVfeXFMTlYzS2o5QlYxRU1jQjk4aVZESU02VHM4TVgtVmVaQzM5OWRUaGRES2xjNmhyd1VJWDE0N0o3a3MwLU8tb3ZrZFRLMEdRTFRJN2dqb2FJcTF0eXU5RzNrTzcwRXRPVXg0cEtvYlB1N2x3a09UNUh3c1AxbTlKbWVSOTFOSjRyOS1fSUUxQ2RQWndnUjZiUXhaYUt3enFPcDJvamp2Rm1Qckk3NGtQdVY4RFFuS2ZOdXpKclUxOENUa3J6WHQyeXY1TDJWcEMxV2pLRHJkMG5rTFFUTjVXUVZQSEdSaWhxVlZGS2ZB?oc=5",
+          "domain": "Organiser",
           "country": "",
-          "date": "2026-11-05",
-          "ts": "2026-11-05T15:12:47.000Z",
-          "rank": 9,
-          "rel": 3.1
-        },
-        {
-          "title": "USS Theodore Roosevelt draws Chinese surveillance as carrier moves through the South China Sea",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQVV4NDFQRDNsdUtYRWtLeHZ6bThrbldEVHA4MGtiUnUwa2NJLVFrNjIwSVd6X2pUUHV1eVhFcGFrbnVOV3gzd1VEeDdSX0c0blJfOEllVUR6U3pXcWJPVU9kaHAwbXdZRm1iZ3YteDdCcnFBbFp1bGVpdHRBYXVoNTRxcDVuRGVxWEp2ak5TMGl4b3M4LXRERkItRWVpNHRWU25EeVNaVTN4enVxVDMyUC1BMGFCaUpUeHhvaUp0SHlEanRnc0sxbmx3R290cVZ1WGdkcg?oc=5",
-          "domain": "Zona Militar",
-          "country": "",
-          "date": "2026-11-05",
-          "ts": "2026-11-05T03:05:00.000Z",
+          "date": "2026-11-07",
+          "ts": "2026-11-07T11:33:11.000Z",
           "rank": 23,
-          "rel": 2.6
+          "rel": 2.7
         }
       ],
       "screen": {},
       "screened": false,
       "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T00:54:00.773Z",
-      "count7d": 76,
-      "prev7d": 6,
+      "fetchedAt": "2026-11-10T03:36:36.342Z",
+      "count7d": 79,
+      "prev7d": 5,
       "capped": true,
       "surge": false
     },
     "TW": {
       "query": "(Taiwan OR \"Taiwan Strait\" OR \"Han Kuang\") (China OR Chinese OR PLA OR Beijing OR \"coast guard\") sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-15",
-          "value": 79
-        },
-        {
-          "date": "2026-10-16",
-          "value": 168
-        },
-        {
-          "date": "2026-10-17",
-          "value": 47
-        },
-        {
-          "date": "2026-10-18",
-          "value": 73
-        },
-        {
-          "date": "2026-10-19",
-          "value": 121
-        },
-        {
-          "date": "2026-10-20",
-          "value": 113
-        },
-        {
-          "date": "2026-10-21",
-          "value": 217
-        },
-        {
-          "date": "2026-10-22",
-          "value": 184
-        },
-        {
-          "date": "2026-10-23",
-          "value": 129
-        },
-        {
-          "date": "2026-10-24",
-          "value": 120
-        },
-        {
-          "date": "2026-10-25",
-          "value": 42
-        },
-        {
-          "date": "2026-10-26",
-          "value": 16
-        },
-        {
-          "date": "2026-10-27",
-          "value": 2
-        },
-        {
-          "date": "2026-11-03",
+          "date": "2026-10-13",
           "value": 8
         },
         {
-          "date": "2026-11-04",
-          "value": 2
+          "date": "2026-10-20",
+          "value": 14
         },
         {
-          "date": "2026-11-05",
-          "value": 12
+          "date": "2026-10-27",
+          "value": 8
         },
         {
-          "date": "2026-11-06",
-          "value": 57
-        },
-        {
-          "date": "2026-11-07",
-          "value": 20
-        },
-        {
-          "date": "2026-11-08",
-          "value": 19
-        },
-        {
-          "date": "2026-11-09",
-          "value": 1
+          "date": "2026-11-03",
+          "value": 70
         }
       ],
       "articles": [
         {
-          "title": "Taiwan receives 2nd batch of F-16 Block 70 fighter jets from US amid China's opposition",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdzQyWUdVczVnMlFtakI5VmlYbEV6X3Z4MDBCWTF5RFVYR2NIbDRQWHEtejhFZDViMFFHbDAyUTlGQ2VuZmxxc3BzMGJsSXA3LVRpMDd3YzlrOENTRmt6elhpczd1MzJsYzUtdXl1Z28tR3YycjZlaUVtdlBENkI1cU11bEtCWmJUS0NJajJXbTd4RE5BNTNUMDFkSXp3SVpDUG9DVmZ0Y0x2UU5YYmJEWkgxQTBDVF9yQkJwdjFUMUZ2aU5LTUdvX0RJcko?oc=5",
-          "domain": "Anadolu Ajansı",
+          "title": "Taiwan monitors China's 'area denial' exercises as naval activity intensifies",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOFZhUEd0WFhQZjljU1FJZzNyYjE4Yk1PSG1uUnZoOXoxM0ozZVozbUJsNFFjd2dXTzNIV0dxUUZoYzdpb3k4VUpmclVZVjdLa1ZibE1BZTBvM2NnellEeDZZV0RVcnhuNHhMRWM0dU8xSGx1UWNJLUZqRzFnSHB0V0FDaTNXV054RF9ZaXp3UVdfX2oxN3Q3ZnhaMEdPWE5VbFN1VGQ0eDdmOTE0NnNVQWNUcElmcm4yNVpQUVhraWhsUHRuREhkQWRVSURabjZIeG9RdkJ5UEJwTlhlaTg4TDJCcDc1QUZhOE4zQ9IB8gFBVV95cUxPUjc0NUlZck9rY0tMU2pmaEc5SkVlQ2Y1dUNWVkVkNEJoYXo1MGl0ZWM5RHZSLW95Smt0VW92NUtaN09vaG9Yb3AtMDFPRWhfbnphdzJDZDBDYUtmVFhCcjFhcF9acmhicFU1dDZzbExCNEZ3VDFEaWozbEZ2b3hIT2s4SjgwSTJKTUxfZ3hpZUlidkFxSkZkNVdlX2t3ejJUam8zZmtHTmVEUTFJeTJZVUhjd2NVSnVFbmFLN0VzS0M5Y3h1cUVvbFVENUFnaUxteXlsSE5WVXlYZ1NkNDBhcUkya0xMemxidGxuazgxYnQtQQ?oc=5",
+          "domain": "The Times of India",
           "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:34:39.000Z",
-          "rank": 18,
-          "rel": 5.5
+          "date": "2026-11-10",
+          "ts": "2026-11-10T03:24:00.000Z",
+          "rank": 12,
+          "rel": 9
+        },
+        {
+          "title": "Taiwan Says China Is Conducting ‘Area Denial’ Drills in Western Pacific - The China-Global South Project",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOEJSQWJWOVFpcEo0cnpDczhveWctdzRJNkQ0RmZ3SlFjSnhlNU12X3VKOElTVWJlQ0xxLV9YNVNqbE85Z05UQlV0NkFXOW9RN3B4T3AzUVFlMkdYcmk0VTl6YUVSdW5adnhCX0xyUE9Sc0tNVUp5M1VNNVh6V3hfRDNDZkV6T1NYNjd4MDkxYTFwdzN5MVVOT1VRcjF0X1k?oc=5",
+          "domain": "The China-Global South Project",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:43:36.000Z",
+          "rank": 2,
+          "rel": 6.4
+        },
+        {
+          "title": "Taiwan says China is conducting 'area denial' drills in Western Pacific",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObXZNeGJhdmxLQ0dvcnpvNno0TkZhYUNXQmpTdTlybWQxendtT29aUEFHSG1FM1N5TWlwYXRBdHphTWlqdE1CbUtFX1lJVmVZdnhXU3JjemtJdGNNMjNYWTFFbWRkQURJSXpBc1NsRW5yd1h3Y2hWc203TzdrYlpENFVwZDZKTk1sODU5Y25URlotN0JSbTVMWmI4U1ByZEdQWWZSMDBHUFFERkpMUG9vZGY3Wms?oc=5",
+          "domain": "Reuters",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:27:00.000Z",
+          "rank": 4,
+          "rel": 6.3
+        },
+        {
+          "title": "Is the PLA rehearsing operations to keep US forces out of a Taiwan conflict?",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVTU2cG10NzE0c19pdksyZXFkdmpMUXZCRmdjaGVzWTJWMmVyRmhwYnFPb1FMR19YeTdkelZJMmJaRFM3cGdsYjFGc2g0MHhKMlVGSDFPVW12VGRXWmRJbW1QNnYtOEFWWGV6MnVxWW90VWdfclpVX3BPWVNXNG5NY2JqUVB4LVRZTjRWT3hUcG9EdUZZbjdTYkRWQ1N6S1RhU01xRGdqVzZPcGtXZTItUHM5bkdmN2dy0gG4AUFVX3lxTE1aWGFYck9YTVRnRlc4d3lkTG94ZW5QazdKZ1JTMHcxQlV4cldTRGphUDdXaFR1Z2FVeWlpeHZtUmxEd3ZLQm55dzR1ZF9GeGZmR0VZaEJaS2FqaXBGWjMwbWpkMVdYSVBiU2VVMWtTRkhERmVLUkJQaGlaZkhrYlVWbzA3ZFEybTBBQnpocXF2WFh0NExTZDBWYWwwNGtYOUtpZUl2OVlybHBJTlhQWndpU3pzTWdWYXk?oc=5",
+          "domain": "South China Morning Post",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T03:59:01.000Z",
+          "rank": 1,
+          "rel": 6
         },
         {
           "title": "PLA may be simulating Taiwan isolation: report",
@@ -1501,18 +1373,18 @@
           "country": "",
           "date": "2026-11-07",
           "ts": "2026-11-07T16:00:00.000Z",
-          "rank": 13,
-          "rel": 5.3
+          "rank": 3,
+          "rel": 5.1
         },
         {
-          "title": "China deploys more than 100 warships and coast guard vessels across western Pacific, Taiwan warns",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVm8tMWJDSUZxcXVURHcxX1JlZHB0d2gzcmVtT1NLOUVKSnRQOW16Q1hmNmVUeWhPQ2dmUi1pZVc0TW5Rd1M2T0UyMklUMnZVeEN5c3NidndsUk5fQ1MteDduQ2pfVC0xaXh2TUxVWEtWeC1vcGp3emtzOG9aUEFfazBzVlhrY2hWeFFVeWdoTkUtR29JeVNCb3F2ZUJNdWIwSFhSYVR3YXFCZHk1WldjaWVYX2Z2VmZOUkNrMXctSWhqQ1l5dXNuWDFFNWxpMFpCbHZBdg?oc=5",
-          "domain": "National Security News",
+          "title": "Perspectives from Taiwan: Building Asia Pacific Resilience amid U.S.-China Competition",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeVlBOEhGRFQ5SXJFSWVOWjJQQ2M0MXQ3TkRfYWNFMzZwdFNXNDRqU3M1S2hRWGtMV0dhUVFLZmhFVlBDVUJ2djNDZTVoVUVsMExNUW1JdUFMNWJOSmw2azVNbWR2RDFKWVpTSEJXaTFtb1lFM0UwWDRjVVZ2UU8yWS1kOXJyWFpzUnAtc0RtZmhHY2FZanJCTDkySkdvNHRBMHlxeC01YkxiaU9rS1FDTWNXQ2ZTbzE0YU5yNHFYTW95U1EzYjdsLXlRb0dVWTNQ?oc=5",
+          "domain": "Asia Society",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T16:32:46.000Z",
-          "rank": 43,
-          "rel": 5.1
+          "date": "2026-11-09",
+          "ts": "2026-11-09T22:56:43.000Z",
+          "rank": 5,
+          "rel": 4.7
         },
         {
           "title": "Taiwan detects 4 Chinese military aircraft, 8 ships around island in 24 hours",
@@ -1521,38 +1393,48 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T03:05:00.000Z",
-          "rank": 28,
-          "rel": 4.9
+          "rank": 33,
+          "rel": 4.2
         },
         {
-          "title": "Taiwan shuts Papua New Guinea office and ends LNG buying, citing Chinese pressure",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcEZkVGRtaUJ1YmdwQkZCVThBOFJDOHFjZ3JoOGdsT0NXVGh5NVpTVlZUaklHbTZ1d3ZQNFhObVFOZW1XRndVelp6N2RESkN3bXZ1cXlPeW03T2pZbVBZQi1aZkdQYVRpMVBMWm0xNnl1bDhGQWdlYURyNmk4aDlHY0Y5aTNZR25LeDVhWUFCLU84bGNSN3NxSm9tRnVMTTFIY21pMVZkOEw0MFp5bUlLLXBkZnQ1VUp1R0dnUVd3NzdpUQ?oc=5",
-          "domain": "The Straits Times",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T23:24:00.000Z",
-          "rank": 10,
-          "rel": 3.6
-        },
-        {
-          "title": "Taiwan tracks 11 Chinese military aircraft and 13 ships",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JUHNrLUlpYlpvZjd6ZkRFcmU0LW1tYndXZEt3dHBEc0V5SnVFM2N3Sl96YWk4WTBHLXVDOGNTMnQwb1dfNlQ2UHJteU5TUUVaelVVNA?oc=5",
+          "title": "Taiwan NSC launches 5 measures to guard against Chinese infiltration",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tbjlQSi1NcTNUS1lfal9kLUpZVmtsaFBUNUM4UHpuRU1zOEZ2cENNLURPRmFvdHBnRF8wYjBYVnlTY3JrYU8zekN1OTFOUm03S2ZUMQ?oc=5",
           "domain": "Taiwan News",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T07:36:00.000Z",
+          "rank": 44,
+          "rel": 2.8
+        },
+        {
+          "title": "Taiwan shuts Papua New Guinea office and ends LNG buying, citing Chinese pressure, Asia News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3FtZjZnVjBQVFBjUUw4TzJ0ODV3a0FucElZV3hDRFNBNzRmdnBPX2gwS3VCQXg0NGxIWEsydTF2aUpNS0NGTU5FSTY0NENHeFVVcGFMaDRmQ0FRUFZxRktCTFV0RnA4QVAxNElrQ2pmRzlWejRiSm45M25mNndGWE50YUk4S3pwQ25hOElQQUxyeXlQdUg0ajFkWWFLQTcxcHRiNXNrWnVrbUg4Nmc?oc=5",
+          "domain": "AsiaOne.com",
           "country": "",
           "date": "2026-11-07",
-          "ts": "2026-11-07T02:53:00.000Z",
-          "rank": 58,
-          "rel": 3.5
+          "ts": "2026-11-07T04:20:14.000Z",
+          "rank": 37,
+          "rel": 2
         },
         {
-          "title": "Taiwan tracks 17 Chinese ships and 3 military aircraft",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NaXdWRjZaSHZ6aDJ3bl82NTJ6a2xhM2RnNWVSdWJUWExRZnVwOGgzOGszdUJmcUlIeERRd1pCc0psUllRdEhXdHlYVWJCMUVMR1VHSw?oc=5",
-          "domain": "Taiwan News",
+          "title": "PLA activities in the waters and airspace around Taiwan - 中華民國國防部- 全球資訊網",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56M2laU0FvUTdGMm9BLTRiQWpYV2ZUTzZyR0FzOXlPX1hZalhxMnlxUElPZ1lZU3RmNEhrMTZHcWd4V2VHZEd2eTJlaWZrQjUySWZsaDl3?oc=5",
+          "domain": "中華民國國防部- 全球資訊網",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T02:26:00.000Z",
-          "rank": 66,
-          "rel": 3
+          "date": "2026-11-08",
+          "ts": "2026-11-08T03:16:59.000Z",
+          "rank": 58,
+          "rel": 2
+        },
+        {
+          "title": "Taiwan detects 4 PLA aircraft, 6 PLAN vessels operating near territory",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWFpRY2NpRHNPT3YxbVVSRnhGTElRRThuR3hNdDJMamlncWd3ZThJQm1RTi1ZN0Q2SzBJVXlCX0Y2RHNteTlHNVNGM0xpNUJoS05sbHBhQzJmVHYzQWE5d19EMjF1N2ZRQVU3bWlYcmxLM0JHN2pPcVhEU3EtWDBEdDBZOEwwcGhhMGVXWXYxU1ZlVDhDWERObVRQQzA4aE5uaVppUzhHWE5ZM25hTXFXRlpHZ242dThkVFRTUUZRaw?oc=5",
+          "domain": "ANI News",
+          "country": "",
+          "date": "2026-11-08",
+          "ts": "2026-11-08T01:54:00.000Z",
+          "rank": 55,
+          "rel": 2
         },
         {
           "title": "Analysts suggest China may be practicing Taiwan isolation — Taipei Times",
@@ -1561,120 +1443,128 @@
           "country": "",
           "date": "2026-11-07",
           "ts": "2026-11-07T23:47:50.000Z",
-          "rank": 44,
-          "rel": 2.7
-        },
-        {
-          "title": "China Pressure Drives Taiwan to Shut Papua New Guinea Office and End LNG Purchases - The China-Global South Project",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNazN6Skc1M1l6a1ZWUFkyRmJyaHRVc19tZFRzbkc2ZnBld1JrMDBOV3NzMUdJRThNVmZiU2FSczRBR2pyT0s5Vk9sQU1zSmlOVUluMTV6NGFIc3puYlVSaHBEUDRPaHBaZG5aUFgzZ0w1YkRFOGhoa0Q2N25Jckl5bFBSazR0dHd5cE5nQ1hFaVBEVDNvcmlvQmZUaXNNNmlwS3c?oc=5",
-          "domain": "The China-Global South Project",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T18:48:39.000Z",
-          "rank": 31,
-          "rel": 2.6
-        },
-        {
-          "title": "Taiwan detects 4 PLA aircraft, 6 PLAN vessels operating near territory",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzBUbHkzbFFmZTRSZkx0ZjhMYXVlb3RhYVpmQWZINi1LVG03ZFltNnNVR3RJZFluQUk3bElsYUg4V0VpWFRVRTZodUZkWV9TTzlPRVAyS3NKc1ltX1lfeUVYV2VtanBJZS1vRkxfWjJFVnVjSnZXMWI4aEZpb2FuMVV6RjdmLTdER2preUI2NDlzU2ZTRGxVREFVVE1yMTZSQ3lrbjcxd25nSVpyVWhGTl80RjR0dw?oc=5",
-          "domain": "Big News Network.com",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T03:33:00.000Z",
-          "rank": 75,
-          "rel": 2.6
-        },
-        {
-          "title": "The “anaconda strategy”: How China’s navy could isolate Taiwan’s islands without invading",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLXlJZzNJV1Z1RWpiYVFkY3pHaXdsdXB6eWwtQ2YtazdhQXRaUGhYdi1sRG5NUGR6QkNXQ0hodXYwcWVtSEF6R21EWlJuY0dFY0d3T25RZUtBc0VhRVFwZU14WkYycjhtZVBubVdjeTdlOWVYQ3ZOVUVNbW4zVXZkZllTaWFJZXVyRzVNM2VuYUdndlhjVTUySTNuaEtiMEwxTE5uRG94RllJOWIwanV5M1V1WlBQR0F5M1FfZ0dxMjZsQVh4Sjhz?oc=5",
-          "domain": "Zona Militar",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T23:05:00.000Z",
-          "rank": 52,
-          "rel": 2
-        },
-        {
-          "title": "Taiwan halts LNG purchases from Papua New Guinea, closes office citing Chinese pressure",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYlU1LU1wRV9say1DV1pDU2RFR0dpQ0NYSFIzRU1QR19heGw5WDQtNVJmcDdWOVJhWnQ1RWpWR1gtRkZRb1c5c0NHNHAzS3JSLWxTMGVyOVhLVkJ3X0Z0QUIzWnJidGVrUkd1VjdVV1dZbHhObUM4dHNKaUNzN19GR2lCcTNzSjJORklUOU5HbkFhNjFmNHhBSjc3U3lOOUo4YXJFWHZhZlFRNDhmOXlXV2NqU1ZucEM4eWRiZDRkdXBIMlhYc2c?oc=5",
-          "domain": "Pipeline and Gas Journal",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T17:57:06.000Z",
-          "rank": 69,
+          "rank": 53,
           "rel": 1.9
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T01:00:16.756Z",
-      "count7d": 119,
-      "prev7d": 710,
-      "capped": false,
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-10T03:44:15.450Z",
+      "count7d": 70,
+      "prev7d": 8,
+      "capped": true,
       "surge": false
     },
     "CN_JP": {
       "query": "(Japan OR Japanese OR Senkaku OR Takaichi) (China OR Chinese OR Beijing OR PLA) sourcelang:english",
-      "granularity": "week",
+      "granularity": "day",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 12
+          "date": "2026-10-15",
+          "value": 178
+        },
+        {
+          "date": "2026-10-16",
+          "value": 280
+        },
+        {
+          "date": "2026-10-17",
+          "value": 89
+        },
+        {
+          "date": "2026-10-18",
+          "value": 137
         },
         {
           "date": "2026-10-19",
-          "value": 13
+          "value": 363
+        },
+        {
+          "date": "2026-10-20",
+          "value": 395
+        },
+        {
+          "date": "2026-10-21",
+          "value": 378
+        },
+        {
+          "date": "2026-10-22",
+          "value": 326
+        },
+        {
+          "date": "2026-10-23",
+          "value": 183
+        },
+        {
+          "date": "2026-10-24",
+          "value": 187
+        },
+        {
+          "date": "2026-10-25",
+          "value": 81
         },
         {
           "date": "2026-10-26",
-          "value": 8
+          "value": 25
         },
         {
-          "date": "2026-11-02",
-          "value": 67
+          "date": "2026-10-27",
+          "value": 4
+        },
+        {
+          "date": "2026-11-03",
+          "value": 11
+        },
+        {
+          "date": "2026-11-04",
+          "value": 9
+        },
+        {
+          "date": "2026-11-05",
+          "value": 22
+        },
+        {
+          "date": "2026-11-06",
+          "value": 94
+        },
+        {
+          "date": "2026-11-07",
+          "value": 55
+        },
+        {
+          "date": "2026-11-08",
+          "value": 59
+        },
+        {
+          "date": "2026-11-09",
+          "value": 55
+        },
+        {
+          "date": "2026-11-10",
+          "value": 50
         }
       ],
       "articles": [
         {
-          "title": "World's strongest military revives air base used to launch atomic bombing missions against Japan as it prepares for possible conflict with China",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeUlHd0MzMmNNVUxzYlhXWVktQVRVQmxMNjdsVU5ub2FVelMtaWh3SFk0MVRreGs5dnBiQjFjUUtNYS1lQVd2cmp4T3lpQ1pqTHgwUDFJbWE0dWNlYmVtenc5bEk2dzdrTGpjMXdGUFJPdzNMaWRRd0UtTFNlY2MxQUtNUExESnJ4bTBuSFpCd3VyS0pnRDFEUmJodm5TMGllZVdwUzRoRDJVX2ZRaVUwb1FHSEV6WXNCOFlsajZfWGJlVWZ4bk53WkMzMW5EaVJVc1hEUw?oc=5",
-          "domain": "Business Insider Africa",
+          "title": "China hands over remains of US pilots killed in anti-Japanese war",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRVV2OEJ0cXVkZWs1WkVENVRBcWdRdEI5b1VUVVM0VFJibmpBMzRmVHRGb3lleW9jMEQ5VVg1ajdUWW9yeHU0emVkNk1lb05BdnJfTFVVSENSUXNhQzRROXd2TFZHSUZqSGNlZ0h3WXNUSG5jbFhwMWtoTlUyZ25aa0M4TW5Ebm9Ld2VGOUJja1pFU1hteVBNVkcyeXZ5VktCVW90NEVrbGp2Wkl2WkJobFZNdUttUlNrSGFGUmoxUQ?oc=5",
+          "domain": "CGTN",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T23:33:58.000Z",
-          "rank": 75,
-          "rel": 6.5
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:50:14.000Z",
+          "rank": 6,
+          "rel": 6.2
         },
         {
-          "title": "Japanese language studying boom wanes in China as Japanese companies withdraw",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX1J0b1RTNFVoZnhwcDJmTXdsdUhmbUhmT080bzJYX1Q4Q0Z3UTNZbEZlLUJTbWE1eEpiSmtZejlPdkFmbGZJc1JPY1JRcVNNcWNRUnA2cVV6emFBd2pqeC1hRzBSSXZsTm5hZWl3T1JUUlVYQ2FDajlEWEFhU3o2eUhvMnNERDVrazNEYmlvS2dYT0VkRkZmeWNxTGFXc2ZnU21sTTZB?oc=5",
-          "domain": "Asia News Network",
+          "title": "Leaders of Japan and Vietnam pledge to deepen cooperation amid China’s growing regional influence",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DTEZjT3dmNHFvMzZ5Q3hnM3lUbUpXU0J3RkRCb2hZd3VFTWJBRjhuRlRLdm52Z0UzOTlRMGdGRk9uZkxqbE1iOEt4OE5BY3VaUGdCMDFB?oc=5",
+          "domain": "朝日新聞",
           "country": "",
           "date": "2026-11-09",
-          "ts": "2026-11-09T00:54:52.000Z",
-          "rank": 6,
-          "rel": 4.8
-        },
-        {
-          "title": "Japan, Taiwan, China and the emerging 2028 strategic test",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdlk2SnRJeFhRNjUxWTdDLXdGOUFkVTVRcWtIR0U2NzBxWGxTNURzbnNyYUJHNmhkMER4cXNYQzRVNF85OWl2LXgxWUZKbjlRbU0wZUIycXNsdU5ORUhTcDduZkZjRjBNUDJZWU9ZRWlJT3EzZjhadm1KUW1EVV9ZWmFHVFRSNXVEZjNkLXhkSQ?oc=5",
-          "domain": "Asia Times",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T23:59:05.000Z",
-          "rank": 24,
-          "rel": 3
-        },
-        {
-          "title": "Japan's Miura claims Cup of China men's figure skating title",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NHk1NnFQcFNYbUNxckhpelA2N0dWZVpaSzlwN0EyS29CbXUzVWlTUXVoaEtNcXB5Tlp4X2IxcC0zbE4xTnBKSjdNeGptYUptanlDVGNVcjRDQQ?oc=5",
-          "domain": "CBC",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T13:08:06.000Z",
-          "rank": 50,
-          "rel": 2.8
+          "ts": "2026-11-09T22:20:00.000Z",
+          "rank": 7,
+          "rel": 4.6
         },
         {
           "title": "Asia for China? Tokyo’s answer to Beijing’s coercive strategy",
@@ -1683,27 +1573,47 @@
           "country": "",
           "date": "2026-11-03",
           "ts": "2026-11-03T08:36:00.000Z",
-          "rank": 20,
-          "rel": 2.7
+          "rank": 23,
+          "rel": 2.6
         },
         {
-          "title": "One Year Since Sanae Takaichi's \"Taiwan Contingency\" Remark: Japan Reaffirms China-Japan Joint Statement",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCZERvMXlCclpKT2Jxa1FiQlhkbVo5Ti12bVZ4MlFTWFI0ekc5eHlnYW1EMUNsSk5nNW41ZWlEUkVldC10MFdEWG45SDJ2MnEyWGlKMF9jY1ZoTmRRdnkwQlhB?oc=5",
-          "domain": "재경일보",
+          "title": "[South Korea-China-Japan Hydrogen Battle for Dominance](1) \"Japan's Hydrogen Ecosystem to Become Reality in Four Years... Government and Businesses Firmly Committed\"",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JNEN4bF9xTFdScWItQVBfa2xaX0h0MFAzaEJkV3VYMlU0cDR0amVSTFllZExGWVhidndaeEpiTTdZeWJCamhZOWhBQTJTQkZpMUtrcC1iMlo2WGVETVFJVlBOVl8?oc=5",
+          "domain": "아시아경제",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T07:25:04.000Z",
-          "rank": 78,
-          "rel": 1.6
+          "date": "2026-11-09",
+          "ts": "2026-11-09T02:16:09.000Z",
+          "rank": 59,
+          "rel": 2.5
+        },
+        {
+          "title": "Japan's Miura claims Cup of China men's figure skating title",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95NHk1NnFQcFNYbUNxckhpelA2N0dWZVpaSzlwN0EyS29CbXUzVWlTUXVoaEtNcXB5Tlp4X2IxcC0zbE4xTnBKSjdNeGptYUptanlDVGNVcjRDQQ?oc=5",
+          "domain": "CBC",
+          "country": "",
+          "date": "2026-11-08",
+          "ts": "2026-11-08T20:29:07.000Z",
+          "rank": 58,
+          "rel": 2.3
+        },
+        {
+          "title": "Japanese Language Studying Boom Wanes in China as Japanese Companies Withdraw",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVnZLR1BDeW5SbXdZMWJkUUVmMkN6RjIzM2gtYmNnM1U4RGQyWFoxV0ltdlc2aHM5UzhEQVlSMEs5OTJtdDB3MkhnVEtub2Z2djJneV9OXzFXc1hUVTJnNm02T2xMLVhWcVRhbnowRnloQ2V2YmhURA?oc=5",
+          "domain": "The Japan News",
+          "country": "",
+          "date": "2026-11-07",
+          "ts": "2026-11-07T21:00:00.000Z",
+          "rank": 55,
+          "rel": 1.9
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T01:04:13.722Z",
-      "count7d": 67,
-      "prev7d": 8,
-      "capped": true,
+      "source": "gdelt-timeline+rss-articles+unscreened",
+      "fetchedAt": "2026-11-10T03:46:59.890Z",
+      "count7d": 344,
+      "prev7d": 817,
+      "capped": false,
       "surge": false
     },
     "IN_PK": {
@@ -1711,42 +1621,92 @@
       "granularity": "week",
       "timeline": [
         {
-          "date": "2026-10-12",
-          "value": 3
+          "date": "2026-10-13",
+          "value": 1
         },
         {
-          "date": "2026-10-19",
+          "date": "2026-10-20",
           "value": 0
         },
         {
-          "date": "2026-10-26",
-          "value": 2
+          "date": "2026-10-27",
+          "value": 6
         },
         {
-          "date": "2026-11-02",
-          "value": 95
+          "date": "2026-11-03",
+          "value": 93
         }
       ],
       "articles": [
         {
-          "title": "POK like Gaza, Pak forces like IDF: Kashmiris fume as drone strike kills 7",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR3VFMmw2TnpIVXd0WlhkdkpnSGlHY2NmVFA3ZHVuNmo3OHlFZlhQNmI5d0lkdDRnQnoxcC13d1pCQzRtNXJaV2lSZm1XWTdpTFk4MEtIeGtERm1Vak4tNXYxbXB5SjFUMUxzeUhFNmdBNl9MampNcW5JbEFVaDBDV1o5eHNBLUM5SDZPTFl6VlRHMldhZzU5dmpjMlVEV1dXQVVZYWxiYi1QYWowSE42dFViNENmRHhxLVNVOVlvSFFtZ0lRTmxOSTJmUk9tS09IcDNXQXZMNGpYZ9IB3wFBVV95cUxQVW53cE91V3hQRU5CVDV0cVZaTjdrSnYtQ05NdDRlNEJQM18yWFZWNDF0TmtHemdkanB4NWR4VlJfRXhtR2Q1QXVVM3p0OTdWTXcwaHdMR2dLdnpxaVBVdE9uSXQtNF9FVkcyaGRYaHlsOUUyY1pJNW9nZ1RIX2JEU3NMamZ3X3dTNUhVMGVhLUdtdFFUalBEdjRzRE5fSUpZWDdOakpqeHZQaF9kQV8waWhkVG5KUzBXczFCWUx1MmNWOVhEcHBVWEpWTy03Ym5lLUNoS2c3WGZlX0xmcEJN?oc=5",
-          "domain": "India Today",
+          "title": "Pakistan's weapons splurge after Op Sindoor, China spy tactics, India's prep: Shishir Gupta explains | Videos",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVDlwbWtyNnFCZjd5QjhsZzF3LTdoOE9rTlRUY3h5VUlSTUxqYS1MZDVMZVJOQzhKOHV2R3B6MHdYbTZjbWVuZi1pdDRPalVkbm9vZGRkYzZ1Q3NrSlZjSHBQMFNlSm1GODVfOEJhVDJQWFV5YzlKdjBJaFBVNEROYjliQWpLeFdMOC12Z1ZoTmN2bjJ4eFpCak1TVzcyNnh0Z2ZlcmJoTGZvb2FqdGlqaUkySm9DSXFHS0pJS0lTQzNEbWRsNW0xeVlnYW5TRGNqU1pfWHZBYmlOMF82NGNldUZMS2VETnFNZEHSAe8BQVVfeXFMTWdldEhrSkRyZWllOUF3WVZVakxsbFJwRFM5NUpVZXdQcWx2NmRIUHZrVnZVX0tVUmRoTG42YzdlSkk4NC1Na3lQR0JFbFNYV0lZZG40QlpGaUhRd2RyWXFONDVNaWdTTU9LSHJrcTMyeTcyQmdvQ2REUkVkbEl3UFZ1WGI2ZW1UbHA4OVo0WHRGU1pQWkMtbHZ3SzVpMmhscm13Q2gxcE9yeno1ZDlaLU0zWURuUWNhU3dTdFN4cmhWQl9CRGlGYWQtWWlmaUNLa0NNLTk4bDBaQ0M3VnhLT21DUkhJOVpQUUxvZWxVbFU?oc=5",
+          "domain": "Hindustan Times",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T07:03:33.000Z",
-          "rank": 86,
-          "rel": 6.1
+          "date": "2026-11-09",
+          "ts": "2026-11-09T12:35:03.000Z",
+          "rank": 14,
+          "rel": 8.6
         },
         {
-          "title": "Former Army chief Ved Malik flags China-Pakistan military exercise, calls for heightened Indian...",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTkgzQXBQNVpOWGxIbjJ1aG1jM0RXTTUyWDFMZEk5LUpmTUpJWnVqbXlsWEllRHh3NmR6ZGhKN3Z5VWJUTnpEWVV1SWJGeFVtNUJ5TmllSzN4RHBTa201VUlSOFdBeS0tLVVSNmlraVlDTFBtVk5jY3BpLUM2clNhOVFDMHJvdmFWS1BaWXNodEdnWlllTW9jUHNNRDdVRnhNVWc1UHd3UnZWS0lmekhrelZfckhLY3V5Q2hrWHRzV3JOemdzYldaY1A3UHltSEloMXI3MmdMRmtLd3hDVmVVcUZ3NUFHRDJtMGVXN2dfc1BNQdIB9wFBVV95cUxQQzd2U1YyUGY0eHlsLWZhOVNBdmdweUo3UGJwNTVXRGhKWXNlUVpwaFZDVS1POXd5WGxuSDdzWk5oeURIQXpXbC1WM1pTUWdyTEFleVRMSXZnZ1Iwc2RCVEw5Zk5yYkhldzhQMGwtY2MzMlMzYWpHdXZ4VnVDZHNUcXZxaktNSlkzbFBDSXY3eFRXLWw0dUNfdTVnNVMxTElyMENOeHA1NFFUUmwwSVBFcWlCWDdzQnItenZodmNwdEMzaXFXcEZqMEpLbFFiX1VtUkF4VFEzMVR3THpTcUhRU2V4T1lPdEdzLVc0bzl2UmltNmxiVXNN?oc=5",
-          "domain": "Moneycontrol.com",
+          "title": "Pakistan’s Arrow and Lightning Drones Signal a New Air Defence Challenge for India",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZkZOd3MzTEJCNHkySjEyVmY2azdiUW14VWdxVEgxZE8tcDM1V2dwbEZrYVQ4Qm03dnk4N0ZrMy0zalNiLXJwR2JIUXM4WTJyWEkxYnh0ZEwtWE1pZm1GQUIwTm1JdTZXNmRWU3ZaSnhXZnNnTGtBRk5NekltV0RDYTJGUWtMa2RJbUVFM1dR?oc=5",
+          "domain": "Defence Security Asia",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T11:54:39.000Z",
+          "rank": 5,
+          "rel": 7.5
+        },
+        {
+          "title": "Pakistan’s military build-up and the strategic test facing India | Point Blank | India News",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMlFqajFsdmJfWUJIODFKbUxiNFZtUjViUlRjaEg0YXJnM2EwSkE3MGFQc0t5cjFwZnhEa21XV3ROTE5zb3M0LXZ1Wnp5SVc2NHR5VDBVRzZvWVhTZHZNcE5GME51eFVJbmJicmF3M2huWDNQSXZIZUtncmljTXVGdTZ0LTU1Mmk2dDhBYzFkTTF4YVVHSDlvaE1OOE5uTTdFTWNRU3FibTJQXzVqZVZvWUFQNFVReUpmU3lINmRFTTVGODE1QnE4TDlEbzdMUklXX3ZoV9IB2gFBVV95cUxORFFrSWpZa3l3eXBSZDhoSldqdm9SbU4yUlctcERUMVZ6S05tYVBXdFZUbTNZenFUY3ozQW9wZjc2SjBSOUFQbk9jUEg1OHdHbDIxMmlNYnhKbGl0c0UwajE1T3hha3R1SkVjcFB0WjhzRkNzaFVUWkZyajRXRFZmMC1zUHZ5MUJjTWRBUl9OZEVObXJSSkE4clBncm0zTlJQTXRPaTA2bDlhR2RlVTI3OW5PeDRrZURCQlg0UHR5QWR3em9DNWRxOS1pWUl3MGhTcWJ1WTMyVGZKUQ?oc=5",
+          "domain": "Hindustan Times",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T12:33:27.000Z",
+          "rank": 7,
+          "rel": 5.9
+        },
+        {
+          "title": "Pakistani state cracks down on Awami Action Committee in Kashmir",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSW05RVpDRm82VWdEYVpzNFFiV2tNZXNGQUZUdmtaUE5KbDczRFFfVll1czlwM2lOUm5laDlpTXNaNDZNcWlBUFpsQkhwN3NrMU56T3lIX3ZlR29CNy05c3JEd3VDTVFzbklyYkp5Z2FvWDF6RGllbTFWMDJUa1prR1YxVDBXV1NFdVpXeQ?oc=5",
+          "domain": "In Defence of Marxism",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T16:30:39.000Z",
+          "rank": 2,
+          "rel": 4.7
+        },
+        {
+          "title": "India's Prachand, Apache fleet vs Pakistan's 30 Chinese Z-10ME helicopters: How they compare",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPS1JPdFk2dm82aU5qa2ZmQnZNeDBjZW41M08ta3IwYWY0a0g1Z2xYUTJLM2JKTGRHTzBHeWRJSGtVV3VZSVZUZnQ1eDBUbGFSVE8tcnQ4ZUZBaG1NVnpUQldpU3FQY2xRV3l1d2tYbnhydEdSSTJaRmRFUm9kUVhUSDlBZWpCTG9OMEdLTFJTR196Rl9RWmZQak1udUtfVjlTLUZNcmFrUXZPZ1BLZ2F4UDM2RUgxNmVuZFdmdmZtdE02UEdua1AyTHZENFFFWWx3em85YkFKb3E0N3I2M0tqX1Z5MmhzcGVDR2M3aDNrdENnWnJlU3fSAfsBQVVfeXFMTmZkdlJWc1pyQWo2eEFHSFlFVkNEbDdxR2xER0ZfVzZaZUdkdXhlSTJFOVY4WjNOb05CRUVIQnQzUDg4RnZxOG1hVkdPMHFkMHhCNHZaLWphR216NkJpQjVDc1AwNkxmRUkzcWM4ZXlwMU02MWhIOEd5UzlWQ3p3b0tzYXVoT1VKMlRPd2hlN282YVU3ZURHYnNlMElFbEc1YnFjUnFqWWtlbzBLVnNYcjhTUmxHWS1KcXBiSXpNUXo2RjljanlGanBucTJCclc4TkEtMzhUTDZGTVBxc3RmZkFoYndqWFVPREdJNTVUMkNKYUZmQUg2RmxXQXc?oc=5",
+          "domain": "The Times of India",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T07:39:00.000Z",
+          "rank": 9,
+          "rel": 4.2
+        },
+        {
+          "title": "Asim Munir | Biography, Army Chief, Pakistan, India, Afghanistan, Balochistan, & Kashmir",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41RmF0NkdsU0RPZUJIanlLSjRlZWoyM1ZXRm50OUw5b0FsU1ZtZlQ0S1ZfT0pRcjZwb1k5bWVBMjY1bmJ1QlhlcHd4NDlyaE5ZRDFMSVRMUG11UlU?oc=5",
+          "domain": "Britannica",
           "country": "",
           "date": "2026-11-07",
-          "ts": "2026-11-07T17:03:39.000Z",
-          "rank": 83,
-          "rel": 5.3
+          "ts": "2026-11-07T08:00:00.000Z",
+          "rank": 23,
+          "rel": 2.7
+        },
+        {
+          "title": "Turkey Approves Mecca Pact — Would It Aid Pakistan in a War With India?",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9EeVlhYXN0QktIMGZ1aDl4Nm1xcnIxV0p6T0prSVJ0bXJnN1N6cnJqd2w4LVNNYkR6NC1rYzZlcmxVeW5qWVp5aFdvMXpQc0ZDNHZXUEdNVXR0eVJCTnlhNE85dlNzYkJTSGxpUVJEa1N4bXRTMElXeXRLTjI?oc=5",
+          "domain": "Defence Security Asia",
+          "country": "",
+          "date": "2026-11-07",
+          "ts": "2026-11-07T10:57:43.000Z",
+          "rank": 32,
+          "rel": 2.4
         },
         {
           "title": "Indian Army personnel celebrate Diwali along Kashmir Line of Control",
@@ -1755,18 +1715,18 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T19:27:09.000Z",
-          "rank": 15,
-          "rel": 4.3
+          "rank": 74,
+          "rel": 2.3
         },
         {
-          "title": "Diwali Lights Illuminate Army Posts Along Kashmir's Line Of Control",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRS1qeENXbWR6TUtNVGdnM3ZSNVE1VnhWb0hGRlh4ci10ZDREbDgxRDZJS0VOdTlXSVRORHJWeGJ1UzhhTWo4aWQ2OFJXRC16SERuaXZqdXdWM2tldVZrMlR1dmRVRFJraW1fcUtZZ0F6a0dadjRkWlNmRUJZLV9GQlViY0RWMDE5U21vdl9OVkVUUWZLdm1XWkFtR1RSTVRKRGh5WlFB?oc=5",
-          "domain": "NDTV",
+          "title": "Indian Army jawans celebrate Diwali along Line of Control in Kashmir, extend greetings to nation",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQkFLUFIyOXpMUDU3UjRWN3ZwME5JQ0hIV3YxU1h0WGh4Z3ZkNFdYUzF4aHp1LXhMeWNIQndIejVsdzNOSWpoaktHalo2WVFrckdhbjJYMzNlSzluY05ydzNBV2l1Y2c2WTAzWDFEaHlONkhpNlNRVTFmRVZ6QUFhVUx5YUFhRkk5emN5c183YU5ld1VTYXRCbzB4Q3lvNHJOb0VNckt6TV9EajRyN0FUVFVkb1FqbXhSdDZVRFRwQ2tEc3BfM2kwMkhUYUlqd2ZMMFRDZUdzM0FMWGwydHdycUlmZ0hRdHBIdlRvUC12Qjk?oc=5",
+          "domain": "ANI News",
           "country": "",
           "date": "2026-11-08",
-          "ts": "2026-11-08T14:28:51.000Z",
-          "rank": 20,
-          "rel": 4
+          "ts": "2026-11-08T19:07:00.000Z",
+          "rank": 54,
+          "rel": 2.3
         },
         {
           "title": "QUICK TAKE | India vs Pakistan at the U19 Asia Cup: Seven Things to Know About the Clash",
@@ -1775,8 +1735,8 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T06:35:16.000Z",
-          "rank": 21,
-          "rel": 3.8
+          "rank": 45,
+          "rel": 2.3
         },
         {
           "title": "Pakistan's Hamza Zahoor Makes Bold \"No Pressure\" Claim After Win vs India In U19 Asia Cup 2026",
@@ -1785,76 +1745,26 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T14:29:18.000Z",
-          "rank": 26,
-          "rel": 3.7
+          "rank": 76,
+          "rel": 2.2
         },
         {
-          "title": "Will Türkiye send troops if India-Pakistan war breaks out?: Oppn raises question in Parliament; govt says s...",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVg5cHFwMlk3dGZ1Rl9RTGtmNFlGTERLak9HY0hDN0t0M3Zpb1V5WFBUeDhtQ2FYeXJDMl9nSlE4YlRudWhNcm15WnkxWHBCS2pRY3FXdml4R0E5TjlyMENtTjRIM0I0eHk5SmNwVFpZQXBVZWpnNWUzRkcyejNET0tRU1BGaUhxYXFXTno2cVEyMThiVFI0OG9GcmkxMEc3NEhobFJNY0lzVGlpeFMzQW9RNTV5Z0RPQ2otYnNYR0XSAcYBQVVfeXFMUFd3VkNLWjVQNUwtZVd6cWRzQ2N0eld4eFNKYWZvRXdxTWFmdkc4dTF0SmswTXAwS3Exb0xtUm1ralFfRW83eUV2VFRxb3RNREllb1BROWpaWVFoRU01b3BiX3luODlzZjl5TkNSeXpRMmNKdWZQYXpWbERwUFcxYW91YnlVcXZNSTZWdmYtWE8wcng1d1MxZlVzOGxWVVlwNllZd2RXZWc1RWZoYmJTRnZLcU5tS2tEa3docWZfc0xPLTZkOTR3?oc=5",
-          "domain": "Bhaskar English",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T01:12:12.000Z",
-          "rank": 79,
-          "rel": 3.5
-        },
-        {
-          "title": "[VIDEO] India’s Pralay Missile Passes Trial, Raising the Stakes for China and Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOWNMN3Q4UDRIcmV0ak5BendMRklwbTM0a0g1cXFlQ3pUUVp1czdtUDB4YUFFcVdMMUN6MENpRkpwTnI3SWdOOGJvV3hHTW5BZmpzQVROWUkzWVk1U0NPSEFHTVNDTDJrc0FMLXNjY3VZUGtKemZSS1BIRzMzeXMzclZ3?oc=5",
-          "domain": "Defence Security Asia",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T07:47:34.000Z",
-          "rank": 52,
-          "rel": 3.1
-        },
-        {
-          "title": "Army Jawans perform Diwali Puja slong Line of Control in Kashmir",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcFlvc0xKS21QaTNuY3huVnFYWmxyeDI3bVFCbVduV2VaU2RMb19KTlhMQkNEYXduejFNTVgxR3FCNFRXb2p0VXEybkk3LXFvbHpBYmxvN3g4cldyM2V6djlVVXQzdzMwMUR4b1g2Y18xWnlMNEk1T1JiV3I2VmZRUGRPcnZpbEs3enh3WlhhSGhCYmx4QWJJRWh6MEF2T1ZQYWdhY0JPUW9hdw?oc=5",
-          "domain": "India's News.Net",
+          "title": "Diwali Lights Illuminate Army Posts Along Kashmir's Line Of Control",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRS1qeENXbWR6TUtNVGdnM3ZSNVE1VnhWb0hGRlh4ci10ZDREbDgxRDZJS0VOdTlXSVRORHJWeGJ1UzhhTWo4aWQ2OFJXRC16SERuaXZqdXdWM2tldVZrMlR1dmRVRFJraW1fcUtZZ0F6a0dadjRkWlNmRUJZLV9GQlViY0RWMDE5U21vdl9OVkVUUWZLdm1XWkFtR1RSTVRKRGh5WlFB?oc=5",
+          "domain": "NDTV",
           "country": "",
           "date": "2026-11-08",
-          "ts": "2026-11-08T21:32:00.000Z",
-          "rank": 94,
-          "rel": 2.9
-        },
-        {
-          "title": "Indian Army jawans celebrate Diwali along Line of Control in Kashmir, extend greetings to nation",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRmFteENXYXFucE15eFVkYkxaVVRhUXNsWFBxOGRMZ2NHWWMzYmE0TE1EN1A5NVV5bVNGNHhXcFcyMl9JWEJMdjNSMUs0UjNGLXc2WTBYZkNzc2gyWjJNSGhpd0w1VklxWVN5cGhuTUlCMThGRi01bzhEWXBCNGE4aTd2TFdUNnAtMG4ySWdsZ0RlSlRpR1A5V0JSQzlsNENOWlVNai1XMjhCSURYVm81Skd1N0xUby1yb0ZfU3EybFhhUl93bElZMEhKVERzd3lMQ3RMWDIzanA?oc=5",
-          "domain": "Big News Network.com",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T20:33:00.000Z",
-          "rank": 93,
-          "rel": 2.9
-        },
-        {
-          "title": "Asim Munir | Biography, Army Chief, Pakistan, India, Afghanistan, Balochistan, & Kashmir",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41RmF0NkdsU0RPZUJIanlLSjRlZWoyM1ZXRm50OUw5b0FsU1ZtZlQ0S1ZfT0pRcjZwb1k5bWVBMjY1bmJ1QlhlcHd4NDlyaE5ZRDFMSVRMUG11UlU?oc=5",
-          "domain": "Britannica",
-          "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T02:27:00.000Z",
-          "rank": 31,
-          "rel": 2.8
-        },
-        {
-          "title": "Army personnel celebrate Diwali with puja and prayers along Kashmir’s Line of Control",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeEoxaldLd2tTTmV0LUhIZVNNX1RuYWxEckhIS0s4MUNiczZ5TlE0MTVpbGVGU2V6M3hRckUxSktNbkdJRkVwZEhDU1hMTnBtTXBsLVZtMjFlRk85QklCVlZqZkJKT0dQSWpuVmVpT2QwaGd5WmdpT3ZVazVWWl9YZVhxWkUtZGl0NkZSakRwb0tyMlRDZGh1b29uYWl1UUs5QXEwVDBuaUtiNmI2M09fazBCajJZTldh?oc=5",
-          "domain": "The News Mill",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T08:42:11.000Z",
-          "rank": 48,
-          "rel": 2.7
+          "ts": "2026-11-08T14:28:51.000Z",
+          "rank": 77,
+          "rel": 2.2
         }
       ],
       "screen": {},
       "screened": false,
       "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-09T01:08:56.394Z",
-      "count7d": 95,
-      "prev7d": 2,
+      "fetchedAt": "2026-11-10T03:52:37.267Z",
+      "count7d": 93,
+      "prev7d": 6,
       "capped": true,
       "surge": false
     },
@@ -1940,10 +1850,64 @@
         },
         {
           "date": "2026-11-09",
-          "value": 0
+          "value": 13
+        },
+        {
+          "date": "2026-11-10",
+          "value": 3
         }
       ],
       "articles": [
+        {
+          "title": "As Myanmar’s Civil War Heats Up, Thailand Has Sent F-16 Fighter Jets to the Border",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS2tCdDlCc1Job2ZRZFU0Q0tjTjRCcV9wNVhDVlVVWlZDcllBTW5QUW10bmFzTEg4MEdGNUViQ1hDUkpKLURVYTljT1dtanMyVTQtbmE2T3ZrY29HcVdPN3B2dVhLS2pvYTRjUWg1dEFxVTRWZ3pva000VmZxNTlMT2NtYjM0aG1xWC1MT0l5SGswLTZIOUY5YQ?oc=5",
+          "domain": "The National Interest",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T19:38:10.000Z",
+          "rank": 15,
+          "rel": 10.2
+        },
+        {
+          "title": "Thai army outlines security measures on Myanmar and Cambodia borders",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EUzNPd1BoV2dfNkh1Y1VmNHpvckt5TTAzYldoTU1GVU12b0VMX2o5UGVUOVk0b1NlcFhDZVlMTnVsdG1qc3VUeFN2djh5UFVXRXZYbE56OFlkWXI0UkI0?oc=5",
+          "domain": "Nation Thailand",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T05:42:00.000Z",
+          "rank": 11,
+          "rel": 8.6
+        },
+        {
+          "title": "China/Myanmar • Beijing helps Myanmar rebels after junta attack on Chinese vehicle",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNclpkTndHazcwTFZPUHRpMXBUTWxYaFZmU2RUdXpEWWZ0UzlpYTRGZDBhU0lLa3BON3AtbFdaRy1KaEpXS0xZTkFzTDd4UWNCdXpVNmh4RkdVMmhRSUloNWZzSUd3Mzc0UURwLXBXb3BsUTROYm1ybXB3S2I1UHVIRjV4N0EtQmFGMHFaaXlyTjV5andDaVh3NU9TRzB1X1JZV2JDaUZOblFkT015bnEtX2RGV3ZvVDVzOElDdkFDVmsyUkZKUVZsZHVtLS1vck84WW5IdFBR?oc=5",
+          "domain": "Intelligence Online",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T05:00:39.000Z",
+          "rank": 29,
+          "rel": 7.9
+        },
+        {
+          "title": "Reinforced Junta Column Advances Into Kawlin Following Heavy Losses in Indaw",
+          "url": "https://www.bnionline.net/en/news/reinforced-junta-column-advances-kawlin-following-heavy-losses-indaw",
+          "domain": "bnionline.net",
+          "country": "Myanmar",
+          "date": "2026-11-07",
+          "ts": "2026-11-07T06:00:00Z",
+          "rank": 5,
+          "rel": 7.8
+        },
+        {
+          "title": "Myanmar Military Drone Attack Kills Three Bible School Students in Karen State",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX1k4WTJXaFVPbXphd0g3OW1zc0l6d0FFX0Rla2ZwV2JqX01zUDRjczFPVHZlckhqYWxQck1QSWxmWGxqZWRVOXZKWWd1endOMmVnUkt2Zm1feGpvTHVZcXI2SHNQYUVRamd2ZUxDVS1ZNFZkYWFXZm83clhuTGtEanhoSHktSXQxWHlnME1SZW5kZ09kUjk2WHRmbnZOZExyZFJZRmFRZ1FoZXlQeFE?oc=5",
+          "domain": "Barnabas Aid",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T11:14:34.000Z",
+          "rank": 65,
+          "rel": 7.2
+        },
         {
           "title": "Thailand tightens border security after Myanmar spillover injures one civilian on Oct 29",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwaWI3aFEzLV9ISDVPTWduR2pkRFBuMEFmMVZNOEt4R1g0MXMtU1ZmSFdVbzZla0EtT3o2a192NDNHbkd1UXh1TklRMjBOZi1vYWNXX3lLN1BXM0tSUXVr?oc=5",
@@ -1951,8 +1915,38 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T03:23:00.000Z",
-          "rank": 29,
-          "rel": 7.9
+          "rank": 35,
+          "rel": 7.1
+        },
+        {
+          "title": "Neither Side in Full Control of Rakhine Ngapyi Island as Clashes Intensify",
+          "url": "https://www.bnionline.net/en/news/neither-side-full-control-rakhines-ngapyi-island-clashes-intensify",
+          "domain": "bnionline.net",
+          "country": "Myanmar",
+          "date": "2026-11-07",
+          "ts": "2026-11-07T06:00:00Z",
+          "rank": 1,
+          "rel": 6.5
+        },
+        {
+          "title": "Myanmar’s military rebrands control as federalism",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSzNoR3IyTjZwLWhrTFBXMXNPdjVFanV4WlVoUTBUaDVxOXNRUmxOOEJmUVNJSUJEZ05JbVJfdXdaaE11V0cxRVpBbGxhd2trR2x6OHhKT0hubWhiNlIxdTE2Z1BPdVZ4YlBIU0xLYno3aDhFNl9RcFRIclJyLTVSRUY5NndQMVBhQnhabmQ5NA?oc=5",
+          "domain": "East Asia Forum",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T23:00:00.000Z",
+          "rank": 0,
+          "rel": 6.4
+        },
+        {
+          "title": "India, Myanmar conclude inaugural tri - services HADR exercise Rahat Mitra in Chennai",
+          "url": "https://www.dailyexcelsior.com/india-myanmar-conclude-inaugural-tri-services-hadr-exercise-rahat-mitra-in-chennai/",
+          "domain": "dailyexcelsior.com",
+          "country": "India",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T00:30:00Z",
+          "rank": 2,
+          "rel": 6.4
         },
         {
           "title": "Myanmar Junta Criticized for Adding Conscription Law Lessons to School Curriculum",
@@ -1961,333 +1955,189 @@
           "country": "",
           "date": "2026-11-08",
           "ts": "2026-11-08T07:39:17.000Z",
-          "rank": 32,
-          "rel": 6.4
+          "rank": 72,
+          "rel": 5.1
         },
         {
-          "title": "India holds naval drills with Myanmar, Greece, US; attends Malabar exercises in Japan",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkxuMUFscnJWdE10a0g2Xzdzc2V5REZFT2tueWZoZXVRamdGYm4yNzJ5dS1hMHUyTml1QWFfRVVsRm52c05pYV9VZXMwa3NNbE51ZFo4SDVRbVpnMVB2Yjc4ZXp4TmNsd1ZLemd4eWtvb19mRmNKaTA5dGlsNkROcGtNS0lhWHN1WkNSd05vM0ZDMjdER2c1V01Ec200MGx2SS1ZaThrcW04ZXN1X21UTFhwa3N3bmdhbzJHaWkyUzU2ZjBR0gHKAUFVX3lxTE5EX1plVHhjMU42R2hTN1hnSWxlY1pPNkRTLVNSbVRwaGFPWWJGWmcwcnVLaGhqV0tTN3FJYW9sMERFN0YwZHV2MEpvbzQyUWxsTVdHSlpaenNMU3NndEhBXzM0dE12UmhFZ0ItSWN0TTNBM2tyaEF0RnFCdFFkOWZKT3pBTHJwM2Z0c3NfZl9MSm1tVFRBVHFsQnhtbDdBa2E3WU0xb2JIbF93YlBUdnhudnM5MFk2MDN2VEpfaWNoSHNHMWVsM1RYVnc?oc=5",
-          "domain": "WION",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T16:15:00.000Z",
-          "rank": 96,
-          "rel": 6.3
-        },
-        {
-          "title": "Do acts of international recognition confer legitimacy on Myanmar’s military regime?",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUnAtMzNmOHh3SjBGOEFzaWYxN2tpeDBBS0VCWmkxQ1J6aVd3a2hTbDVMemwwbXZVdkdjeTZKeEQxNEFPdDVxZVRyaWFmWkNhUzZ0RFREZDBrOEd2X0NoQndtR3NPMHlTc3g0SE9EV0YwUXZpM1B5MFlmY0RtajdIQlZYSWZqMy1UbGk0RkFYa1Z2VzZuME9yUHFoN1NTQUFnWDI0?oc=5",
-          "domain": "Melbourne Asia Review",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:38:25.000Z",
-          "rank": 12,
-          "rel": 6
-        },
-        {
-          "title": "Beyond resistance: Who can govern in a federal Myanmar?",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbFR1VG1QZlVzRnRqcjhoaDBVQ1RZajVsTnZ0VEczR0ZGOGtmODFtWnJJSmJVZ1RPNmV4R09tbnoyOEgxdlZwYU9TMHZpOGVoeVRmUndOSFVzdnJaeHgxejQwYlZoT0FWMGJJeDhPSGtWMXF4RmJmaGRKUVZrOHUyWFExdFFMNkVzUGNUSkVZQlYzZndkdnk3Sw?oc=5",
-          "domain": "Melbourne Asia Review",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:48:27.000Z",
-          "rank": 15,
-          "rel": 5.9
-        },
-        {
-          "title": "The delivery of public healthcare should be a core requirement of the Myanmar military’s claim to political legitimacy",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb0lpX3RzbHh2d2c5YUxISjRoeVh3VExpRWptVERyLUtONkVmbWdvMWhvX3JYN0l5eEFNcTlTdWd4QXBybXNraERaWXZ4dm1KV1BrdVR0WFozblFBRVBDcDFjNlhxUlBtS19yd21HSEE0d0ttSDBNbldQQUNFU2tPbEhsQmlET3FCWUdCRHMzdmJUcWt5TEJXUDNZZw?oc=5",
-          "domain": "Melbourne Asia Review",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:53:28.000Z",
-          "rank": 19,
-          "rel": 5.7
-        },
-        {
-          "title": "Guest Column | Arakan Army Faces Second Front at Bangladesh Border",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQWc3YmVZRGxVcVp4UVZXYzNia0tiLWZZMTlCUXBvNVFwYVdMcDlwSTBiSHh2QnJaQlVYeE1oQTM4S25TcmRhT0xXczJ0dk9BZGpxSWl2QnBKQkFhUzFTRkRoWkpsa2FVR2ZiNlhGME1GMGxTdVNOdmhDMGIzMUxZdG5sXzZjXzdVUzBjeGlISFlnT1d5cURLWnd2ZnBsZmxvYzJVdGpR?oc=5",
-          "domain": "The Irrawaddy",
-          "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T10:24:19.000Z",
-          "rank": 45,
-          "rel": 4.9
-        },
-        {
-          "title": "Myanmar military and KNU exchange blame over shelling on Thai territory",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORjIxb3p2YjZBUW83VWh5bEV3Y3BWUTVJazJMVktUQW44VV9rZVBzd3U0MW9zdzhha01tWVdRTDV5aTJFbkpjeGVuXzl6YV9vTm84SXdxdFh3a2wzWUR5a3llbDJKWkdyOUhMVlpiRENZUF84NkhvcEo5enN0SG96cF9zQ01NS2tuaEIwMG9rYmtKMTVyN1JPSnFUV3B6eHlCS1hHczI5SQ?oc=5",
+          "title": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLW1MVDNtb0xMT2pfZWF5THczMEY3akFCRFFCLS02VEM2MWp1dnVFTkdROWtGVFItRWRpRXAxalVYcUozYUF5Y2UxMVFpMHN6Z0gwYWpDWkxhZ1RQcG1aLXZzNnUtQlk1ZmhiS2E0TS1ROXBvVXpDbjNKRkI4NWw3UEZfd3Z4SEhDbGhhcHVkZ3RMVkhIQWc?oc=5",
           "domain": "Myanmar Now",
           "country": "",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T08:37:48.000Z",
-          "rank": 46,
-          "rel": 4.8
-        },
-        {
-          "title": "Dhaka in talks with Myanmar govt, Arakan Army over Rohingya crisis: state minister",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbTV4R2NIV3FPaElDZEl2R1NmUVIyX3BaSmFHeGswcFVMOHRjOU9wS3pZbFE4LWZseWJZRExzRnR2R3NwQ3pySXVkZUN3anVkbHM1MW5obXdROE9CZG5rYU42TURoTlFFa0U2MkhpUF9SemxtYXVqRXZzanU2d2dJd1BRdUV4V28xelhCeE9saTMzZTFjaVB1RXV0ckxTNHl3VWJIWUhENlNfMjRFUV9WalZhSlEyelR0emZmcEdPaHVYcFVEandQV1F1c05hZw?oc=5",
-          "domain": "New Age BD",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T14:05:00.000Z",
-          "rank": 42,
-          "rel": 4.6
-        },
-        {
-          "title": "Myanmar’s Civil War and the Neo-Authoritarian Bloc - E-International Relations",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04M3ZtcFliR1ZfM3IxM2R3YWFsQ3ptd1BHRWJhMmJobWpnbUVVd2VOYkdfT2FLd2hDZjZpemoxYTZuTkp3eEhjNnVwaWg0eWNyWHRPaG80N3NRa0tDOFpfSDQ0cEF4dXlxclFRTDhhWWZxcFVtbDRvRzlHQ0E?oc=5",
-          "domain": "E-International Relations",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T17:21:55.000Z",
-          "rank": 9,
-          "rel": 4.5
-        },
-        {
-          "title": "Arakan authorities’ legitimacy dilemma: Rakhine nationalism and the status of Rohingya and other minorities",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaHVnWDNXN2wzdlZsYXJfX2tkRk9HTEZnTjB1X3hHeExlSDFKYlV1blNna2xGUkpuQnNSZlZ0RDYxdzdVUTZRMlJacUIyNEloWE90Z1BrbE1NZUswWlNtOVI3Ujh0elk4YnhOOTViNU5GckZpTEMwcXFObWFNWmlVdVRwdmVLcUlabUdaMzRiRUU1ZnJQc2hnN1M1VzRDUQ?oc=5",
-          "domain": "Melbourne Asia Review",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:43:26.000Z",
-          "rank": 14,
-          "rel": 4.4
-        },
-        {
-          "title": "To what extent can various political groups in Myanmar claim legitimacy to govern?",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYTlCd3BmLXFJQjdRNnBTbENtT3VsNlNQaVJfb0pUaldnaEJkUmczVWRISE1XWkl4NjU5SkhlWW5zSGpxMFZMWHZVVlhNOFdJRFo2MTExVVF0VHQydzB4bGVHaUdUZWpVbzIxSWd5SWhUMUVQOS1EZFNHNFU2NnNmT01SdTBGVlY5OUl2NDZIRTNTT1JXS2Mzc18xdEN2VnpBQ1E?oc=5",
-          "domain": "Melbourne Asia Review",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:38:25.000Z",
-          "rank": 16,
-          "rel": 4.3
-        }
-      ],
-      "screen": {},
-      "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T00:57:04.837Z",
-      "count7d": 73,
-      "prev7d": 226,
-      "capped": false,
-      "surge": false
-    },
-    "ME_SPILL": {
-      "query": "(Houthi OR Houthis OR \"Red Sea\" OR \"Bab al-Mandab\" OR \"Bab el-Mandeb\" OR Yemen OR \"Iraqi militia\" OR \"Popular Mobilization\" OR \"Golan\") sourcelang:english",
-      "granularity": "day",
-      "timeline": [
-        {
-          "date": "2026-10-15",
-          "value": 372
-        },
-        {
-          "date": "2026-10-16",
-          "value": 448
-        },
-        {
-          "date": "2026-10-17",
-          "value": 395
-        },
-        {
-          "date": "2026-10-18",
-          "value": 284
-        },
-        {
-          "date": "2026-10-19",
-          "value": 463
-        },
-        {
-          "date": "2026-10-20",
-          "value": 548
-        },
-        {
-          "date": "2026-10-21",
-          "value": 468
-        },
-        {
-          "date": "2026-10-22",
-          "value": 467
-        },
-        {
-          "date": "2026-10-23",
-          "value": 181
-        },
-        {
-          "date": "2026-10-24",
-          "value": 358
-        },
-        {
-          "date": "2026-10-25",
-          "value": 130
-        },
-        {
-          "date": "2026-10-26",
-          "value": 9
-        },
-        {
-          "date": "2026-10-27",
-          "value": 10
-        },
-        {
-          "date": "2026-11-03",
-          "value": 5
-        },
-        {
-          "date": "2026-11-04",
-          "value": 5
-        },
-        {
-          "date": "2026-11-05",
-          "value": 11
-        },
-        {
-          "date": "2026-11-06",
-          "value": 60
-        },
-        {
-          "date": "2026-11-07",
-          "value": 52
-        },
-        {
-          "date": "2026-11-08",
-          "value": 119
-        },
-        {
           "date": "2026-11-09",
-          "value": 6
-        }
-      ],
-      "articles": [
-        {
-          "title": "Saudi Aramco tower damaged in Houthi missiles attack on heart of capital’s financial district",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcFExa2tKc0U4VnBvLU9pUlhiRkhyVjEzc3JZbGxnVFpzRUlrUWpTRjNLcmtZLUxFRm1XVXlvX0FacWEwN2FaT0JaZ2FuYnNHR25lSTFyd2psSVo0OWU4RWs1alZVeTFPWjJYRVV0UzR4c1B4OWtwNXBxNUJUMmc3QXY3U0J6aGpOY003dkRQOVlySmVmNnhZSlNwV0ZDWThvTFJsSV9yRWNnMFhrMk5vTS10SklKMDUzQmc?oc=5",
-          "domain": "New York Post",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T22:05:00.000Z",
-          "rank": 52,
-          "rel": 11.9
-        },
-        {
-          "title": "Syria, Kuwait and Bahrain condemn Houthi missile and drone attacks on Saudi Arabia",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVnZfZjFEYWVNNDJRYThwOXVIcV9FampmOU0ta3g4ckVESHNhYmszUWY0aHprMmRRNW1IeXgtTXMxdFdBLWJhRlNob1lQUEZvalFBc1Zia1E1bUo0d281QTd1ckF3VEpHMzh3SF90V3VTTlhHWURQZmxFeFFYZ0RvSkRINTJaR2EzcUVJX1JmS2d6bDhWV2RmRmZWUmpTMVQ2R1IxdXN6SjdMeEtiMkZrYkY1MHNUVVB2YmZ5SzNrVXM5NmlRemo1bXhpNC1iNVhkU2lv?oc=5",
-          "domain": "Saudi Gazette",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T14:35:00.000Z",
-          "rank": 98,
-          "rel": 11.8
-        },
-        {
-          "title": "Qatar, Bahrain, and Syria condemn Houthi missile attacks on Riyadh",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV05UbWVKZjVxaGx5el9nbUNKWGtPMHhYZ0JWNzR6WDNhSnF3c0hDNFRXV2pFdDlNRTZsb2F4RkZCUDdGQnZ5QThWdVZyOUJzeHVyb2Q4R250SndfS01UTTdITVBIQ0NYVlEtUEhuZmFlZWlKRnhBQTcyU08ydHY5QjlrY2ZBbnBQUmhaRVZUeWdzNTg5cndhYzJLOG1pX1BSdEZ3LWRhdm44SEl6QUE?oc=5",
-          "domain": "Arab News",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T15:23:07.000Z",
-          "rank": 14,
-          "rel": 11.7
-        },
-        {
-          "title": "Yemen's Houthis claim missile, drone strikes on Saudi oil facilities, Riyadh airport",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1na0VLN21SZEJKQUdDM210bUJJRFhaODVIdVhFRWpqTzRkZUtXNHdnRDlZR2N4X1l4cElET1k3c1o1M0dwaTJqbzEydndJWUNMQmdUOUlrZUFITVVqa2FCQlNzM01Bdl9UU0hGcmVn?oc=5",
-          "domain": "CGTN",
-          "country": "",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T13:40:44.000Z",
-          "rank": 15,
-          "rel": 11.7
-        },
-        {
-          "title": "Arab News | Saudi defenses intercept Houthi missiles targeting Riyadh, southern regions",
-          "url": "https://www.arabnews.com/saudi-arabia/saudi-defenses-intercept-houthi-missiles-drone-targeting-riyadh-and-southern-regions-3010424",
-          "domain": "arabnews.com",
-          "country": "Saudi Arabia",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:00:00Z",
-          "rank": 13,
-          "rel": 11.6
-        },
-        {
-          "title": "Saudi - led says coalition two Houthi missiles fired towards Saudi Arabia Najran intercepted",
-          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-two-houthi-missiles-fired-towards-saudi-arabias",
-          "domain": "middleeasteye.net",
-          "country": "Israel",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T09:30:00Z",
-          "rank": 26,
-          "rel": 11.6
-        },
-        {
-          "title": "Coalition: Air Defenses Intercept Two Houthi Ballistic Missiles Targeting Najran",
-          "url": "https://english.aawsat.com/gulf/5338235-coalition-air-defenses-intercept-two-houthi-ballistic-missiles-targeting-najran",
-          "domain": "english.aawsat.com",
-          "country": "Syria",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T11:00:00Z",
+          "ts": "2026-11-09T07:45:38.000Z",
           "rank": 27,
-          "rel": 11.6
+          "rel": 5
         },
         {
-          "title": "Saudi Aramco tower damaged after Houthi missile attacks on Riyadh",
-          "url": "https://www.middleeasteye.net/news/saudi-aramco-tower-damaged-after-houthi-missile-attacks-riyadh",
-          "domain": "middleeasteye.net",
-          "country": "Israel",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T13:30:00Z",
-          "rank": 18,
-          "rel": 11.5
-        },
-        {
-          "title": "Saudi Arabia Intercepts Two Houthi Missiles Targeting Riyadh",
-          "url": "https://arynews.tv/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh",
-          "domain": "arynews.tv",
-          "country": "Pakistan",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:00:00Z",
-          "rank": 16,
-          "rel": 11.5
-        },
-        {
-          "title": "Saudi - led coalition intercepts two Houthi missiles fired towards Riyadh",
-          "url": "https://www.asiaone.com/asia/saudi-led-coalition-intercepts-two-houthi-missiles-fired-towards-riyadh",
-          "domain": "asiaone.com",
-          "country": "Singapore",
-          "date": "2026-11-08",
-          "ts": "2026-11-08T09:30:00Z",
-          "rank": 17,
-          "rel": 11.5
-        },
-        {
-          "title": "Saudi - led coalition says it intercepts 2 Houthi ballistic missiles over Najran",
-          "url": "https://aa.com.tr/en/middle-east/saudi-led-coalition-says-it-intercepts-2-houthi-ballistic-missiles-over-najran/4113702",
-          "domain": "aa.com.tr",
-          "country": "Turkey",
-          "date": "2026-11-06",
-          "ts": "2026-11-06T11:30:00Z",
-          "rank": 9,
-          "rel": 10.9
-        },
-        {
-          "title": "Yemeni gov’t forces report advances as Houthis say deadly strikes hit Sanaa",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ0NjcVBHZUU5QUc2UWo0b1h4UDlaZWQzT2d6OWR0TTdVVjhLTHdMU1pfQ2NFX3JGdzNnVjRyY0t1YVBqbWg5TGlIenBxNFctSFhfMUtHY1VmU2VMU0ttTXQxUF9Wc1VMWHJWX3pWYk55dXdTaU9BQVIxck9rN2Rkcmx1Qi10UnE0LU9ZY2RodkxrUHRCLVBVeE5RYXF3RWFYZ0toZDlXUG9DbTZSQWhvc1ZvbmtRd9IBuwFBVV95cUxNSFhjb0M1b3NzRTZqaXVfeXpxRDE3Skx3eUF2TTBYa2MybVloeERWeEdLaVhmbW1tanFLQXZRT1VQd0RwYjZzTU9RTXNTZWUtQVMtYjZTYUlMZ1VVTFB3WllRRHJYUjk1bW1LYmw5TU1tTzI1UlRHWUE0NlE5QmdSUWRjSXFuMDllTDF5eG5DWXdKUWRaUFQ1OUtvck5DZEw5LVdBZWJ0UlpkRlJWVDZ0anFvOWhTLUVId29r?oc=5",
-          "domain": "Al Jazeera",
+          "title": "Homeward Bound: Rohingya Refugees Trek Back From Bangladesh to Myanmar’s Rakhine State - The Diplomat – Asia-Pacific Current Affairs Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQODdSMngtZzNMTGd3UmtBaVVvUnpxamdjWGtnV0VMTlRGbVRhTmFSZTJQYVZXdDlUUTBOa2RJR0lBdzl6U1ZKVVhIbHVEZXB5RkUxWjdJd09mblBXdHBGVzJtSkVVTk5yQ0hZeXA2b0gwMUMxQ3J5NzlnSDRJSGUycTBWU3V2Y3hTM3JER3Z2SjJsMUdKaERMc3dHeTVzYWI1S0lQYVdaNjBKMXZzREVXNjFVcUZwS3ZV?oc=5",
+          "domain": "The Diplomat – Asia-Pacific Current Affairs Magazine",
           "country": "",
-          "date": "2026-11-07",
-          "ts": "2026-11-07T19:08:33.000Z",
-          "rank": 31,
-          "rel": 10.6
+          "date": "2026-11-09",
+          "ts": "2026-11-09T13:51:20.000Z",
+          "rank": 2,
+          "rel": 4.6
         }
       ],
       "screen": {},
       "screened": false,
       "source": "gdelt-timeline+gdelt-articles+rss-articles+unscreened",
-      "fetchedAt": "2026-11-09T00:55:25.247Z",
-      "count7d": 258,
-      "prev7d": 1623,
+      "fetchedAt": "2026-11-10T03:38:44.719Z",
+      "count7d": 81,
+      "prev7d": 157,
       "capped": false,
+      "surge": false
+    },
+    "ME_SPILL": {
+      "query": "(Houthi OR Houthis OR \"Red Sea\" OR \"Bab al-Mandab\" OR \"Bab el-Mandeb\" OR Yemen OR \"Iraqi militia\" OR \"Popular Mobilization\" OR \"Golan\") sourcelang:english",
+      "granularity": "week",
+      "timeline": [
+        {
+          "date": "2026-10-13",
+          "value": 28
+        },
+        {
+          "date": "2026-10-20",
+          "value": 14
+        },
+        {
+          "date": "2026-10-27",
+          "value": 5
+        },
+        {
+          "date": "2026-11-03",
+          "value": 53
+        }
+      ],
+      "articles": [
+        {
+          "title": "Yemen government forces claim new advances as Houthi border attacks resume",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeVNKaFZURVMzMWl4YlVaTnktNDZFQmJoNzBUa1lwNTZieFVKcG9GRGZrYjZ3SXU1UTE4X0tTOW5RSjhRZkptNEFoR253OVVIN181elAwMEdySFJDeXdNVHBlcmJOU3NXd1FUV1Y1cVdFN01FSS1uVWFCbGEyVHNLakJCN0xWTUpCSWlIbGthMVVCeEFpR1lSTUMyZEg0TG1icnVDVGNQb2U4U2RYWDYyQ1pyMksyUdIBuwFBVV95cUxPdEg0NkotVjROR2t3dEJoY2pUV296ZV9raS1FSUE1aXBIbHI2SFFqbG0tenNuUlplemptNlczSW05NkNLVXV0MTBLanlLVDlKOVAzd2pRcXQ2Z1Z6a0pUdXlOVkFTd3lNOURpR3MxbTNnUlkwdDJiYlZrSmUzLW5yS25yeTNPRlpXMXMyQVU0OVF5SThGZWZHQnR3bkFXRHJuOThCQjVqT2JLYkZnTGdTRlZnVkhaUjRYUWRF?oc=5",
+          "domain": "Al Jazeera",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T18:39:58.000Z",
+          "rank": 0,
+          "rel": 13.8
+        },
+        {
+          "title": "Saudi-led coalition says it intercepted 3 Houthi missiles targeting Saudi Arabia",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2tYNGpyaG5aNEpmWnBSbEZYM05INWRQVFMtY21FLW1jT1pUT0t2dFhFVy1ubnNSX3Nqc2RWZ2txRTJFU3dMXzUzcl9yajJoUFdDaHFvLURFYkc3cUVoUGx4X3Z5WmxLV0tvZy0xd1J2VWxENmZhZ1F6aHNUVnhjZXgwSzlIR3IxaFM2SE9kX2ZvWUh3TTc4UVE3c28wWjFFbUVDdHVvMGlkdkZ0dk5tX1BQUDRFVUR2a0xWd2Zn?oc=5",
+          "domain": "Anadolu Ajansı",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:18:38.000Z",
+          "rank": 5,
+          "rel": 13.8
+        },
+        {
+          "title": "Houthi militia target Saudi Arabia with three missiles, two aimed at capital, coalition says",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBWOGtzd0tEalNyWWo0dXFRc2pnLWJ2bHBUSHJGN3daYy1nek5FS2RsbGRpaHQ5cmVHRUNJc1FhQU5qRUtTTG9OLUJLWkhsUWN0ell2M0ZtajE?oc=5",
+          "domain": "TRT World",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T03:33:52.000Z",
+          "rank": 8,
+          "rel": 13.7
+        },
+        {
+          "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaGxFOUdxQ2o5dlYtdVRVY242bW5XLW4wQlhsWk92c3QxM1RneTJqTENuYkFza01ORTRrMTNaT0tqZTFIcHVkc2ZkVGxnWXJXX01lSkpXWkNvbFExSFo4cjZwQ21CQXU2bGU1YWRzOF9uRjBkc1I3TFZxU2lGSk4zeThZZVdtRWpKNU5PRzJUTFdPXzFscExmSDBiYlRLLUFBZkh2RkxPMWJoWEljcnZNY1JYUUxMUGFF0gG-AUFVX3lxTE91Tml0Z0VtT3U5OXlDQzBWTGp2WHdKb0dZVzBoU05aOEh1eXhYQXZZYVVNNUQyUlhicy14dm1KR3JkUWh0aHZNa3hOdENYZTdOd2JmbHluRmM0M2NJSHllNzF0Um1qUElNc0h2Rm83Q2RHaXhpMW1WdWhRYWxCZDRWVlRhOUVvZ1pUNlFPend1Mk5DMUZQX0dNOVhmWnUxeEhEblVqOG0ySFNCV0hxeTcxblMyeWtaQTBHSTBSUHc?oc=5",
+          "domain": "Al Jazeera",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T03:20:35.000Z",
+          "rank": 11,
+          "rel": 13.6
+        },
+        {
+          "title": "Saudi coalition says it intercepted three Houthi missiles — Anadolu Agency",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVTlvMVNISUYzVUU4U1QwVjBsY1B2UWV1MkhQZk0tLWVHNHdGekRMbFNlajg1dnpuNGY4R1VtdDEtSWxqZ0lJWS1IMHdTNUlNWmFwNVBicENHWUdCQS1sNHlhTnJBZnVzdVRLRFJuYmhBZy1BUHptcVBWbXVieDNvU1hqSlRrS0NqLUJKRC1iNnhHSmtQUzlEUG53Nllwdmd5ck9fXzJrWGxLTEcxNmtSVFhoZS1EM1VW?oc=5",
+          "domain": "UA.NEWS",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:50:03.000Z",
+          "rank": 14,
+          "rel": 13.4
+        },
+        {
+          "title": "Saudi-led coalition says it intercepted Houthi missiles",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zX1NKUWlyaHVtblRpRUsxYzlPbDFyOUQ2QkRsWHdQMGs0MTcwdVM3b2QzeWtjbzF5bTA1Q1hBM3hiYlVoa2hWcFQxVEJwM3R1WFFCb0d2UXFjTk44?oc=5",
+          "domain": "The Jerusalem Post",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:03:47.000Z",
+          "rank": 29,
+          "rel": 12.8
+        },
+        {
+          "title": "Two Houthi missiles fired towards Riyadh intercepted, says Saudi-led coalition",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPMmJ6UXFFYjliLVlzN3lVcVg0Y29HdG40R0JScmxxOW1PTTYtT1FUblFUSGJnVy1Gc0dpcnB2c3JxV3l3eks2ZzQwWGJvQjc0amZteXdleVRXZzFRNERQYjdmYUQ1MDZBMnJyWUJTUElDTGVxUk55QjhHMnVLamlBREswV2ZMV21SWnZsdFlyOVMzbmloQnE0ZHc2Z1FtV0Ewa3RDUWZ1dk5aZ2tQTlJDM1BwVXZtRjhlWU9ieWZBMDA0dXVxdE9jdXoydG1pRFhLX18tcmZjalQxRlF5N3ZOLTE3SjVFc2R3UU5HMTlnMVUtVVpKSFhNWjNXaVp5NjV2eFdqbGI4UmRWYmlkT0ZuSlphR1hwRGJBY1M1TFlDUk12cEVvWHIzSjZLbnVFaFBYdTVtR2YtclB5QVJBbm1RZWpIQnM2d9IB4gFBVV95cUxPMWdPV1RzbklCRkltOHpOWWE1VkZHektzNnI2MVAtR2I0dkdvcmZ5NHBtMjJMTTlmOUg3VGV3aU5lMG1FS3pYeTYwQXFPODg1ei1XNThBbXJhRmhyd0N1TjhqZkdTRkhiaDBCampVV3UxQ1VTd0pQVWJkczhNd3doUE1ieW54aDExX3haNWxHcC04YkstMXh3bGJ4WU1QNEs4ZE1lSEhiWGFBYXpsaU5uYmtYTUxSLXlSYkxUeXpWV2pTVVhoa05hUUdYVjlySWpxNUpSd1QtRjA3ZkFHX0syVFFR?oc=5",
+          "domain": "The Economic Times",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T02:09:04.000Z",
+          "rank": 96,
+          "rel": 12
+        },
+        {
+          "title": "Saudi-led Coalition: 'Air defenses intercepted and destroyed a ballistic missile launched by Houthis toward the southern region.'",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BZk9heU00WmRBbnN0N2RKR3Z4RkFYOUN3VEF6Snk0Y0JJUHc3TjNiTDhlblVuUTNTZzg2a180MDBQb2ppcWVqUFNxN2YzSHRVZDJhUjNiWEtCdl9WV21HSEtLeUtWOWV3VGNiTER3?oc=5",
+          "domain": "CGTN",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T23:25:10.000Z",
+          "rank": 21,
+          "rel": 11.6
+        },
+        {
+          "title": "Two Houthi missiles launched towards Riyadh destroyed, Saudi-led coalition says",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX3hyeU9fUEVtWTVBRzNWR3JnZWZoQTQ2bjF3ZkN2eERpdnM4LWRDVmdvZG5qOWZHNnBNMDVmTDFBVEJWdW1DaXZwZWp5cngtRklsWWYzNDQ1dmtkX0dQNjV2b2FPaXhyckRFS00tLThqQlo2TnR3enNCZjVQUjR5OUN6Ykdjb3QtUDRtMjMxMGl3WHEzT0NBSXd2a3lUOTIteVVScDBWa1E0TTZ3WlF3TjJzanQ0TEVOYnhMbw?oc=5",
+          "domain": "Middle East Eye",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:10:00.000Z",
+          "rank": 43,
+          "rel": 10.7
+        },
+        {
+          "title": "Saudi-led coalition says it intercepts two Houthi missiles fired towards Riyadh",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRW5NZ25RMTdLZlBTNk55ZmRnSnR1cWlsRUk0WVJtcWN4VTVQaXBibzNxOTQwZUFtR1kyRk9GY040UnB0dk5Ddi1xTGhYQlNTMWN1QU95UWMwTGdDMW1tWjJfZTVsTHZrLUJrZ0NrUFBYcmZvdjlRb05neEtHT3ZKNlppVFFmejM2UXE1LUczZ0Q5WGNDLXFmRlJqTUstX3lUNVNuaUZZeUktTUVyMGgzSmM4V09oSVRSU2lPUmltOGFKMndSUFBVTEk3Nms?oc=5",
+          "domain": "marketscreener.com",
+          "country": "",
+          "date": "2026-11-10",
+          "ts": "2026-11-10T01:49:09.000Z",
+          "rank": 75,
+          "rel": 10.5
+        },
+        {
+          "title": "Saudi Arabia announces the destruction of Houthi facilities for the production and assembly of ballistic missiles.",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOYWZLOGFaSjlVbGlTMmxKR01TUmlLQlhtTFNKRk1DeXcwT3BNaUJjSlp1ZDFtazRETTdSa1VEcHFhOHhpY3VUODk5ak85ZVBRamxsYnZYb2c4Z2J1NmZHd1FHTUpfNDRHT0x5amVscDV4bklhN0t0ME9hS0E4ZXZCYmpYTWxTT1A0eU9abmVVU0hYVFJsVXlnOEhoMXpQQm0zZmIxQy1kcjNXVEZVcjBYMlYyMWMxbUcxc3p6ZlRVZUpvYWVPSmJEOWszWnh0anhKTmlvRzZBTjdRSnRIZmdFUlA5bnlVZHdGY1B6T1hOcFhtR2ZsOUdtckVYdlRtYVpONFJDMHRkVkcydw?oc=5",
+          "domain": "صوت الإمارات",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T21:15:32.000Z",
+          "rank": 78,
+          "rel": 10.4
+        },
+        {
+          "title": "Yemen army claims 982 strikes on Houthi targets, says 127 fighters killed or wounded",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUmtVcVRZTmZBcml5MGxQbXRIUlFvTWQwNTc5VVdfOFUzZnJXOGtNRlM5bHhiQzJRdjJGMzlkc1YzSTd5cHdnTjlIbm5KOVVTNzRLb1B1bWswQ28wUUdEbkhuSVZvUVFmN1dDU0d4UlU0SlNvYmYzZUVyUUZFU3ZsN2pDSHNiM3I4TmJnS3hNNGwyVEdJbHJhWXpSWXN2WTZuTnhfSHZwS2JoOUx5WXdTYUFtb292Z2FySThOeVVheTgzWDliM0JZ?oc=5",
+          "domain": "Arab News",
+          "country": "",
+          "date": "2026-11-09",
+          "ts": "2026-11-09T16:59:21.000Z",
+          "rank": 16,
+          "rel": 10.1
+        }
+      ],
+      "screen": {},
+      "screened": false,
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-10T03:38:05.645Z",
+      "count7d": 53,
+      "prev7d": 5,
+      "capped": true,
       "surge": false
     }
   }
