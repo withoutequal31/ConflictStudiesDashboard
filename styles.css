@@ -947,7 +947,6 @@ ul.wf-list li { margin-bottom: 8px; font-size: 13px; line-height: 1.5; }
 .wl-tref { display: inline-block; font-size: 10px; font-weight: 800; padding: 1px 6px; border-radius: 4px; color: var(--accent); background: var(--accent-soft); margin-left: 4px; cursor: help; }
 .wl-tref-x { color: var(--text-muted); background: var(--bg-sunken); }
 .wl-next-w { display: block; font-size: 11px; color: var(--text-muted); margin-top: 4px; line-height: 1.35; }
-.wl-ind-topic { font-size: 11px; color: var(--text-muted); margin-top: 3px; }
 
 /* Register */
 .wl-status { min-width: 300px; max-width: 420px; }
@@ -1021,10 +1020,6 @@ table.wl-register thead th { cursor: default; }
 .wl-bullets li { margin-bottom: 4px; }
 .wl-chg-line { font-size: 12px; display: flex; flex-wrap: wrap; gap: 5px; }
 .wl-chg-pill { display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 999px; color: var(--tone-warn-fg); background: var(--tone-warn-bg); }
-.wl-ind-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.wl-ind-type { display: inline-block; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: var(--tone-research-fg); background: var(--tone-research-bg); padding: 1px 6px; border-radius: 4px; }
-.wl-ind-text { font-size: 13px; line-height: 1.45; margin-top: 3px; }
-.wl-ind-if { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
 .wl-brief-line { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 12.5px; }
 .wl-brief-hl { font-size: 13px; font-weight: 600; margin-top: 8px; line-height: 1.4; }
 .wl-brief-watch { font-size: 12.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.45; }
@@ -1042,12 +1037,6 @@ table.wl-register thead th { cursor: default; }
 .wl-src-list a:hover { text-decoration: underline; }
 
 /* Indicators table */
-table.wl-indicators td { font-size: 12.5px; vertical-align: top; }
-.wl-due-cell { white-space: nowrap; }
-.wl-due-sub { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
-.wl-ifseen { color: var(--text-muted); }
-tr.wl-sep td { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .4px; color: var(--text-faint); background: var(--bg-elev-2); }
-table.wl-indicators tr.ignored td { opacity: .7; }
 
 /* Actions board */
 .wl-act-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
