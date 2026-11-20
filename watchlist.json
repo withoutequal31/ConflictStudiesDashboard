@@ -159,13 +159,8 @@
       "adaptability": "Adaptability: how transferable the topic's lessons are to the Army — High, Medium or Low, set by the team."
     },
     "watches": {
-      "desc": "Watches follow one thread of an item on its own once a trigger event makes it worth it: an information-operations watch (kind \"info-ops\": official messaging, state-media narratives and documented influence campaigns), a shadow-war watch (kind \"shadow-war\": sabotage, incursions, cyber and influence below the threshold of war, and the targeted side's responses) or an operation watch (kind \"operation\": one named military operation, its gains, the enemy's response and what it shows). Each carries a narrower daily feed, plus dated findings and an assessment researched from open sources at each review.",
+      "desc": "Watches follow one operational thread of an item on its own once a trigger event makes it worth it, as a record of tactical lessons: which tactics and actions succeeded, which failed and which were superseded, on both sides, with dated evidence. Two kinds: a shadow-war watch (kind \"shadow-war\": sabotage, incursions, cable damage, jamming and other attacks below the threshold of war, and the defenders' countermeasures) and an operation watch (kind \"operation\": one named military operation). Each carries a narrower daily feed, plus dated findings and an assessment researched from open sources at each review.",
       "kinds": {
-        "info-ops": {
-          "label": "Info-ops watch",
-          "title": "Information ops & strategic communications watch",
-          "feedTitle": "Latest messaging & influence reporting"
-        },
         "shadow-war": {
           "label": "Shadow-war watch",
           "title": "Shadow-war watch",
@@ -178,21 +173,10 @@
         }
       },
       "types": {
-        "official statement": "Government, foreign-ministry, military or party statement aimed at an audience (strategic communications).",
-        "state-media narrative": "Framing pushed by state or party media, including English-language outlets aimed abroad.",
-        "covert information operation": "Documented coordinated inauthentic behaviour, disinformation or cognitive-warfare activity, attributed by a credible reporter.",
-        "coercive signalling": "Military, coast-guard or legal action whose purpose is the message it sends.",
-        "sanctions/lawfare": "Sanctions, lists or legal framing used to pressure or delegitimise.",
-        "counter-messaging": "The targeted side's official response or rebuttal.",
-        "domestic narrative": "Narratives inside the targeted polity (parties, polls, viral claims).",
-        "debunked claim": "A specific false claim identified by a fact-checker.",
-        "third-party assessment": "Analysis by a think-tank, researcher or major outlet.",
-        "hybrid attack": "Physical sabotage, arson, cable or pipeline damage, cyber attacks, GPS jamming, drone or airspace incursions and other deniable attacks below the threshold of war.",
-        "defensive response": "The targeted side's practical countermeasures: arrests, expulsions, airspace closures, deployments, new laws and alliance consultations.",
-        "territorial change": "Ground or settlements gained or lost, with who reports it and whether it is independently confirmed (geolocated footage, ISW).",
-        "official claim": "A command's or ministry's claim of gains, enemy losses or prisoners that has not been independently confirmed.",
-        "counterattack": "The opposing side's counterattacks, reinforcements or renewed assaults in the operation's sector.",
-        "tactic or capability": "A tactic, weapon or enabler used in the operation (drones, electronic warfare, converted vehicles, shaping strikes)."
+        "succeeded": "The tactic or action achieved its aim, on the evidence available (ground taken and held, target hit, intrusion undetected or unanswered, threat intercepted, cell caught before acting).",
+        "failed": "The tactic or action did not achieve its aim or was defeated (attack repulsed, objective abandoned, intruder shot down, perpetrators caught with little effect).",
+        "superseded": "The tactic or plan was replaced by a newer method or made obsolete by a countermeasure (a plan scaled back, a weapon or approach overtaken).",
+        "contested": "The outcome is unclear or disputed: claims not yet confirmed, sources disagree, or it is too early to judge."
       }
     }
   },
@@ -607,13 +591,13 @@
           "enabled": true,
           "kind": "shadow-war",
           "label": "Shadow-war watch",
-          "title": "Russia–Europe shadow-war watch",
+          "title": "Russia–Europe shadow-war watch: tactics and countermeasures",
           "feedTitle": "Latest shadow-war reporting",
           "since": "2026-09-23",
           "trigger": "Russian helicopter and drone incursions into Poland, Romania and Moldova, 23–24 Sep 2026",
-          "question": "Is Russia escalating a shadow war against Europe below the threshold of open war (sabotage and arson, cyber attacks, undersea cable and pipeline damage, GPS jamming, drone and airspace incursions, shadow-fleet activity, espionage, assassination plots and influence or disinformation operations), through which channels and against whom, and how are European governments and NATO responding?",
+          "question": "Which Russian tactics below the threshold of open war against Europe (drone and aircraft incursions, sabotage and arson through recruited proxies, undersea cable and pipeline damage, shadow-fleet operations, GPS jamming, cyber attacks with real-world effect) are succeeding, which are failing or being countered, and which have been superseded; and how are European and NATO countermeasures (air policing and counter-drone defence, rules of engagement, maritime interdiction, arrests and expulsions) adapting?",
           "feed": {
-            "query": "(Russia OR Russian OR Kremlin OR GRU) (sabotage OR \"hybrid war\" OR \"hybrid attack\" OR \"hybrid threat\" OR \"shadow war\" OR \"shadow fleet\" OR \"drone incursion\" OR \"airspace violation\" OR \"undersea cable\" OR arson OR \"GPS jamming\" OR cyberattack OR espionage OR disinformation) (Europe OR European OR NATO OR Poland OR Germany OR Baltic OR Romania OR Finland OR Britain OR France OR Denmark OR Moldova)",
+            "query": "(Russia OR Russian OR Kremlin OR GRU) (sabotage OR \"hybrid attack\" OR \"shadow fleet\" OR \"drone incursion\" OR \"airspace violation\" OR \"undersea cable\" OR arson OR \"GPS jamming\" OR cyberattack OR \"shot down\" OR intercepted OR \"counter-drone\" OR \"drone wall\" OR \"Eastern Sentry\" OR tanker OR espionage) (Europe OR European OR NATO OR Poland OR Germany OR Baltic OR Romania OR Finland OR Britain OR France OR Denmark OR Moldova OR Estonia OR Latvia OR Lithuania)",
             "terms": [
               "russia",
               "russian",
@@ -652,17 +636,21 @@
                 "spies",
                 "espionage",
                 "assassinat",
-                "disinformation",
-                "propaganda",
-                "influence",
-                "interference",
-                "troll",
-                "bot network",
                 "article 4",
                 "expel",
                 "expulsion",
                 "arrest",
-                "sanction"
+                "detain",
+                "sanction",
+                "shot down",
+                "shoot down",
+                "intercept",
+                "scrambl",
+                "air defen",
+                "counter-drone",
+                "drone wall",
+                "eastern sentry",
+                "tanker"
               ]
             ],
             "exclude": [
@@ -682,7 +670,7 @@
               "date": "2026-11-18",
               "actor": "Polish government, police, Border Guard and army",
               "tactic": "Public threat disclosure and border surge",
-              "type": "defensive response",
+              "type": "succeeded",
               "text": "Rzeczpospolita reported on 18 Nov 2026, citing government and intelligence sources, that the plot Poland's 2-15 Nov Kaliningrad-border operation was guarding against was never executed; special services coordinator Siemoniak would not confirm a false flag but said the deployment answered a real threat. ISW assesses that Tusk's public warnings and the surge of police, counter-terrorism and army units likely deterred or disrupted the operation, an assessment rather than proof of deterrence.",
               "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-18-2026"
             },
@@ -690,7 +678,7 @@
               "date": "2026-11-18",
               "actor": "Russian intelligence (per Polish sources)",
               "tactic": "False-flag cross-border attack disguised as Ukrainians",
-              "type": "hybrid attack",
+              "type": "succeeded",
               "text": "Rzeczpospolita reported on 18 Nov 2026 that Russian-linked personnel disguised as Ukrainians were to attack from Poland into Kaliningrad Oblast in late October or early November, a mass-casualty provocation meant to cut aid to Ukraine, after an influx of Russian intelligence officers into Kaliningrad. The attack did not take place; the account rests on unnamed Polish sources relayed by ISW (single source).",
               "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-18-2026",
               "unverified": true
@@ -699,7 +687,7 @@
               "date": "2026-11-17",
               "actor": "Russian forces (Geran-2 strike drones)",
               "tactic": "Drone overflights of Moldova during Ukraine strikes",
-              "type": "hybrid attack",
+              "type": "succeeded",
               "text": "On the evening of 17 Nov 2026 seven drones violated Moldovan airspace, one flying over Chisinau according to President Sandu; the defence ministry said five crashed near villages, a sixth possibly in Ocnita and a seventh vanished from radar near Leova heading for Romania, and civilian flights were briefly suspended. No drone was reported shot down, so the incursion again achieved disruption without interception; Russia denies its drones enter Moldova.",
               "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-17-2026"
             },
@@ -707,7 +695,7 @@
               "date": "2026-11-15",
               "actor": "Estonian government (KAPO, police, prosecutors)",
               "tactic": "Arresting contract saboteurs and closing border",
-              "type": "defensive response",
+              "type": "succeeded",
               "text": "Estonia's chief prosecutor said on 15 Nov 2026 that eight Latvian residents had been detained over the Threod Systems attack, which Prime Minister Michal attributed to Russian intelligence, and Tallinn announced it will close its border crossings with Russia from 1 Dec. The swift arrests contained the attack; whether closing the crossings stops recruitment of disposable proxies from third countries is untested.",
               "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-15-2026"
             },
@@ -715,7 +703,7 @@
               "date": "2026-11-15",
               "actor": "Romanian government with France and NATO",
               "tactic": "Maritime patrols and counter-drone help request",
-              "type": "defensive response",
+              "type": "contested",
               "text": "After the 13-14 Nov drone strikes off Sulina, Romania's PM said fighters were scrambled twice but no interception was reported; on 15 Nov the defence minister sought allied surveillance patrols and counter-drone equipment at the NATO ministers' meeting, France moved an Atlantique 2 maritime patrol aircraft to Romania and a Sulina-Sfantu Gheorghe sea area was declared dangerous for navigation. Whether the added surveillance prevents further strikes is not yet tested.",
               "url": "https://www.timeslive.co.za/news/world/2026-11-15-three-more-merchant-ships-struck-by-drones-in-black-sea/"
             },
@@ -723,7 +711,7 @@
               "date": "2026-11-14",
               "actor": "Unidentified drones (possibly Russian)",
               "tactic": "Drone strikes on merchant ships off Sulina",
-              "type": "hybrid attack",
+              "type": "succeeded",
               "text": "Late on 13 Nov 2026 drones hit the cargo ship Larissa 1 and late on 14 Nov the tankers Evia Petrol V and Ali Najafov and the bulk carrier Marsol near Romania's Sulina canal, two of them inside Romanian territorial waters; fires were put out and no one was hurt, Reuters reported. ISW calls Evia Petrol V the first NATO-flagged vessel struck; the strikes landed despite two fighter scrambles, while the drones' origin is unconfirmed and Russia denies targeting Ukraine's neighbours.",
               "url": "https://www.timeslive.co.za/news/world/2026-11-15-three-more-merchant-ships-struck-by-drones-in-black-sea/"
             },
@@ -731,7 +719,7 @@
               "date": "2026-11-14",
               "actor": "Russian intelligence (per Estonian PM); eight Latvian-resident proxies",
               "tactic": "Explosive arson attack on drone maker",
-              "type": "hybrid attack",
+              "type": "failed",
               "text": "In the early hours of 14 Nov 2026 an attempt to cause an explosion and fire hit Threod Systems, a drone maker near Tallinn, following the August arson at Milrem Robotics. PM Michal said heightened security and a swift police reaction averted extensive damage and the attackers were detained; the GRU attribution rests on Estonian officials, who have not shown their evidence.",
               "url": "https://www.euronews.com/2026/11/15/estonian-drone-maker-targeted-by-gru-ordered-sabotage-attempt-pm-says"
             },
@@ -739,7 +727,7 @@
               "date": "2026-11-11",
               "actor": "Unidentified drones from Belarus; Lithuanian crisis centre and NATO air policing",
               "tactic": "Drone incursions from Belarus closing airports",
-              "type": "hybrid attack",
+              "type": "succeeded",
               "text": "On the night of 10-11 Nov 2026 suspected drones from Belarus triggered two air alerts, one rising to red with residents told to shelter, and Vilnius and Kaunas airports were temporarily closed, disrupting three flights and more than 400 passengers; Latvia activated drone interceptors as one drone crossed into its airspace. NATO jets were scrambled twice and detected an object but did not shoot it down, so the disruption worked and interception again did not; no operator has been identified (single source).",
               "url": "https://www.byteseu.com/2513527/",
               "unverified": true
@@ -748,7 +736,7 @@
               "date": "2026-11-11",
               "actor": "Romanian Intelligence Service (SRI) National Cyberint Center",
               "tactic": "Stopping FSB-linked Turla email intrusion",
-              "type": "defensive response",
+              "type": "succeeded",
               "text": "SRI disclosed on 11 Nov 2026 that Turla, a group linked to Russia's FSB, had breached an unnamed Romanian government body in December 2025 by exploiting Microsoft vulnerabilities, using malware ESET says hunts for NATO and EU emails. SRI says its Cyberint centre stopped the attack with EU and NATO partners, no exfiltration of sensitive data was found and the email service was fixed; the result rests on SRI's own account.",
               "url": "https://www.arabnews.pk/world/romanian-intelligence-agency-says-it-identified-russian-linked-cyberattack-3006778"
             },
@@ -756,7 +744,7 @@
               "date": "2026-11-10",
               "actor": "Polish Internal Security Agency (ABW)",
               "tactic": "Arresting paid arson and reconnaissance cell",
-              "type": "defensive response",
+              "type": "succeeded",
               "text": "Poland's ABW arrested two Ukrainians aged 24 and 25, announced on 10 Nov 2026, suspected of photographing critical infrastructure and military sites, setting cars on fire and swapping in Ukrainian military number plates, for pay partly in cryptocurrency on behalf of Russian intelligence. The car arsons had already happened, but the cell is now in three-month custody facing 10 years to life, the latest in a run of Polish and German roll-ups of disposable proxy agents.",
               "url": "https://meduza.io/en/news/2026/11/10/poland-arrests-two-ukrainians-suspected-of-spying-and-sabotage-for-russia"
             },
@@ -764,7 +752,7 @@
               "date": "2026-11-10",
               "actor": "UK Counter Terrorism Policing with the FBI and US military",
               "tactic": "Arrest of NATO-corps officer for espionage",
-              "type": "defensive response",
+              "type": "contested",
               "text": "On 10 Nov 2026 British counter-terrorism police arrested a 41-year-old US Army officer serving with NATO's Allied Rapid Reaction Corps near Gloucester on suspicion of assisting a foreign intelligence service, which US and UK officials linked to Russia, under the National Security Act. Searches continue and no allegation has been detailed, so whether a penetration of an allied headquarters was cut off or already did damage is unknown.",
               "url": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage"
             },
@@ -772,7 +760,7 @@
               "date": "2026-11-06",
               "actor": "Unidentified senders (signed 'Male State' and 'Mikhail Andropov'; no state attribution)",
               "tactic": "Mass hoax bomb threats against flights",
-              "type": "hybrid attack",
+              "type": "succeeded",
               "text": "From 2 to 6 Nov 2026 emailed bomb threats hit flights and airports across Europe, disrupting at least 30 flights on 5 Nov with diversions and fighter escorts, and on 6 Nov reached RTE, Nova TV and Sky News, forcing RTE to evacuate its Dublin headquarters; the emails demanded an end to aid for Ukraine. All were hoaxes, but the low-cost tactic achieved repeated disruption; Spain called it hybrid aggression while no state has been named and Male State's founder denied involvement.",
               "url": "https://www.kyivpost.com/post/89438"
             }
@@ -804,191 +792,6 @@
               {
                 "label": "Bytes Europe (citing LRT) · Lithuania shuts airports, scrambles NATO jets over suspected drone incursions · 11 Nov 2026",
                 "url": "https://www.byteseu.com/2513527/"
-              }
-            ]
-          }
-        },
-        {
-          "id": "vivaldi",
-          "enabled": true,
-          "kind": "operation",
-          "label": "Operation Vivaldi watch",
-          "title": "Operation Vivaldi watch (Lyman counteroffensive)",
-          "feedTitle": "Latest reporting on Operation Vivaldi",
-          "since": "2026-09-15",
-          "trigger": "3rd Army Corps commander Brig. Gen. Andrii Biletskyi reveals Operation Vivaldi counteroffensive north of Lyman, 15 Sep 2026",
-          "question": "Can Ukraine's Operation Vivaldi, the 3rd Army Corps counteroffensive north of Lyman, keep regaining ground and disrupt Russia's planned pincer on the Donbas fortress belt (Lyman–Sviatohirsk in the north, Dobropillia in the south, converging on Barvinkove), how is Russia responding with counterattacks, reserves and narrative, and what does it show about restoring manoeuvre under drone-saturated conditions?",
-          "feed": {
-            "query": "(\"Operation Vivaldi\" OR \"3rd Army Corps\" OR \"Third Army Corps\" OR Biletskyi OR Lyman OR Sviatohirsk OR Svyatohirsk) (Ukraine OR Ukrainian OR Russia OR Russian OR offensive OR counteroffensive)",
-            "terms": [
-              "vivaldi",
-              "lyman",
-              "3rd army corps",
-              "third army corps",
-              "biletskyi",
-              "biletsky",
-              "sviatohirsk",
-              "svyatohirsk"
-            ],
-            "require": [
-              [
-                "ukrain",
-                "russia",
-                "army",
-                "corps",
-                "offensive",
-                "liberat",
-                "front",
-                "isw",
-                "troops",
-                "forces",
-                "settlement",
-                "battle",
-                "fighting",
-                "assault",
-                "attack",
-                "advance",
-                "zelensky",
-                "military",
-                "kamikaze",
-                "drone",
-                "robot",
-                "season",
-                "phase"
-              ]
-            ],
-            "exclude": [
-              "concert",
-              "orchestra",
-              "festival",
-              "violin",
-              "symphony",
-              "four seasons hotel",
-              "lavra novice"
-            ]
-          },
-          "findings": [
-            {
-              "date": "2026-11-18",
-              "actor": "Russian 25th Combined Arms Army and Western Grouping elements",
-              "tactic": "Continued assaults toward Lyman and Siverskyi Donets",
-              "type": "counterattack",
-              "text": "ISW reported that on 17-18 Nov 2026 Russian forces kept attacking northeast and southeast of Lyman and toward the town itself without advancing, while a Western Grouping source claimed attacks southeast of Borova and reported Ukrainian counterattacks northeast of it. ISW notes the Russian command has not formally dropped its plan to take Lyman and cross the Siverskyi Donets toward the Fortress Belt, although Vivaldi operationally defeated it.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-18-2026"
-            },
-            {
-              "date": "2026-11-17",
-              "actor": "Ukrainian forces southeast of Lyman",
-              "tactic": "Local counterattacks against Russian assault groups",
-              "type": "counterattack",
-              "text": "ISW recorded Russian offensive operations northeast and southeast of Lyman on 16-17 Nov 2026 with no advance, as Ukrainian forces counterattacked southeast of Lyman and northeast of Borova. The counterattacks held the line but ISW reports no Ukrainian gains from them, so the sector has settled into attritional back-and-forth since Vivaldi ended.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-17-2026"
-            },
-            {
-              "date": "2026-11-15",
-              "actor": "Russian 25th Combined Arms Army and Western Grouping elements",
-              "tactic": "Daily limited assaults north and east of Lyman",
-              "type": "counterattack",
-              "text": "ISW assessed that Russian forces attacked northeast and southeast of Lyman on 13 Nov, with a Ukrainian counterattack southeast of the town, and northeast and east of Lyman on 14-15 Nov, without advancing on any of those days. The sourcing is Ukrainian General Staff and Russian milblogger reports, with no geolocated footage of Russian gains.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-15-2026"
-            },
-            {
-              "date": "2026-11-13",
-              "actor": "Russian forces northeast of Lyman",
-              "tactic": "Infiltration into western Zarichne",
-              "type": "territorial change",
-              "text": "Geolocated footage published on 13 Nov 2026 showed Ukrainian forces shelling a Russian position in western Zarichne, which ISW on 14 Nov read as a recent Russian advance northeast of Lyman. It is the first confirmed Russian gain in the sector in this window, in a village a Western Grouping source had called a contested gray zone on 4 Nov.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-14-2026"
-            },
-            {
-              "date": "2026-11-11",
-              "actor": "Russian 25th Combined Arms Army and Western Grouping elements",
-              "tactic": "Renewed assaults north and east of Lyman",
-              "type": "counterattack",
-              "text": "ISW reported Russian forces concentrating attacks north and northeast of Lyman on 9-10 Nov 2026 and conducting limited attacks east and northeast of the town on 10-11 Nov, without any advance, while Ukrainian forces counterattacked northeast and southeast of Lyman and near Borova. Day after day the ground Vivaldi retook has held.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-11-2026"
-            },
-            {
-              "date": "2026-11-10",
-              "actor": "Russian forces west of Yampil",
-              "tactic": "Massing infantry to recross the Zherebets",
-              "type": "counterattack",
-              "text": "A Ukrainian brigade spokesperson said on 10 Nov 2026, relayed by ISW, that Russia is accumulating infantry to cross the Zherebets and regain west-bank positions lost in Vivaldi, but struggles to concentrate because of thinning foliage and Ukrainian fire control over the few remaining crossings. ISW assesses the forest between the Siverskyi Donets and Zherebets east of Yampil may serve as a staging ground; no crossing has succeeded so far.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-10-2026-6af496163efe2"
-            },
-            {
-              "date": "2026-11-10",
-              "actor": "Russian aviation",
-              "tactic": "Air strikes on Ukrainian river crossings",
-              "type": "tactic or capability",
-              "text": "The Ukrainian spokesperson and a Russian Western Grouping source both said on 10 Nov 2026 that Russia is using aviation to strike Ukrainian crossings over the Oskil and Siverskyi Donets to disrupt logistics behind the Lyman front. No effect on Ukrainian positions has been reported; the same day a Kremlin-affiliated milblogger claimed Ukraine's Lyman offensive has not ended and is trying to shrink the Russian bridgehead.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-10-2026-6af496163efe2"
-            },
-            {
-              "date": "2026-11-09",
-              "actor": "Russian forces incl. 1st Guards Tank Army elements moved from Kupyansk",
-              "tactic": "Infantry waves across open fields and river",
-              "type": "counterattack",
-              "text": "A Ukrainian brigade spokesperson said on 9 Nov 2026 that Russian activity near Lyman had increased, with infantry waves crossing open fields and the Zherebets in a 'suicidal manner' to stabilise the line; ISW, which notes 1st Guards Tank Army elements were shifted from Kupyansk in October, recorded no Russian advance and read the pattern as growing urgency. The waves are a Ukrainian account ISW did not confirm.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-9-2026"
-            },
-            {
-              "date": "2026-11-08",
-              "actor": "Russian forces southeast of Lyman",
-              "tactic": "Claimed seizure of central Dibrova",
-              "type": "territorial change",
-              "text": "Russian claims of seizing central Dibrova were disputed on 8 Nov 2026 by a source reporting on Russia's own Western Grouping, who said Ukrainian drones are constraining Russian troops there; the same source reported a Ukrainian counterattack near Balka Zhuravka northeast of Lyman. ISW recorded no Russian advance, so the claim is not borne out.",
-              "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-8-2026"
-            },
-            {
-              "date": "2026-11-07",
-              "actor": "3rd Army Corps (66th Brigade and five other brigades)",
-              "tactic": "Unified corps command, drone superiority, supply interdiction",
-              "type": "tactic or capability",
-              "text": "A New York Times account published on 7 Nov 2026 says Vivaldi worked by seizing high ground to cut Russian communications, shooting down Russian supply drones and blocking roads, gaining an edge in strike and reconnaissance drones that left Russians 'effectively blinded', and placing six brigades under one corps command that sealed the gaps infiltrators had used; the 66th Brigade took one village within a month with infiltration and ambushes. Analysts and Russian milbloggers confirmed the loss of the salient north of Lyman.",
-              "url": "https://www.bostonglobe.com/2026/11/07/world/inside-operation-that-helped-ukraine-turn-tables/"
-            },
-            {
-              "date": "2026-11-07",
-              "actor": "3rd Army Corps logistics units",
-              "tactic": "Ground robots for front-line resupply",
-              "type": "tactic or capability",
-              "text": "The same 7 Nov 2026 New York Times account reports Biletskyi's claim that robotic ground vehicles let his brigades receive three times as much cargo as other recently added brigades, but also that many robots broke down or were destroyed by Russian drones. The logistics gain is the commander's own claim, while the attrition shows the method is still being contested.",
-              "url": "https://www.bostonglobe.com/2026/11/07/world/inside-operation-that-helped-ukraine-turn-tables/"
-            },
-            {
-              "date": "2026-11-06",
-              "actor": "3rd Army Corps unmanned ground systems (per Russian sources)",
-              "tactic": "Massed 28-robot armed ground assault",
-              "type": "tactic or capability",
-              "text": "Russian Telegram channels reported, relayed by Defense Express on 6 Nov 2026, a 3rd Army Corps assault near Lyman by 28 ground robots: two with Mk-19 grenade launchers, 18 with AT-4 launchers and eight kamikaze platforms. Russian sources say they repelled it; there is no Ukrainian statement or footage, so both the scale and the outcome are unconfirmed (single source).",
-              "url": "https://en.defence-ua.com/news/russian_sources_report_large_scale_ukrainian_ground_robotic_assault_near_lyman-20339.html",
-              "unverified": true
-            }
-          ],
-          "assessment": {
-            "date": "2026-11-20",
-            "text": "A month after Vivaldi ended on 14 Oct, the line it won north of Lyman is largely holding but no longer moving forward. ISW recorded Russian assaults northeast, east and southeast of Lyman on every reported day from 13 to 18 Nov without an advance, after the infantry waves across the Zherebets on 9 Nov and air strikes on Oskil and Siverskyi Donets crossings on 10 Nov also produced no gains. The exception is Zarichne, where geolocated footage published on 13 Nov showed a Russian position in the village's west, so small-group infiltration still works where massed assaults fail. Ukrainian counterattacks southeast of Lyman and near Borova on 13-18 Nov held ground without retaking any. The corps' combination of unified command, drone superiority and supply interdiction remains the decisive enabler; ground robots are still contested, with a 28-robot daylight assault that Russia says it repelled, a loss the corps' deputy commander did not deny on 11 Nov.",
-            "sources": [
-              {
-                "label": "ISW/CTP · Russian Offensive Campaign Assessment · 18 Nov 2026",
-                "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-18-2026"
-              },
-              {
-                "label": "ISW/CTP · Russian Offensive Campaign Assessment · 17 Nov 2026",
-                "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-17-2026"
-              },
-              {
-                "label": "ISW/CTP · Russian Offensive Campaign Assessment · 14 Nov 2026",
-                "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-14-2026"
-              },
-              {
-                "label": "Forces News · Twenty-eight robots, no soldiers: does attack show future of warfare? · 11 Nov 2026",
-                "url": "https://www.forcesnews.com/ukraine/twenty-eight-robots-no-soldiers-does-attack-show-future-warfare"
-              },
-              {
-                "label": "New York Times via Boston Globe · Inside the operation that helped Ukraine turn the tables · 7 Nov 2026",
-                "url": "https://www.bostonglobe.com/2026/11/07/world/inside-operation-that-helped-ukraine-turn-tables/"
               }
             ]
           }
