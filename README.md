@@ -17,8 +17,7 @@ The Watchlist answers six questions, in order, from `watchlist.json`:
 | Q2 | Which theatres moved state (Watch → Active → Priority) in the last 7 days? | Map markers (▲▼), "State moves in the last 7 days" + "Earlier moves", state board |
 | Q3 | What has materially changed in the last 7 days? | Register rows (newest live headline on top, plain-language current status with links) + expanded "What materially changed" |
 | Q4 | Did phase / escalation risk / tempo / adaptation / Singapore exposure change over the last 7 days? | Highlighted register cells (7 days ago → now); hover a header or value for the criteria |
-| Q5 | What might happen next? | Typed, dated indicators (named event, threshold, deadline, mobilisation sign, force movement, diplomatic decision, escalation indicator) |
-| Q6 | What can be ignored for now? | Ignore-for-now list with reason tags and revisit triggers |
+| Q5 | What can be ignored for now? | Ignore-for-now list with reason tags and revisit triggers |
 
 **Tiers** (standing relevance): T1 Priority Conflicts · T2 Active Regional &
 Escalation Watches · T3 Baseline Regional Research Reserve.
@@ -108,9 +107,10 @@ Two kinds:
 - **Operation** (`kind: "operation"`): one named military operation, the
   tactics both sides use in its sector and what they achieve.
 
-Current watches: Russia–Ukraine carries the Russia–Europe shadow-war watch
-and the Operation Vivaldi watch (the 3rd Army Corps counteroffensive north of
-Lyman). The Taiwan Strait info-ops watch was retired on 7 Oct 2026.
+Current watches: Russia–Ukraine carries the Russia–Europe shadow-war watch.
+The Operation Vivaldi watch (the 3rd Army Corps counteroffensive north of
+Lyman) was closed on 20 Nov 2026 after the corps declared the operation over
+on 14 Oct; the Taiwan Strait info-ops watch was retired on 7 Oct 2026.
 
 ### Topics of interest
 
@@ -150,7 +150,7 @@ the weekly brief shown on the Weekly tab.
 | Part of the dashboard | Source | Refresh |
 |---|---|---|
 | Watchlist: coverage sparklines, counts, surge flags, "Newest reporting", latest headlines | `watchlist-live.json` (GDELT + Google News, model relevance screen) | Daily at 05:07 SGT (21:07 UTC; Cloudflare Worker cron → feed workflow). Hourly refresh switched off to save usage; run the workflow by hand for an ad-hoc refresh |
-| Watchlist: state, dimensions, status summary, changes, indicators, timeline, topic assessment, watches (shadow war, Operation Vivaldi) | `watchlist.json` (daily automated open-source review) | Daily, 05:30 SGT, published by about 06:00; the review is dated in Singapore time |
+| Watchlist: state, dimensions, status summary, changes, indicators, timeline, topic assessment, watches (shadow war) | `watchlist.json` (daily automated open-source review) | Daily, 05:30 SGT, published by about 06:00; the review is dated in Singapore time |
 | Weekly tab and Capabilities tab (brief-evidenced mode) | `weekly-live.json`, synced from the weekly brief site | Daily `sync-weekly.yml` schedule (22:00 UTC), unchanged; outside the scope of the Watchlist automation |
 | Monthly tab | `sample-data.json` (seed weekly reports rolled up) | Only when the seed file is updated in the repository; not synced automatically |
 | Theme | Dark by default; the 🌙/☀️ choice is remembered per browser | — |

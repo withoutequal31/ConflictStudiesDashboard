@@ -2306,22 +2306,6 @@
         </tr></thead><tbody>${rows || `<tr><td colspan="12" class="empty">No items match the current filters.</td></tr>`}</tbody></table></div></div>`;
     },
 
-    indicators(list) {
-      const ranked = this.rank(list);
-      const all = [];
-      ranked.forEach((it, r) => (it.next || []).forEach(n => all.push({ it, n, r })));
-      const dated = all.filter(x => x.n.due).sort((a, b) => a.n.due.localeCompare(b.n.due) || a.r - b.r);
-      const undated = all.filter(x => !x.n.due);
-      const row = x => {
-        const ds = this.dueStatus(x.n.due);
-        return `<tr class="${x.it.ignore.flag ? "ignored" : ""}"><td class="wl-due-cell"><span class="wl-due wl-due-${ds.cls}">${x.n.due ? esc(this.fmtDate(x.n.due)) : "—"}</span><div class="wl-due-sub">${esc(ds.label)}</div></td>
-          <td>${this.nameBtn(x.it)} ${this.tierTag(x.it.tier)}</td><td><span class="wl-ind-type">${esc(x.n.type)}</span></td><td>${esc(x.n.text)}<div class="wl-ind-topic">${this.topicRef(x.it, x.n.topic)}${this.topicOf(x.it, x.n.topic) ? ` ${esc(this.topicOf(x.it, x.n.topic).topic)}` : ""}</div></td><td class="wl-ifseen">${esc(x.n.ifSeen || "")}</td></tr>`;
-      };
-      return `<div class="section"><div class="section-head"><h2>What might happen next?</h2><span class="hint">Named events, thresholds, deadlines, mobilisation signs, force movements, diplomatic decisions and escalation indicators — dated first</span></div>
-        <div class="card matrix-wrap"><table class="matrix wl-indicators" id="wl-indicators"><thead><tr><th>Due</th><th>Conflict</th><th>Type</th><th>Indicator to watch · topic it informs</th><th>If seen →</th></tr></thead>
-        <tbody>${dated.map(row).join("")}${undated.length ? `<tr class="wl-sep"><td colspan="5">Undated indicators (trigger-based)</td></tr>${undated.map(row).join("")}` : ""}${!all.length ? `<tr><td colspan="5" class="empty">No indicators for the current filters.</td></tr>` : ""}</tbody></table></div></div>`;
-    },
-
     ignoreSection(list) {
       const flagged = this.rank(list).filter(i => i.ignore.flag);
       const quiet = this.rank(list).filter(i => this.quiet(i));
@@ -2367,7 +2351,6 @@
         this.attention(list) +
         this.mapSection(list) +
         this.register(list) +
-        this.indicators(list) +
         this.ignoreSection(list) +
         this.method();
       this.wire(container);

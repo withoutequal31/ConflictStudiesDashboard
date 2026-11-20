@@ -91,11 +91,11 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   check("watches: definitions carry the two watch kinds (label, title, feed title) and the four outcome types (succeeded, failed, superseded, contested) only", ["shadow-war", "operation"].every(k => { const d = wl.definitions.watches.kinds[k]; return d && d.label && d.title && d.feedTitle; }) && Object.keys(wl.definitions.watches.kinds).length === 2 &&
     Object.keys(wl.definitions.watches.types).join() === "succeeded,failed,superseded,contested" && !("infoOps" in wl.definitions));
   check("watches: each watch records tactical lessons on both sides of the ledger (at least one succeeded and one failed or superseded finding)", wl.items.every(i => (i.watches || []).every(w => w.findings.some(f => f.type === "succeeded") && w.findings.some(f => f.type === "failed" || f.type === "superseded"))));
-  check("watches: Russia–Ukraine carries the shadow-war watch and the Operation Vivaldi watch; Taiwan Strait carries none; no legacy infoOps blocks", (() => {
+  check("watches: Russia–Ukraine carries the shadow-war watch only (the Operation Vivaldi watch was closed after the operation ended); Taiwan Strait carries none; no legacy infoOps blocks", (() => {
     const ru = wl.items.find(i => i.id === "RU_UA"), tw = wl.items.find(i => i.id === "TW");
-    const sw = (ru.watches || []).find(w => w.id === "shadow-war"), vv = (ru.watches || []).find(w => w.id === "vivaldi");
-    return !!sw && sw.kind === "shadow-war" && sw.label && sw.title && sw.feedTitle && !!vv && vv.kind === "operation" && /Vivaldi/.test(vv.title) && /Vivaldi/.test(vv.label) && /Lyman/.test(vv.question) &&
-      !(tw.watches || []).length && wl.items.every(i => !("infoOps" in i));
+    const sw = (ru.watches || []).find(w => w.id === "shadow-war");
+    return !!sw && sw.kind === "shadow-war" && sw.label && sw.title && sw.feedTitle && /succeeding|failing|superseded/.test(sw.question) &&
+      !(ru.watches || []).some(w => w.id === "vivaldi") && !(tw.watches || []).length && wl.items.every(i => !("infoOps" in i));
   })());
   check("every item carries a current-status summary with 2+ article links", wl.items.every(i => i.status && i.status.summary.length > 80 && i.status.sources.length >= 2 && i.status.sources.every(s => /^https?:/.test(s.url))));
   check("watchlist meta carries review dates + cadence", !!(wl.meta && wl.meta.reviewDate && wl.meta.previousReviewDate && wl.meta.cadenceDays));
@@ -170,8 +170,6 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const quietItems = wl.items.filter(i => !i.ignore.flag && !changed(i).length && !moved(i));
   const movedItems = wl.items.filter(moved);
   const zoneCount = wl.items.reduce((a, i) => a + (i.geo.zones || []).length, 0);
-  const allInd = wl.items.flatMap(i => i.next);
-  const datedInd = allInd.filter(n => n.due).sort((a, b) => a.due.localeCompare(b.due));
   const stateNames = Object.keys(wl.definitions.states).sort((a, b) => stOrder(a) - stOrder(b));
 
   check("no boot error", doc.querySelector("#boot-error").style.display === "none");
@@ -192,7 +190,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const h2s = [...wv.querySelectorAll(".section-head h2")].map(h => h.textContent);
   check("answers the questions as ordered sections (no CSI-action section, no Q-number prefixes)",
     /^What deserves attention now\?/.test(h2s[0]) && /^Which theatres moved\?/.test(h2s[1]) && /^What materially changed\?/.test(h2s[2]) &&
-    /^What might happen next\?/.test(h2s[3]) && /^What can be ignored for now\?/.test(h2s[4]) && h2s.length === 5 &&
+    /^What can be ignored for now\?/.test(h2s[3]) && h2s.length === 4 && !h2s.some(h => /What might happen next/.test(h)) &&
     h2s.every(h => !/\bQ[1-7]\b/.test(h) && !/CSI/.test(h)), h2s.join(" | "));
   check("no CSI action chips, columns or prompts rendered on the Watchlist tab", !wv.querySelector(".wl-action") && !wv.querySelector(".wl-act-grid") &&
     ![...wv.querySelectorAll("#wl-register thead th")].some(th => /CSI/.test(th.textContent)) && !/CSI Flash|Weekly awareness post|Dashboard only/.test(wv.textContent));
@@ -292,7 +290,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     return nd.topic == null ? /cross-cutting/.test(ref.textContent) : (ref.textContent === `Topic ${nd.topic + 1}` && !!row.querySelector("td.wl-next .wl-next-w"));
   }));
   check("register: 'Watch areas' column present with hover definition", [...reg.querySelectorAll("thead th")].some(th => /Watch areas/.test(th.textContent) && /Rising/.test(th.getAttribute("title") || "")));
-  check("indicators table: each indicator shows its topic reference", wv.querySelectorAll("#wl-indicators .wl-ind-topic .wl-tref").length === wl.items.reduce((a, i) => a + i.next.length, 0));
+  check("no standalone 'What might happen next?' indicators table (indicators live in the register's Next column)", !wv.querySelector("#wl-indicators"));
   check("register: every row carries a plain-language current status with article links and the phase label", wl.items.every(i => {
     const row = reg.querySelector(`tr[data-wl-row="${i.id}"]`);
     return !row.querySelector(".wl-status-latest") && !row.querySelector(".wl-status-news") && row.querySelector(".wl-status-sum").textContent.trim() === i.status.summary && row.querySelectorAll(".wl-status-links a[href^='http']").length === i.status.sources.length && row.querySelector(".wl-phase-line").textContent.includes(i.dims.phase.now);
@@ -324,7 +322,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
       [...card.querySelectorAll(".wl-as-p")].map(p => p.textContent) .join("\n") === a.text.join("\n") && card.querySelector(".wl-as-date").textContent.includes(fmtD(a.date)) &&
       card.querySelectorAll(".wl-src-list a[href^='http']").length === a.sources.length && !/CSI Flash|should publish|Priority|Archive/.test(card.textContent);
   })());
-  check("page names the GitHub Pages data origin for mirrors (Cloudflare Pages / custom domain)", /<meta name="data-origin" content="https:\/\/chewhaha95\.github\.io\/ConflictStudiesDashboard\/"/.test(html));
+  check("page names the GitHub Pages data origin for mirrors (Cloudflare Pages / custom domain)", /<meta name="data-origin" content="https:\/\/withoutequal31\.github\.io\/ConflictStudiesDashboard\/"/.test(html));
   {
     const nWatches = wl.items.reduce((n, i) => n + (i.watches || []).filter(w => w.enabled).length, 0);
     check("watches: one badge per enabled watch, none on the Taiwan row", reg.querySelectorAll(".wl-io-badge").length === nWatches && !reg.querySelector(`tr[data-wl-row="TW"] .wl-io-badge`));
@@ -352,19 +350,6 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   check("detail: source links rendered when the item carries sources", (probe.sources || []).length
     ? det.querySelectorAll(".wl-hist .wl-src-list a[href^='http']").length === probe.sources.length
     : !det.querySelector(".wl-hist .wl-src-list"));
-  // Q5 indicators table
-  const ind = wv.querySelector("#wl-indicators");
-  const indRows = [...ind.querySelectorAll("tbody tr:not(.wl-sep)")];
-  check(`Q5: indicators table lists every item's indicators (${allInd.length}), dated first`, indRows.length === allInd.length && (!!ind.querySelector("tr.wl-sep") || datedInd.length === allInd.length));
-  check("Q5: dated indicators are in date order with a due status", (() => {
-    const all = [...ind.querySelectorAll("tbody tr")];
-    const sep = all.findIndex(r => r.classList.contains("wl-sep"));
-    const before = sep < 0 ? all : all.slice(0, sep);
-    if (!datedInd.length) return before.length === 0;
-    const dues = before.map(r => r.querySelector(".wl-due").textContent);
-    return before.length === datedInd.length && before.every(r => r.querySelector(".wl-due-sub")) && dues[0].includes(fmtD(datedInd[0].due)) && dues[dues.length - 1].includes(fmtD(datedInd[datedInd.length - 1].due));
-  })());
-  check("Q5: indicator types are the seven named kinds", [...ind.querySelectorAll(".wl-ind-type")].every(s => wl.definitions.indicatorTypes.includes(s.textContent.trim())));
   // Q7 ignore
   const ig = [...wv.querySelectorAll(".wl-ig-list .wl-ig-item")];
   check(`Q7: ignore-for-now list = the ${ignoredItems.length} flagged items with reason tags + revisit trigger`,
@@ -794,17 +779,18 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     check("feed screen: JSON wrapped in prose is still parsed", r5.screened && r5.kept.length === 1 && r5.kept[0].url === "u3");
     const seen = [];
     const ioJudge = Object.assign(async (system, user) => { seen.push({ system, user }); return JSON.stringify({ keep: [0] }); }, { label: "io" });
-    const ruw = wl.items.find(i => i.id === "RU_UA"); const sw = ruw.watches.find(w => w.id === "shadow-war"), vv = ruw.watches.find(w => w.id === "vivaldi");
+    const ruw = wl.items.find(i => i.id === "RU_UA"); const sw = ruw.watches.find(w => w.id === "shadow-war");
+    // an operation watch (none open now) for the per-kind prompt checks
+    const vv = { id: "op-test", kind: "operation", title: "Test operation watch", since: "2026-09-15", trigger: "test trigger", question: "Which tactics are working in the Lyman sector operation?", feed: { query: "Lyman", terms: ["lyman"], require: [["ukrain", "russia", "offensive", "forces", "army"]], exclude: ["concert"] } };
     check("watches feed: itemWatches lists the enabled watches with a feed; Taiwan has none", feed.itemWatches(ruw).map(w => w.id).join() === ruw.watches.map(w => w.id).join() && feed.itemWatches(wl.items.find(i => i.id === "TW")).length === 0);
     check("watches feed: each kind gets its own screening prompt", feed.watchSystem(sw) === feed.SHADOWWAR_SYSTEM && feed.watchSystem(vv) === feed.OPERATION_SYSTEM && feed.watchSystem({}) === feed.OPERATION_SYSTEM && /tactical/.test(feed.SHADOWWAR_SYSTEM) && /Drop pure rhetoric, propaganda or disinformation/.test(feed.SHADOWWAR_SYSTEM));
     const r6 = await feed.screenArticles(ruw, [{ title: "Poland scrambles jets after Russian drone incursion", url: "s1", domain: "x" }], {}, ioJudge, { system: feed.watchSystem(sw), prompt: (x, c) => feed.watchPrompt(x, sw, c) });
     check("shadow-war screen: uses the shadow-war system prompt and that watch's question", r6.kept.length === 1 && /shadow-war watch/.test(seen[0].system) && seen[0].user.includes(sw.question) && /Shadow-war watch/.test(seen[0].user));
     seen.length = 0;
     await feed.screenArticles(ruw, [{ title: "Ukraine's 3rd Army Corps liberates village near Lyman", url: "v1", domain: "x" }], {}, ioJudge, { system: feed.watchSystem(vv), prompt: (x, c) => feed.watchPrompt(x, vv, c) });
-    check("operation screen: the Vivaldi watch uses the operation system prompt and its own question", /operation watch/.test(seen[0].system) && seen[0].user.includes(vv.question) && /Operation watch/.test(seen[0].user) && !seen[0].user.includes(sw.question));
+    check("operation screen: an operation watch uses the operation system prompt and its own question", /operation watch/.test(seen[0].system) && seen[0].user.includes(vv.question) && /Operation watch/.test(seen[0].user) && !seen[0].user.includes(sw.question));
     check("shadow-war feed filter: keeps sabotage, incursion and countermeasure headlines and drops unrelated Russia news and pure propaganda stories", feed.titleMatch({ title: "Poland scrambles jets after Russian drone incursion" }, sw.feed) && feed.titleMatch({ title: "Germany arrests suspects in Russian sabotage plot" }, sw.feed) && !feed.titleMatch({ title: "Russian ballet company opens European tour" }, sw.feed) &&
       feed.titleMatch({ title: "Estonia detains shadow fleet tanker in Gulf of Finland, Russia protests" }, sw.feed) && !feed.titleMatch({ title: "Kremlin propaganda campaign targets German voters" }, sw.feed));
-    check("Vivaldi feed filter: keeps Operation Vivaldi and Lyman-sector headlines and drops other Ukraine news", feed.titleMatch({ title: "Operation Vivaldi: 3rd Army Corps liberates one settlement and clears four in Lyman sector" }, vv.feed) && feed.titleMatch({ title: "Ukrainian forces advance north of Lyman, ISW says" }, vv.feed) && !feed.titleMatch({ title: "Russian drones hit Kyiv power plant overnight" }, vv.feed) && !feed.titleMatch({ title: "Vivaldi Four Seasons concert opens Kyiv music festival" }, vv.feed));
     if (saved.A != null) process.env.ANTHROPIC_API_KEY = saved.A; if (saved.G != null) process.env.GITHUB_TOKEN = saved.G; else delete process.env.GITHUB_TOKEN; if (saved.F != null) process.env.FEED_SCREEN = saved.F; else delete process.env.FEED_SCREEN;
     check("register: definitions.feed.spamDomains lists article sources dropped outright", Array.isArray(wl.definitions.feed.spamDomains) && wl.definitions.feed.spamDomains.includes("czechinvest.gov.cz"));
   }
@@ -817,7 +803,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     domM.window.Chart = function () { return { destroy() {} }; }; domM.window.Chart.prototype = {};
     domM.window.HTMLCanvasElement.prototype.getContext = () => ({});
     domM.window.eval(appjs); await sleep(250);
-    const org = "https://chewhaha95.github.io/ConflictStudiesDashboard/";
+    const org = "https://withoutequal31.github.io/ConflictStudiesDashboard/";
     check("mirror host: register, feed and weekly editions are fetched from the GitHub Pages data origin; code assets stay local",
       seen.includes(org + "watchlist.json") && seen.includes(org + "watchlist-live.json") && seen.includes(org + "weekly-live.json") && seen.includes("sample-data.json") && seen.includes("assets/world-110m.json") && !seen.includes("watchlist.json"));
     check("mirror host: the Watchlist tab renders from the cross-origin register", domM.window.document.querySelectorAll("#wl-register tbody tr.wl-row").length === wl.items.length);
