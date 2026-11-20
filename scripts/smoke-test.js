@@ -169,8 +169,6 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const quietItems = wl.items.filter(i => !i.ignore.flag && !changed(i).length && !moved(i));
   const movedItems = wl.items.filter(moved);
   const zoneCount = wl.items.reduce((a, i) => a + (i.geo.zones || []).length, 0);
-  const allInd = wl.items.flatMap(i => i.next);
-  const datedInd = allInd.filter(n => n.due).sort((a, b) => a.due.localeCompare(b.due));
   const stateNames = Object.keys(wl.definitions.states).sort((a, b) => stOrder(a) - stOrder(b));
 
   check("no boot error", doc.querySelector("#boot-error").style.display === "none");
@@ -191,7 +189,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   const h2s = [...wv.querySelectorAll(".section-head h2")].map(h => h.textContent);
   check("answers the questions as ordered sections (no CSI-action section, no Q-number prefixes)",
     /^What deserves attention now\?/.test(h2s[0]) && /^Which theatres moved\?/.test(h2s[1]) && /^What materially changed\?/.test(h2s[2]) &&
-    /^What might happen next\?/.test(h2s[3]) && /^What can be ignored for now\?/.test(h2s[4]) && h2s.length === 5 &&
+    /^What can be ignored for now\?/.test(h2s[3]) && h2s.length === 4 && !h2s.some(h => /What might happen next/.test(h)) &&
     h2s.every(h => !/\bQ[1-7]\b/.test(h) && !/CSI/.test(h)), h2s.join(" | "));
   check("no CSI action chips, columns or prompts rendered on the Watchlist tab", !wv.querySelector(".wl-action") && !wv.querySelector(".wl-act-grid") &&
     ![...wv.querySelectorAll("#wl-register thead th")].some(th => /CSI/.test(th.textContent)) && !/CSI Flash|Weekly awareness post|Dashboard only/.test(wv.textContent));
@@ -291,7 +289,7 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
     return nd.topic == null ? /cross-cutting/.test(ref.textContent) : (ref.textContent === `Topic ${nd.topic + 1}` && !!row.querySelector("td.wl-next .wl-next-w"));
   }));
   check("register: 'Watch areas' column present with hover definition", [...reg.querySelectorAll("thead th")].some(th => /Watch areas/.test(th.textContent) && /Rising/.test(th.getAttribute("title") || "")));
-  check("indicators table: each indicator shows its topic reference", wv.querySelectorAll("#wl-indicators .wl-ind-topic .wl-tref").length === wl.items.reduce((a, i) => a + i.next.length, 0));
+  check("no standalone 'What might happen next?' indicators table (indicators live in the register's Next column)", !wv.querySelector("#wl-indicators"));
   check("register: every row carries a plain-language current status with article links and the phase label", wl.items.every(i => {
     const row = reg.querySelector(`tr[data-wl-row="${i.id}"]`);
     return !row.querySelector(".wl-status-latest") && !row.querySelector(".wl-status-news") && row.querySelector(".wl-status-sum").textContent.trim() === i.status.summary && row.querySelectorAll(".wl-status-links a[href^='http']").length === i.status.sources.length && row.querySelector(".wl-phase-line").textContent.includes(i.dims.phase.now);
@@ -349,19 +347,6 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
   check("detail: source links rendered when the item carries sources", (probe.sources || []).length
     ? det.querySelectorAll(".wl-hist .wl-src-list a[href^='http']").length === probe.sources.length
     : !det.querySelector(".wl-hist .wl-src-list"));
-  // Q5 indicators table
-  const ind = wv.querySelector("#wl-indicators");
-  const indRows = [...ind.querySelectorAll("tbody tr:not(.wl-sep)")];
-  check(`Q5: indicators table lists every item's indicators (${allInd.length}), dated first`, indRows.length === allInd.length && (!!ind.querySelector("tr.wl-sep") || datedInd.length === allInd.length));
-  check("Q5: dated indicators are in date order with a due status", (() => {
-    const all = [...ind.querySelectorAll("tbody tr")];
-    const sep = all.findIndex(r => r.classList.contains("wl-sep"));
-    const before = sep < 0 ? all : all.slice(0, sep);
-    if (!datedInd.length) return before.length === 0;
-    const dues = before.map(r => r.querySelector(".wl-due").textContent);
-    return before.length === datedInd.length && before.every(r => r.querySelector(".wl-due-sub")) && dues[0].includes(fmtD(datedInd[0].due)) && dues[dues.length - 1].includes(fmtD(datedInd[datedInd.length - 1].due));
-  })());
-  check("Q5: indicator types are the seven named kinds", [...ind.querySelectorAll(".wl-ind-type")].every(s => wl.definitions.indicatorTypes.includes(s.textContent.trim())));
   // Q7 ignore
   const ig = [...wv.querySelectorAll(".wl-ig-list .wl-ig-item")];
   check(`Q7: ignore-for-now list = the ${ignoredItems.length} flagged items with reason tags + revisit trigger`,
