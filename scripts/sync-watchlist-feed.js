@@ -256,6 +256,8 @@ const WATCH_NAMES = { "shadow-war": "Shadow-war watch", "operation": "Operation 
 function watchKind(w) { return (w && w.kind) || "operation"; }
 function watchSystem(w) { return WATCH_SYSTEMS[watchKind(w)] || OPERATION_SYSTEM; }
 // Enabled watches with a feed query; each needs an `id` to key its live sub-feed.
+// Google News queries for a watch: its short `feed.rssQueries` if given, else the GDELT query.
+function watchRssQueries(w) { const qs = (w.feed && Array.isArray(w.feed.rssQueries) ? w.feed.rssQueries : []).filter(q => typeof q === "string" && q.trim()); return qs.length ? qs.map(rssQuery) : [rssQuery(w.feed.query)]; }
 function itemWatches(it) { return (it.watches || []).filter(w => w && w.enabled && w.id && w.feed && w.feed.query); }
 function watchPrompt(it, w, cands) {
   const list = cands.map((a, i) => `${i}. [${a.domain || "?"}] ${a.title}`).join("\n");
@@ -455,10 +457,15 @@ async function fetchItem(it, prevItem, judge, spamDomains) {
       catch (e) { if (e instanceof Throttled) throttled = true; }
       await sleep(PACE_MS);
     }
-    try { wLists.push((await rssSearch(rssQuery(w.feed.query), 3)).filter(a => titleMatch(a, w.feed))); } catch (e) { /* RSS unavailable */ }
+    // Google News silently drops the when:Nd date limit on long boolean queries
+    // and returns all-time results (the shadow-war sub-feed went empty that way),
+    // so a watch can list several short `feed.rssQueries` to search instead.
+    const wRss = watchRssQueries(w);
+    const rssPull = async days => { for (const q of wRss) { try { wLists.push((await rssSearch(q, days)).filter(a => titleMatch(a, w.feed))); } catch (e) { /* RSS unavailable */ } } };
+    await rssPull(3);
     const wPool = days => mergeArticles(withinDays(mergeArticles(wLists, 500), days), SCREEN_MAX).filter(notSpam);
     let wCands = wPool(3);
-    if (wCands.length < 6) { try { wLists.push((await rssSearch(rssQuery(w.feed.query), 7)).filter(a => titleMatch(a, w.feed))); wCands = wPool(7); } catch (e) { /* keep */ } }
+    if (wCands.length < 6) { await rssPull(7); wCands = wPool(7); }
     const prevW = (((prevItem || {}).watches) || {})[w.id] || {};
     const wSc = await screenArticles(it, wCands, prevW.screen, judge, { system: watchSystem(w), prompt: (x, c) => watchPrompt(x, w, c) });
     (out.watches = out.watches || {})[w.id] = { since: w.since || null, candidates: wCands.length, articles: wSc.kept.slice(0, MAX_ARTICLES), screen: wSc.screen, screened: wSc.screened, fetchedAt: new Date().toISOString() };
@@ -466,7 +473,7 @@ async function fetchItem(it, prevItem, judge, spamDomains) {
   return out;
 }
 
-module.exports = { titleMatch, mergeArticles, withinDays, rankArticles, relevanceScore, topicWords, MIL_TERMS, parseArticles, rssSearch, rssQuery, screenArticles, screenPrompt, watchPrompt, SHADOWWAR_SYSTEM, OPERATION_SYSTEM, watchSystem, itemWatches, screenJudge, titleKey, EXCLUDE };
+module.exports = { titleMatch, mergeArticles, withinDays, rankArticles, relevanceScore, topicWords, MIL_TERMS, parseArticles, rssSearch, rssQuery, screenArticles, screenPrompt, watchPrompt, SHADOWWAR_SYSTEM, OPERATION_SYSTEM, watchSystem, itemWatches, watchRssQueries, screenJudge, titleKey, EXCLUDE };
 if (require.main !== module) return;
 
 (async () => {

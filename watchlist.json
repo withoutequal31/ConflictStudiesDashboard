@@ -598,6 +598,16 @@
           "question": "Which Russian tactics below the threshold of open war against Europe (drone and aircraft incursions, sabotage and arson through recruited proxies, undersea cable and pipeline damage, shadow-fleet operations, GPS jamming, cyber attacks with real-world effect) are succeeding, which are failing or being countered, and which have been superseded; and how are European and NATO countermeasures (air policing and counter-drone defence, rules of engagement, maritime interdiction, arrests and expulsions) adapting?",
           "feed": {
             "query": "(Russia OR Russian OR Kremlin OR GRU) (sabotage OR \"hybrid attack\" OR \"shadow fleet\" OR \"drone incursion\" OR \"airspace violation\" OR \"undersea cable\" OR arson OR \"GPS jamming\" OR cyberattack OR \"shot down\" OR intercepted OR \"counter-drone\" OR \"drone wall\" OR \"Eastern Sentry\" OR tanker OR espionage) (Europe OR European OR NATO OR Poland OR Germany OR Baltic OR Romania OR Finland OR Britain OR France OR Denmark OR Moldova OR Estonia OR Latvia OR Lithuania)",
+            "rssQueries": [
+              "Russia sabotage Europe",
+              "Russian drone incursion airspace NATO",
+              "\"shadow fleet\" tanker",
+              "Russia hybrid attack",
+              "undersea cable damage Baltic",
+              "GPS jamming Russia",
+              "Russian spy arrested Europe",
+              "Russia cyberattack Europe"
+            ],
             "terms": [
               "russia",
               "russian",
