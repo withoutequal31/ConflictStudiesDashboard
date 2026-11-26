@@ -1,8 +1,8 @@
 {
   "__live": true,
-  "syncedAt": "2026-11-26T06:30:00.126Z",
+  "syncedAt": "2026-11-26T06:37:31.150Z",
   "source": "GDELT DOC 2.0 API (api.gdeltproject.org) with Google News RSS fallback",
-  "refreshed": 12,
+  "refreshed": 2,
   "total": 12,
   "present": 12,
   "items": {
@@ -953,99 +953,23 @@
     },
     "US_VE": {
       "query": "(Venezuela OR Venezuelan OR Caracas OR Maduro OR \"Delcy Rodriguez\" OR Machado) sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-11-03",
-          "value": 13
-        },
-        {
-          "date": "2026-11-04",
-          "value": 6
+          "date": "2026-10-29",
+          "value": 19
         },
         {
           "date": "2026-11-05",
-          "value": 22
-        },
-        {
-          "date": "2026-11-06",
-          "value": 87
-        },
-        {
-          "date": "2026-11-07",
-          "value": 67
-        },
-        {
-          "date": "2026-11-08",
-          "value": 39
-        },
-        {
-          "date": "2026-11-09",
-          "value": 14
-        },
-        {
-          "date": "2026-11-10",
-          "value": 202
-        },
-        {
-          "date": "2026-11-11",
-          "value": 258
-        },
-        {
-          "date": "2026-11-12",
-          "value": 30
-        },
-        {
-          "date": "2026-11-13",
-          "value": 6
-        },
-        {
-          "date": "2026-11-14",
           "value": 4
         },
         {
-          "date": "2026-11-15",
-          "value": 0
-        },
-        {
-          "date": "2026-11-16",
-          "value": 1
-        },
-        {
-          "date": "2026-11-18",
-          "value": 5
+          "date": "2026-11-12",
+          "value": 12
         },
         {
           "date": "2026-11-19",
-          "value": 11
-        },
-        {
-          "date": "2026-11-20",
-          "value": 48
-        },
-        {
-          "date": "2026-11-21",
-          "value": 13
-        },
-        {
-          "date": "2026-11-22",
-          "value": 7
-        },
-        {
-          "date": "2026-11-23",
-          "value": 13
-        },
-        {
-          "date": "2026-11-24",
           "value": 65
-        },
-        {
-          "date": "2026-11-25",
-          "value": 41
-        },
-        {
-          "date": "2026-11-26",
-          "value": 24
         }
       ],
       "articles": [
@@ -1056,7 +980,7 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T03:07:29.000Z",
-          "rank": 97,
+          "rank": 99,
           "rel": 7.4
         },
         {
@@ -1066,8 +990,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T16:30:56.000Z",
-          "rank": 39,
-          "rel": 6.2
+          "rank": 41,
+          "rel": 6.1
         },
         {
           "title": "Citigroup Eyes Venezuela Re-Entry: Can It Grow Cross-Border Payments?",
@@ -1076,7 +1000,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T14:50:34.000Z",
-          "rank": 50,
+          "rank": 53,
           "rel": 5.7
         },
         {
@@ -1086,7 +1010,7 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T05:05:47.000Z",
-          "rank": 49,
+          "rank": 52,
           "rel": 4.5
         },
         {
@@ -1106,7 +1030,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T14:48:17.000Z",
-          "rank": 54,
+          "rank": 57,
           "rel": 4.2
         },
         {
@@ -1116,8 +1040,18 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T13:53:19.000Z",
-          "rank": 90,
+          "rank": 93,
           "rel": 4.2
+        },
+        {
+          "title": "Venezuela reveals US$237.5 billion debt total, paving way for major restructuring",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHlOaDhJNWd4cmFuXzFlekp1LWMwRVBQNHF5UlJES0lPektvVGxkaEVhYlpEWk8yeThNMlVBLTBtYjRkUW9kTDR0Q3RHNzRTOGMyQXJGQ1NlOG1vU1dMSU5DUDY0NUxTX3NLNWpmYUZYTll5c0dlMDJoaHF5WDM1TFV2VkRoVXBhS3FBMWIyQm1HbUVMTTRvcERUQUgxRDNIemZScFVHZm4wLUNsMjlyV3U2U1l1QQ?oc=5",
+          "domain": "联合早报",
+          "country": "",
+          "date": "2026-11-24",
+          "ts": "2026-11-24T23:57:18.000Z",
+          "rank": 7,
+          "rel": 4.1
         },
         {
           "title": "As US strikes hit Venezuela, I knew right then that I was living through history",
@@ -1126,7 +1060,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T10:00:00.000Z",
-          "rank": 71,
+          "rank": 74,
           "rel": 4.1
         },
         {
@@ -1137,47 +1071,37 @@
           "date": "2026-11-26",
           "ts": "2026-11-26T03:05:52.000Z",
           "rank": 22,
-          "rel": 4.1
-        },
-        {
-          "title": "Venezuela reveals US$237.5 billion debt total, paving way for major restructuring",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHlOaDhJNWd4cmFuXzFlekp1LWMwRVBQNHF5UlJES0lPektvVGxkaEVhYlpEWk8yeThNMlVBLTBtYjRkUW9kTDR0Q3RHNzRTOGMyQXJGQ1NlOG1vU1dMSU5DUDY0NUxTX3NLNWpmYUZYTll5c0dlMDJoaHF5WDM1TFV2VkRoVXBhS3FBMWIyQm1HbUVMTTRvcERUQUgxRDNIemZScFVHZm4wLUNsMjlyV3U2U1l1QQ?oc=5",
-          "domain": "联合早报",
-          "country": "",
-          "date": "2026-11-24",
-          "ts": "2026-11-24T23:57:18.000Z",
-          "rank": 8,
           "rel": 4
         },
         {
-          "title": "The Latest Updates and News from Venezuela.",
-          "url": "https://newsroompanama.com/2026/11/23/the-latest-updates-and-news-from-venezuela/",
-          "domain": "newsroompanama.com",
-          "country": "Panama",
-          "date": "2026-11-24",
-          "ts": "2026-11-24T02:15:00Z",
-          "rank": 1,
+          "title": "Venezuela expects to increase oil production to 2.9 million b/d over the next decade",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYzFVNzd6ZG5KUElqd3NMbWVIUm8tbUV3UGJ5Y3pjRG0xaXNITFhuSmo4Um1ySFhOd0FlQ21zQjJpNUgxWERnNGt4TE5TdGlMbk9HenYxUGJ5UHNFSXFfeFBCTHhIVXJZb3Z1blIxQ2ZOUXlabkpNXzZIcWtmZlY2MGx4bXgyaDV5Z1FYVEpXYjNfLWNZcEZyRG1KMmpzSEFOenBVOXhQU2V6RmFZNWpYUi1iQzN0U2Q3WFNZUjZlbU1WSGpJRW8yVUUwd2lxRFQ1bWdJN3ZhNFFSQ0NmNWdUQ251Z3lBOTNiZEo1QjFxaTdXZw?oc=5",
+          "domain": "S&P Global",
+          "country": "",
+          "date": "2026-11-25",
+          "ts": "2026-11-25T04:27:09.000Z",
+          "rank": 15,
           "rel": 3.9
         },
         {
-          "title": "Venezuela Reconciliation Talks Advance Democracy Effort",
-          "url": "https://www.miragenews.com/venezuela-reconciliation-talks-advance-1783349/",
-          "domain": "miragenews.com",
-          "country": "United States",
+          "title": "Pete Hegseth’s victory lap (around Venezuelan sovereignty)",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRUhfZW9FVzVjRUU5MGJScFBnelFoT1hNOUhwZ2VOUHRMTm5RQXpyWjNtT3FMN0JUc3dKT3NBZ2VpNXVJVlBVc3JZTnRDeGpJSW9ZQnNBRUhTWVBZeGhzaEdnWS0wcTdnYVk0UzQxdnhmeG9tOVo5cmhYaFBnb09ibFFIeUJfX3MwZGRCUUZ2YkN0eEc2RDktOUlyWnQzaTdGTUduTjFtSGE3UdIBvgFBVV95cUxPSTAtTlZWZ0JuXy12cHlTRFItb1gtSmxmY05RZ3NhajVOT0h0MS1QSnU2THh2YnBqUU5zdE92OFdFMkxaMzFOajl4cFhqcF9MSmpJcUZwR2s2WU1VWE9GR3YtYXREZU84cXhkX0Q1V3ZWb1pWT2MtYm1QdU0tMmJDNjRHQnBBSUJkTmJ5SFlOcUgxbDRORUZ1Rm1UQ01BRFl6akc0UlVodkhsMlNsRFhsdzEyUFQzVDk4aE1TaWpn?oc=5",
+          "domain": "EL PAÍS English",
+          "country": "",
           "date": "2026-11-25",
-          "ts": "2026-11-25T03:15:00Z",
-          "rank": 15,
-          "rel": 3.8
+          "ts": "2026-11-25T10:56:03.000Z",
+          "rank": 32,
+          "rel": 3.3
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+gdelt-articles+rss-articles+unscreened",
-      "fetchedAt": "2026-11-26T06:23:05.216Z",
-      "count7d": 211,
-      "prev7d": 57,
-      "capped": false,
-      "surge": true
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-26T06:32:47.424Z",
+      "count7d": 65,
+      "prev7d": 12,
+      "capped": true,
+      "surge": false
     },
     "SCS": {
       "query": "(\"South China Sea\" OR Scarborough OR \"Second Thomas Shoal\" OR Ayungin OR \"Sabina Shoal\" OR Spratly) sourcelang:english",
@@ -1653,99 +1577,23 @@
     },
     "IN_PK": {
       "query": "(India OR Indian OR Kashmir) (Pakistan OR Pakistani OR \"Line of Control\" OR Indus) sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-11-03",
-          "value": 3
-        },
-        {
-          "date": "2026-11-04",
-          "value": 3
+          "date": "2026-10-29",
+          "value": 4
         },
         {
           "date": "2026-11-05",
-          "value": 3
-        },
-        {
-          "date": "2026-11-06",
-          "value": 28
-        },
-        {
-          "date": "2026-11-07",
-          "value": 32
-        },
-        {
-          "date": "2026-11-08",
-          "value": 37
-        },
-        {
-          "date": "2026-11-09",
-          "value": 14
-        },
-        {
-          "date": "2026-11-10",
-          "value": 20
-        },
-        {
-          "date": "2026-11-11",
-          "value": 19
+          "value": 2
         },
         {
           "date": "2026-11-12",
-          "value": 23
-        },
-        {
-          "date": "2026-11-13",
-          "value": 3
-        },
-        {
-          "date": "2026-11-14",
-          "value": 6
-        },
-        {
-          "date": "2026-11-15",
           "value": 1
         },
         {
-          "date": "2026-11-16",
-          "value": 2
-        },
-        {
-          "date": "2026-11-18",
-          "value": 7
-        },
-        {
           "date": "2026-11-19",
-          "value": 2
-        },
-        {
-          "date": "2026-11-20",
-          "value": 35
-        },
-        {
-          "date": "2026-11-21",
-          "value": 45
-        },
-        {
-          "date": "2026-11-22",
-          "value": 34
-        },
-        {
-          "date": "2026-11-23",
-          "value": 9
-        },
-        {
-          "date": "2026-11-24",
-          "value": 76
-        },
-        {
-          "date": "2026-11-25",
-          "value": 51
-        },
-        {
-          "date": "2026-11-26",
-          "value": 45
+          "value": 93
         }
       ],
       "articles": [
@@ -1756,8 +1604,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T09:25:16.000Z",
-          "rank": 23,
-          "rel": 8.1
+          "rank": 22,
+          "rel": 8.2
         },
         {
           "title": "No active local militants in Kashmir Valley, but hunt for 65 Pakistani terrorists underway: Report",
@@ -1766,17 +1614,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:19:00.000Z",
-          "rank": 32,
-          "rel": 7.8
-        },
-        {
-          "title": "“India’s action will be unprecedented and decisive:” Rajnath Singh warns Pakistan against misadventure on border",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTUZKazVoMEpXalFkMnJtbTh4d1BrcmJIcG1OTzE1RjNKb2piTFlSczdXTDNhSXA5c0dERjJDNXhDanZQbnQwODhxV202U1RzVXRlNDFybTdkUnZlUFFKR0NpLUF2STRGeTlwRS1GSkpOdUNjeVhCVGgteWp4cVEtRnEtWjFyNmdoWDR0UW5pNU5ocmU5Z3FIVlNSUW5Zc0U2SExHc2xMVDhpXzlZb21famtEb2JMNXRLVzMwR2ZxXzFEYm9VSExYMFpUQkVqS1U?oc=5",
-          "domain": "DD News",
-          "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T18:31:30.000Z",
-          "rank": 3,
+          "rank": 38,
           "rel": 7.6
         },
         {
@@ -1786,7 +1624,17 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T02:10:27.000Z",
-          "rank": 19,
+          "rank": 17,
+          "rel": 5.7
+        },
+        {
+          "title": "Pakistani actors complain about India’s action against terrorists, call India coward for those actions, and Netflix brings their shows to India? What is this behaviour?",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0VvUXN4WFQ3MkV6akZfc1FibUp4M2szN0tWdk5DMDVITlBuSzZ2ak9JS2g3UmN3d2I5ejVXOHZFNjFOSUM2M0JoMmQ4VzlQa1I1eno1ZWx3TlVRaktDTFRnN2llQ0pfTkFuMzZsUERKYUhxRGQ1MGhVcTY3c191Q0JiRzdPRkh3NFEweW9ONml6LTRwQlZqZ0Y0a3RyMC1rVl9TOU05cGtWWURyYlRnYjVnQmd5UUhzSGxKQklTeFB1dHFtdHlaYmNvQWJnY0lfb3c2Q2c5R0l4U0RrWEJFdHBxYzd2Zw?oc=5",
+          "domain": "The Pamphlet",
+          "country": "",
+          "date": "2026-11-25",
+          "ts": "2026-11-25T11:38:15.000Z",
+          "rank": 89,
           "rel": 5.6
         },
         {
@@ -1796,28 +1644,28 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:03:40.000Z",
-          "rank": 40,
-          "rel": 4.5
+          "rank": 48,
+          "rel": 4.2
         },
         {
-          "title": "How did Hari Singh’s accession of Jammu and Kashmir to India lead to war with Pakistan?",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWHRVb2tMSk5yamQ4MEY5THp5NUYtakpfVlowSjNOeXJPUEZZM3N0VW1BckJJMElZYlVGSGwtbzZFOEtjVnNXT0VKNFNlR2MzNzNDTmoxX2J4YlU3ZDZ5UTlZTTU0MzFvc1dOcXBIYWpHbnJMSDlKMlhaLVJlZ3ZEeFphWXpsdnZhUmRrd05ydDBMbHNJbjNLaEoxb3ZLM3l2MC1HMmd1bFFvMThDazFhdmdEUGhCNzlRR3c?oc=5",
-          "domain": "Britannica",
+          "title": "India's Rafale fighter jet count reduced by three after 2025 aerial battles with Pakistan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ0VrbXo5VFdRdGpUU0ZDZWMtV1ktekF0TUpBR0J0dl9QeTlYaWEzaVB1VDA0ak5DOTJXNlZCUm91aUNzSVJTdTNMV0pmTXp1Ri1yY3BiS21fWFVCdS1UaU9oT3hCT19nMjE3Y1p6UVkwTGhidGFFZUlNUW5lcGlnNnpPc2NUb0x0Tzd1RGo2ZVRXaHU2LUMzSThsaHpNVmVkUVJRZkhn?oc=5",
+          "domain": "Middle East Eye",
           "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T19:29:07.000Z",
-          "rank": 7,
-          "rel": 4.5
-        },
-        {
-          "title": "Jammu and Kashmir Police Attaches Land of Five Militants Operating from Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU3BIeUJRN0xIZm5DSnJ4dW5mV2lrcUs5d1p4NW8zR3lkVmMwaE41U0hQUDB4TnQzd01MVnZJV2tQRVZvZ25URXNuM25EVW5rbTEwMy1MeXNnbnlTOHZieHdwN3J6b2EzWmpHOGptcmVUWXhZODdoM0lhWFpSS083ZmR4d2ZMUWpGUjlKRjN0SUlkYzdWNGxDUEh1SjhJeHFMcVBwWVpreVRHMi1hTGgxR1N5VkZ0VnNYazRZ?oc=5",
-          "domain": "The Chenab Times",
-          "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T10:28:08.000Z",
-          "rank": 87,
+          "date": "2026-11-23",
+          "ts": "2026-11-23T15:11:00.000Z",
+          "rank": 27,
           "rel": 4.1
+        },
+        {
+          "title": "Pakistan still talks of war with India",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3dUc3cXB5UzBpb05NTzNZU2UtbWNSQ3FWVXJ1eElXQmdqRk95ek9Dcy1DUk9wVUtzOTdiU1V5eDh4UGVpSFdidlpGaTZ3TVVZZ1lOVnZ5UVNQNkxPc2RjTmNKWU5qU0RMMTl6Uzh6X2MzZUNhamlIRV9nS2lVZTA?oc=5",
+          "domain": "IntelliNews",
+          "country": "",
+          "date": "2026-11-25",
+          "ts": "2026-11-25T03:00:27.000Z",
+          "rank": 12,
+          "rel": 3.9
         },
         {
           "title": "Analysis: Analysis by Fatima El Hashimi, Moroccan researcher and journalist: Kashmir's Silenced Voices: Deadly Crackdowns, Suppressed Civil Resistance And A Deepening Human Rights Crisis Under Pakistani Administration",
@@ -1826,18 +1674,8 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T21:32:34.000Z",
-          "rank": 59,
+          "rank": 73,
           "rel": 3.8
-        },
-        {
-          "title": "Exclusive: China-Pakistan satellite waltz is watching every inch of India 24×7",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzJxMGhTZllHeVlaQjhyQW9yeEpBTUxGY3RiRGVLQ3FUakV0eURUcHE1cE1qRHpCMUpnTFdnNjB0dTdydVVJbTJzVmZ2cmRLenV3NWVOS3FHanlXbXJlSXI1U2dfU0NjcUxKUjRpVVVFam56ZnUyZ3JfV1c1WXZWdzJn0gGHAUFVX3lxTFBhTnFvVUU0THJOQlJaWW1rZXVvQzdIZk9TMUxWWHhJVmxTQTFrQ0JQZXFqV3RjaFFUTU9mUXQ3bjNITGpoSWpmYkZlWDVwUW5fdDB3dmFTSkpFbmZyYjd5Qy1LZ1lfcTFRQ0RDckNvUUJ6eDVBd3ZHdFVsVndLTUtRZ21sYXRWYw?oc=5",
-          "domain": "ThePrint",
-          "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T06:24:44.000Z",
-          "rank": 42,
-          "rel": 2.8
         },
         {
           "title": "Did BJP Chief Nitin Nabin Say India Invited Pakistan to SCO Summit Under China's Pressure?",
@@ -1846,18 +1684,28 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T08:10:37.000Z",
-          "rank": 67,
+          "rank": 85,
           "rel": 2.5
         },
         {
-          "title": "Pakistan still talks of war with India",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd29nZ0pxdEhtazZBd184a2FUanZmYm1IbU9WVE1VdzNsUEVadWRidThVM0ViLUpDVEhGaVotQ0R6X28zU3pJVEh3WFVsRDl0VzFYODFSSEw4Mm5CZkYxUnpwQ25BdW1xczB5S0FPYzBzODJqTU1US0hiRF9EcnJzd2E3bm0zYjFoam5TQnhxOUc?oc=5",
-          "domain": "Yahoo",
+          "title": "Exclusive: China-Pakistan satellite waltz is watching every inch of India 24×7",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzJxMGhTZllHeVlaQjhyQW9yeEpBTUxGY3RiRGVLQ3FUakV0eURUcHE1cE1qRHpCMUpnTFdnNjB0dTdydVVJbTJzVmZ2cmRLenV3NWVOS3FHanlXbXJlSXI1U2dfU0NjcUxKUjRpVVVFam56ZnUyZ3JfV1c1WXZWdzJn0gGHAUFVX3lxTFBhTnFvVUU0THJOQlJaWW1rZXVvQzdIZk9TMUxWWHhJVmxTQTFrQ0JQZXFqV3RjaFFUTU9mUXQ3bjNITGpoSWpmYkZlWDVwUW5fdDB3dmFTSkpFbmZyYjd5Qy1LZ1lfcTFRQ0RDckNvUUJ6eDVBd3ZHdFVsVndLTUtRZ21sYXRWYw?oc=5",
+          "domain": "ThePrint",
           "country": "",
           "date": "2026-11-25",
-          "ts": "2026-11-25T02:51:00.000Z",
+          "ts": "2026-11-25T06:24:44.000Z",
+          "rank": 50,
+          "rel": 2.5
+        },
+        {
+          "title": "Pakistan’s Climate Minister on India Tensions, Indus Waters Treaty & Terrorism",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9UcjNzMENZakg1ZkgyQ2V4cTVwa2ZjTVVHcEZIVXNaaXJYUjIzZUhXNWhhQUk1MXpoNzhkeFp6UjVMdw?oc=5",
+          "domain": "YouTube",
+          "country": "",
+          "date": "2026-11-24",
+          "ts": "2026-11-24T15:16:36.000Z",
           "rank": 56,
-          "rel": 2.4
+          "rel": 2.2
         },
         {
           "title": "Pakistan defeat sparks major shake-up: Tilak Varma makes three changes to India A XI vs UAE | Asia Cup Rising Stars",
@@ -1866,18 +1714,18 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T11:33:00.000Z",
-          "rank": 45,
-          "rel": 2.3
+          "rank": 55,
+          "rel": 2.1
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-26T06:29:54.624Z",
-      "count7d": 295,
-      "prev7d": 44,
-      "capped": false,
-      "surge": true
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-26T06:37:25.648Z",
+      "count7d": 93,
+      "prev7d": 1,
+      "capped": true,
+      "surge": false
     },
     "MM": {
       "query": "(Myanmar OR Burma OR \"Arakan Army\" OR Rakhine OR \"Min Aung Hlaing\") sourcelang:english",
