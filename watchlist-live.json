@@ -1,8 +1,8 @@
 {
   "__live": true,
-  "syncedAt": "2026-11-26T07:35:16.224Z",
+  "syncedAt": "2026-11-26T08:07:36.690Z",
   "source": "GDELT DOC 2.0 API (api.gdeltproject.org) with Google News RSS fallback",
-  "refreshed": 12,
+  "refreshed": 1,
   "total": 12,
   "present": 12,
   "items": {
@@ -1653,112 +1653,26 @@
     },
     "IN_PK": {
       "query": "(India OR Indian OR Kashmir) (Pakistan OR Pakistani OR \"Line of Control\" OR Indus) sourcelang:english",
-      "granularity": "day",
+      "granularity": "week",
       "timeline": [
         {
-          "date": "2026-11-03",
-          "value": 3
-        },
-        {
-          "date": "2026-11-04",
-          "value": 3
-        },
-        {
-          "date": "2026-11-05",
-          "value": 3
-        },
-        {
-          "date": "2026-11-06",
-          "value": 28
-        },
-        {
-          "date": "2026-11-07",
-          "value": 32
-        },
-        {
-          "date": "2026-11-08",
-          "value": 37
-        },
-        {
-          "date": "2026-11-09",
-          "value": 14
-        },
-        {
-          "date": "2026-11-10",
-          "value": 20
-        },
-        {
-          "date": "2026-11-11",
-          "value": 19
-        },
-        {
-          "date": "2026-11-12",
-          "value": 23
-        },
-        {
-          "date": "2026-11-13",
-          "value": 3
-        },
-        {
-          "date": "2026-11-14",
-          "value": 6
-        },
-        {
-          "date": "2026-11-15",
+          "date": "2026-10-29",
           "value": 1
         },
         {
-          "date": "2026-11-16",
-          "value": 2
+          "date": "2026-11-05",
+          "value": 1
         },
         {
-          "date": "2026-11-18",
-          "value": 7
+          "date": "2026-11-12",
+          "value": 41
         },
         {
           "date": "2026-11-19",
-          "value": 2
-        },
-        {
-          "date": "2026-11-20",
-          "value": 35
-        },
-        {
-          "date": "2026-11-21",
-          "value": 45
-        },
-        {
-          "date": "2026-11-22",
-          "value": 34
-        },
-        {
-          "date": "2026-11-23",
-          "value": 9
-        },
-        {
-          "date": "2026-11-24",
-          "value": 76
-        },
-        {
-          "date": "2026-11-25",
-          "value": 51
-        },
-        {
-          "date": "2026-11-26",
-          "value": 54
+          "value": 57
         }
       ],
       "articles": [
-        {
-          "title": "30 missing terrorists from Reasi exfiltrated to Pakistan for arms training, disturb peace in India: DGP",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYW93Rm55REVmSU5VdEVKVlpybWYycExScEZUbWxVZXM4ZDFuQ09RUlZwYWF1Sk1rbjJRZjlSNkZzSG9vVU40cU1YZUtHNTduamZ5UmRpeW5xcGZLbW9tR1BkWXprR2M1NDNlVXlFa2YtQjBpWENLWDBDdGdPdGFmVjI3b2hxTDA1blJ3NFltMlZpeTFva3RRRDZNbFJOenp6OVdCVGFmWVFVNEJTSWRFdnlHZG5VUzVPVTBsZ1ZTdGRXUkpudVdseFhxN0VPNlpZZWVZUURiQzdGS2dydEcza1V0RWo4d1JZbjQtMUw3Y2otUdIB-AFBVV95cUxOUm1ZTzdzUDVmTzdVS0Z2VmJFVzVhcjJNWUJzcTlNZWJ4SGlIOHpCR3gwdGJrMjFWMll5NDRXWHBNUlVGSGpVbFV0YUd3VEVQUWY5Rzc4bE9wdGdaQnRJUHUyQVpuZHExanI2c2FkS2NPNFFHcGlCdFdjNXVnV01ScUdrV1M5aHpBQUxrcEZlS0phd1pyYTZUU3ZyVmtRdnBrMUxhZEdPNkZ1NGd2emNTRkVkbnFhcnVDVTR6UkV6M3I1LVRXZGtzaEpjWmEwOVFQUHN6UG1ESTlUVUJEbU5yM1AxdU41WkhJUGVnVnpNa25sRFp4N2ZzMQ?oc=5",
-          "domain": "The Hindu",
-          "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T09:25:16.000Z",
-          "rank": 35,
-          "rel": 7.6
-        },
         {
           "title": "“India’s action will be unprecedented and decisive:” Rajnath Singh warns Pakistan against misadventure on border",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTUZKazVoMEpXalFkMnJtbTh4d1BrcmJIcG1OTzE1RjNKb2piTFlSczdXTDNhSXA5c0dERjJDNXhDanZQbnQwODhxV202U1RzVXRlNDFybTdkUnZlUFFKR0NpLUF2STRGeTlwRS1GSkpOdUNjeVhCVGgteWp4cVEtRnEtWjFyNmdoWDR0UW5pNU5ocmU5Z3FIVlNSUW5Zc0U2SExHc2xMVDhpXzlZb21famtEb2JMNXRLVzMwR2ZxXzFEYm9VSExYMFpUQkVqS1U?oc=5",
@@ -1770,13 +1684,23 @@
           "rel": 7.6
         },
         {
+          "title": "30 missing terrorists from Reasi exfiltrated to Pakistan for arms training, disturb peace in India: DGP",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYW93Rm55REVmSU5VdEVKVlpybWYycExScEZUbWxVZXM4ZDFuQ09RUlZwYWF1Sk1rbjJRZjlSNkZzSG9vVU40cU1YZUtHNTduamZ5UmRpeW5xcGZLbW9tR1BkWXprR2M1NDNlVXlFa2YtQjBpWENLWDBDdGdPdGFmVjI3b2hxTDA1blJ3NFltMlZpeTFva3RRRDZNbFJOenp6OVdCVGFmWVFVNEJTSWRFdnlHZG5VUzVPVTBsZ1ZTdGRXUkpudVdseFhxN0VPNlpZZWVZUURiQzdGS2dydEcza1V0RWo4d1JZbjQtMUw3Y2otUdIB-AFBVV95cUxOUm1ZTzdzUDVmTzdVS0Z2VmJFVzVhcjJNWUJzcTlNZWJ4SGlIOHpCR3gwdGJrMjFWMll5NDRXWHBNUlVGSGpVbFV0YUd3VEVQUWY5Rzc4bE9wdGdaQnRJUHUyQVpuZHExanI2c2FkS2NPNFFHcGlCdFdjNXVnV01ScUdrV1M5aHpBQUxrcEZlS0phd1pyYTZUU3ZyVmtRdnBrMUxhZEdPNkZ1NGd2emNTRkVkbnFhcnVDVTR6UkV6M3I1LVRXZGtzaEpjWmEwOVFQUHN6UG1ESTlUVUJEbU5yM1AxdU41WkhJUGVnVnpNa25sRFp4N2ZzMQ?oc=5",
+          "domain": "The Hindu",
+          "country": "",
+          "date": "2026-11-25",
+          "ts": "2026-11-25T09:25:16.000Z",
+          "rank": 36,
+          "rel": 7.6
+        },
+        {
           "title": "No active local militants in Kashmir Valley, but hunt for 65 Pakistani terrorists underway: Report",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeGZDWmhCTnlxd3pZSG1acFNyUUtFNC1hSm5qRnVGTFJ6OVJLSkQzOU52LTNZUDI3THNrdWlZU2xQVGFxemx3bWt0R0U3aVZaYjd4bGZIWjlWdk42S3VIRTRWeTVOaVdCeVMwUlNqLVg5djNEZmhjLWwydDVhV0lUeGVXZ1FsSXBXQUVFQ1pPU1l6dFluQl9mTGcwNDQxRFpzRzNGQ3p0ZWFyOFZKSWhnbmd2WGVaYzk0c0lZX21TcFF6Z2dIVXc4ZFlXdHdxZE8zZjVUei1jVHVoTU1qVmdBLUV2UVFPMTcxQzI1dmNfTk11Wk4ybWhj0gH8AUFVX3lxTE13WjcxNlZJZ0RDWW9MY0dzQ2dZemR0YlFOTmVRZzUyN2lJNi1tVkNSTFZiWXE5MTluNzlRTGE3MGl5MzlIYzM5WnRCMWZZZy1ZRy0yU2o3blBPRllNeXFETnBNamhJV0J2ZGlqUnd1TkZmMVA1RFViY2RFUEptWExYUklLc0RNYjNTV1F5MkcyY3J3TENwSEtoOGh2UkRoVXVzSlhXYWNhVFYxeXVmMWNSZWRyQmZSNFdfSVYwRkJDUGU1Mm9QcHZpWFE5VFVXN25HbzNnV0dJOGVQcnVBb2Z6U3BaVTc1XzZQZmdkY19pazF5VXFKLUIzMmhrVg?oc=5",
           "domain": "The Times of India",
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:19:00.000Z",
-          "rank": 51,
+          "rank": 52,
           "rel": 7.1
         },
         {
@@ -1786,7 +1710,7 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T02:10:27.000Z",
-          "rank": 22,
+          "rank": 23,
           "rel": 5.5
         },
         {
@@ -1796,8 +1720,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T19:29:07.000Z",
-          "rank": 9,
-          "rel": 4.4
+          "rank": 11,
+          "rel": 4.3
         },
         {
           "title": "China, Pakistan expand satellite surveillance capabilities over India",
@@ -1806,7 +1730,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:03:40.000Z",
-          "rank": 57,
+          "rank": 60,
           "rel": 4.1
         },
         {
@@ -1816,8 +1740,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T10:28:08.000Z",
-          "rank": 96,
-          "rel": 4.1
+          "rank": 99,
+          "rel": 4
         },
         {
           "title": "Analysis: Analysis by Fatima El Hashimi, Moroccan researcher and journalist: Kashmir's Silenced Voices: Deadly Crackdowns, Suppressed Civil Resistance And A Deepening Human Rights Crisis Under Pakistani Administration",
@@ -1836,8 +1760,8 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T06:55:00.000Z",
-          "rank": 37,
-          "rel": 3.5
+          "rank": 35,
+          "rel": 3.6
         },
         {
           "title": "Exclusive: China-Pakistan satellite waltz is watching every inch of India 24×7",
@@ -1856,7 +1780,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T02:51:00.000Z",
-          "rank": 69,
+          "rank": 71,
           "rel": 2.4
         },
         {
@@ -1866,18 +1790,18 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T11:33:00.000Z",
-          "rank": 61,
+          "rank": 62,
           "rel": 2.1
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "gdelt-timeline+rss-articles+unscreened",
-      "fetchedAt": "2026-11-26T07:35:10.723Z",
-      "count7d": 304,
-      "prev7d": 44,
-      "capped": false,
-      "surge": true
+      "source": "rss-articles+unscreened+rss-counts",
+      "fetchedAt": "2026-11-26T08:07:31.189Z",
+      "count7d": 57,
+      "prev7d": 41,
+      "capped": true,
+      "surge": false
     },
     "MM": {
       "query": "(Myanmar OR Burma OR \"Arakan Army\" OR Rakhine OR \"Min Aung Hlaing\") sourcelang:english",
