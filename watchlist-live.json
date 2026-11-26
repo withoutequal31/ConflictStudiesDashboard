@@ -1,8 +1,8 @@
 {
   "__live": true,
-  "syncedAt": "2026-11-26T08:07:36.690Z",
+  "syncedAt": "2026-11-26T08:19:57.526Z",
   "source": "GDELT DOC 2.0 API (api.gdeltproject.org) with Google News RSS fallback",
-  "refreshed": 1,
+  "refreshed": 2,
   "total": 12,
   "present": 12,
   "items": {
@@ -963,23 +963,99 @@
     },
     "US_VE": {
       "query": "(Venezuela OR Venezuelan OR Caracas OR Maduro OR \"Delcy Rodriguez\" OR Machado) sourcelang:english",
-      "granularity": "week",
+      "granularity": "day",
       "timeline": [
         {
-          "date": "2026-10-29",
-          "value": 16
+          "date": "2026-11-03",
+          "value": 13
+        },
+        {
+          "date": "2026-11-04",
+          "value": 6
         },
         {
           "date": "2026-11-05",
-          "value": 18
+          "value": 22
+        },
+        {
+          "date": "2026-11-06",
+          "value": 87
+        },
+        {
+          "date": "2026-11-07",
+          "value": 67
+        },
+        {
+          "date": "2026-11-08",
+          "value": 39
+        },
+        {
+          "date": "2026-11-09",
+          "value": 14
+        },
+        {
+          "date": "2026-11-10",
+          "value": 202
+        },
+        {
+          "date": "2026-11-11",
+          "value": 258
         },
         {
           "date": "2026-11-12",
-          "value": 27
+          "value": 30
+        },
+        {
+          "date": "2026-11-13",
+          "value": 6
+        },
+        {
+          "date": "2026-11-14",
+          "value": 4
+        },
+        {
+          "date": "2026-11-15",
+          "value": 0
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1
+        },
+        {
+          "date": "2026-11-18",
+          "value": 5
         },
         {
           "date": "2026-11-19",
-          "value": 31
+          "value": 11
+        },
+        {
+          "date": "2026-11-20",
+          "value": 48
+        },
+        {
+          "date": "2026-11-21",
+          "value": 13
+        },
+        {
+          "date": "2026-11-22",
+          "value": 7
+        },
+        {
+          "date": "2026-11-23",
+          "value": 13
+        },
+        {
+          "date": "2026-11-24",
+          "value": 65
+        },
+        {
+          "date": "2026-11-25",
+          "value": 41
+        },
+        {
+          "date": "2026-11-26",
+          "value": 25
         }
       ],
       "articles": [
@@ -990,7 +1066,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T16:30:56.000Z",
-          "rank": 48,
+          "rank": 47,
           "rel": 5.8
         },
         {
@@ -1000,8 +1076,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T14:50:34.000Z",
-          "rank": 66,
-          "rel": 5.7
+          "rank": 65,
+          "rel": 5.6
         },
         {
           "title": "Nigerian Group Demands End To Cuba Blockade, Sanctions Against Venezuela",
@@ -1010,7 +1086,7 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T05:05:47.000Z",
-          "rank": 63,
+          "rank": 61,
           "rel": 4.4
         },
         {
@@ -1020,8 +1096,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T05:00:00.000Z",
-          "rank": 41,
-          "rel": 4.3
+          "rank": 39,
+          "rel": 4.4
         },
         {
           "title": "Moscow ready to send more military specialists to Venezuela if needed",
@@ -1030,8 +1106,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T21:23:07.000Z",
-          "rank": 50,
-          "rel": 4.3
+          "rank": 48,
+          "rel": 4.4
         },
         {
           "title": "Citigroup (C) Explores Venezuela Banking Return As It Seeks Sanctions Waivers",
@@ -1050,8 +1126,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T14:48:17.000Z",
-          "rank": 73,
-          "rel": 4.2
+          "rank": 74,
+          "rel": 4.1
         },
         {
           "title": "Venezuela reveals US$237.5 billion debt total, paving way for major restructuring",
@@ -1060,7 +1136,7 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T23:57:18.000Z",
-          "rank": 7,
+          "rank": 6,
           "rel": 4.1
         },
         {
@@ -1070,8 +1146,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T10:00:00.000Z",
-          "rank": 92,
-          "rel": 4.1
+          "rank": 96,
+          "rel": 4
         },
         {
           "title": "Venezuelan police beat striking teachers as Washington’s protectorate takes shape",
@@ -1080,7 +1156,7 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T03:05:52.000Z",
-          "rank": 22,
+          "rank": 23,
           "rel": 4
         },
         {
@@ -1090,28 +1166,28 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T04:27:09.000Z",
-          "rank": 21,
+          "rank": 20,
           "rel": 3.6
         },
         {
-          "title": "Pete Hegseth’s victory lap (around Venezuelan sovereignty)",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRUhfZW9FVzVjRUU5MGJScFBnelFoT1hNOUhwZ2VOUHRMTm5RQXpyWjNtT3FMN0JUc3dKT3NBZ2VpNXVJVlBVc3JZTnRDeGpJSW9ZQnNBRUhTWVBZeGhzaEdnWS0wcTdnYVk0UzQxdnhmeG9tOVo5cmhYaFBnb09ibFFIeUJfX3MwZGRCUUZ2YkN0eEc2RDktOUlyWnQzaTdGTUduTjFtSGE3UdIBvgFBVV95cUxPSTAtTlZWZ0JuXy12cHlTRFItb1gtSmxmY05RZ3NhajVOT0h0MS1QSnU2THh2YnBqUU5zdE92OFdFMkxaMzFOajl4cFhqcF9MSmpJcUZwR2s2WU1VWE9GR3YtYXREZU84cXhkX0Q1V3ZWb1pWT2MtYm1QdU0tMmJDNjRHQnBBSUJkTmJ5SFlOcUgxbDRORUZ1Rm1UQ01BRFl6akc0UlVodkhsMlNsRFhsdzEyUFQzVDk4aE1TaWpn?oc=5",
-          "domain": "EL PAÍS English",
+          "title": "ICE Miami arrests Venezuelan criminal illegal alien convicted of narcotics crimes",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUlVwSzlya0V3UVB2WUdDX09qRWhxOVZDUGRxUkVqeFN4VkRIamtMYkRoaUNzT0dEZlRmZXVZcW5NZzJjMnExTjloWlJzcHZzZTZ3TGtnSjg3NjdRTGxNRmg3SndPWlZjSmg3bVZtRmR4SWU3R1pWdEF4TG45SHhRQk11eFJzYldyT1lPWVFjcEc3YnplRmRhZ3dRMVpfck1MeTJNdFBxZlQ5QVRMLV9sRmpB?oc=5",
+          "domain": "ICE | U.S. Immigration and Customs Enforcement (.gov)",
           "country": "",
           "date": "2026-11-25",
-          "ts": "2026-11-25T10:56:03.000Z",
-          "rank": 40,
-          "rel": 3
+          "ts": "2026-11-25T15:33:21.000Z",
+          "rank": 43,
+          "rel": 2.9
         }
       ],
       "screen": {},
       "screened": false,
-      "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-26T07:33:32.159Z",
-      "count7d": 31,
-      "prev7d": 27,
-      "capped": true,
-      "surge": false
+      "source": "gdelt-timeline+rss-articles+unscreened",
+      "fetchedAt": "2026-11-26T08:15:46.903Z",
+      "count7d": 212,
+      "prev7d": 57,
+      "capped": false,
+      "surge": true
     },
     "SCS": {
       "query": "(\"South China Sea\" OR Scarborough OR \"Second Thomas Shoal\" OR Ayungin OR \"Sabina Shoal\" OR Spratly) sourcelang:english",
@@ -1665,11 +1741,11 @@
         },
         {
           "date": "2026-11-12",
-          "value": 41
+          "value": 42
         },
         {
           "date": "2026-11-19",
-          "value": 57
+          "value": 56
         }
       ],
       "articles": [
@@ -1680,7 +1756,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T18:31:30.000Z",
-          "rank": 3,
+          "rank": 2,
           "rel": 7.6
         },
         {
@@ -1690,8 +1766,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T09:25:16.000Z",
-          "rank": 36,
-          "rel": 7.6
+          "rank": 38,
+          "rel": 7.5
         },
         {
           "title": "No active local militants in Kashmir Valley, but hunt for 65 Pakistani terrorists underway: Report",
@@ -1700,7 +1776,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:19:00.000Z",
-          "rank": 52,
+          "rank": 53,
           "rel": 7.1
         },
         {
@@ -1720,8 +1796,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T19:29:07.000Z",
-          "rank": 11,
-          "rel": 4.3
+          "rank": 9,
+          "rel": 4.4
         },
         {
           "title": "China, Pakistan expand satellite surveillance capabilities over India",
@@ -1730,18 +1806,8 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T12:03:40.000Z",
-          "rank": 60,
+          "rank": 61,
           "rel": 4.1
-        },
-        {
-          "title": "Jammu and Kashmir Police Attaches Land of Five Militants Operating from Pakistan",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU3BIeUJRN0xIZm5DSnJ4dW5mV2lrcUs5d1p4NW8zR3lkVmMwaE41U0hQUDB4TnQzd01MVnZJV2tQRVZvZ25URXNuM25EVW5rbTEwMy1MeXNnbnlTOHZieHdwN3J6b2EzWmpHOGptcmVUWXhZODdoM0lhWFpSS083ZmR4d2ZMUWpGUjlKRjN0SUlkYzdWNGxDUEh1SjhJeHFMcVBwWVpreVRHMi1hTGgxR1N5VkZ0VnNYazRZ?oc=5",
-          "domain": "The Chenab Times",
-          "country": "",
-          "date": "2026-11-25",
-          "ts": "2026-11-25T10:28:08.000Z",
-          "rank": 99,
-          "rel": 4
         },
         {
           "title": "Analysis: Analysis by Fatima El Hashimi, Moroccan researcher and journalist: Kashmir's Silenced Voices: Deadly Crackdowns, Suppressed Civil Resistance And A Deepening Human Rights Crisis Under Pakistani Administration",
@@ -1750,7 +1816,7 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T21:32:34.000Z",
-          "rank": 75,
+          "rank": 76,
           "rel": 3.8
         },
         {
@@ -1760,8 +1826,8 @@
           "country": "",
           "date": "2026-11-26",
           "ts": "2026-11-26T06:55:00.000Z",
-          "rank": 35,
-          "rel": 3.6
+          "rank": 36,
+          "rel": 3.5
         },
         {
           "title": "Exclusive: China-Pakistan satellite waltz is watching every inch of India 24×7",
@@ -1770,7 +1836,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T06:24:44.000Z",
-          "rank": 56,
+          "rank": 58,
           "rel": 2.5
         },
         {
@@ -1780,7 +1846,7 @@
           "country": "",
           "date": "2026-11-25",
           "ts": "2026-11-25T02:51:00.000Z",
-          "rank": 71,
+          "rank": 72,
           "rel": 2.4
         },
         {
@@ -1790,16 +1856,16 @@
           "country": "",
           "date": "2026-11-24",
           "ts": "2026-11-24T11:33:00.000Z",
-          "rank": 62,
+          "rank": 65,
           "rel": 2.1
         }
       ],
       "screen": {},
       "screened": false,
       "source": "rss-articles+unscreened+rss-counts",
-      "fetchedAt": "2026-11-26T08:07:31.189Z",
-      "count7d": 57,
-      "prev7d": 41,
+      "fetchedAt": "2026-11-26T08:19:52.024Z",
+      "count7d": 56,
+      "prev7d": 42,
       "capped": true,
       "surge": false
     },
